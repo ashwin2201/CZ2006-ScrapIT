@@ -6,14 +6,14 @@ class Screen0 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.purple,
+        backgroundColor: Colors.green,
         title: Text('Test Demo Screen'),
       ),
       body: Center(
         child: Column(
           children: <Widget>[
             RaisedButton(
-              color: Colors.red,
+              color: Colors.blueAccent,
               child: Text('Go to Home page where News is shown'),
               onPressed: () {
                 Navigator.pushNamed(context, '/home');
