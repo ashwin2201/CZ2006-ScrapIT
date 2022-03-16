@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:scrap_it/test_screen.dart';
 
+import 'Setting/setting.dart';
 import 'homeScreen/ui/home_screen.dart';
 
 void main() => runApp(MyApp());
@@ -11,7 +12,11 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       // home: MyStatefulWidget(),
       initialRoute: '/',
-      routes: {'/': (context) => Screen0(), '/home': (context) => HomePage()},
+      routes: {
+        '/': (context) => Screen0(),
+        '/home': (context) => HomePage(),
+        '/settings': (context) => SettingsLayout(),
+      }
     );
   }
 }
