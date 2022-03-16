@@ -3,10 +3,7 @@ class Article {
   String url;
   DateTime publishedDate;
 
-  Article(
-      {   this.title,
-          this.url,
-          this.publishedDate});
+  Article({this.title, this.url, this.publishedDate});
 
   factory Article.fromJson(Map<String, dynamic> json) {
     return Article(

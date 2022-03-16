@@ -1,5 +1,4 @@
-String greetingMessage(){
-
+String greetingMessage() {
   var timeNow = DateTime.now().hour;
 
   if (timeNow <= 12) {

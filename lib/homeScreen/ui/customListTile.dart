@@ -12,9 +12,9 @@ Widget customListTile(Article article, BuildContext context) {
       //print(article.url);
     },
     child: Container(
-       margin: EdgeInsets.symmetric(vertical: 12.0, horizontal: 0),
-       padding: EdgeInsets.all(8.0),
-       decoration: BoxDecoration(
+      margin: EdgeInsets.symmetric(vertical: 12.0, horizontal: 0),
+      padding: EdgeInsets.all(8.0),
+      decoration: BoxDecoration(
           color: Colors.white,
           borderRadius: BorderRadius.circular(12.0),
           boxShadow: [

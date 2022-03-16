@@ -32,15 +32,15 @@ class _HomePageState extends State<HomePage> {
             SizedBox(
               height: 5,
             ),
-            Align(alignment:Alignment.topLeft,child: Text(greetingMes)),
+            Align(alignment: Alignment.topLeft, child: Text(greetingMes)),
             SizedBox(
               height: 5,
             ),
-            Align(alignment:Alignment.topLeft,child: Text(date)),
+            Align(alignment: Alignment.topLeft, child: Text(date)),
             SizedBox(
               height: 5,
             ),
-            Align(alignment:Alignment.topLeft,child: Text(time)),
+            Align(alignment: Alignment.topLeft, child: Text(time)),
             Expanded(
               child: FutureBuilder(
                 future: client.getArticle(),
