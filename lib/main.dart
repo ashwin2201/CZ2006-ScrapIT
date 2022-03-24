@@ -1,10 +1,15 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:scrap_it/test_screen.dart';
-
+import 'package:scrap_it/screens/login_screen.dart';
+import 'package:scrap_it/screens/test_screen.dart';
 import 'Setting/setting.dart';
-import 'homeScreen/ui/home_screen.dart';
+import './screens/homeScreen/ui/home_screen.dart';
 
-void main() => runApp(MyApp());
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
+  runApp(MyApp());
+}
 
 class MyApp extends StatelessWidget {
   @override
@@ -13,7 +18,7 @@ class MyApp extends StatelessWidget {
       // home: MyStatefulWidget(),
       initialRoute: '/',
       routes: {
-        '/': (context) => Screen0(),
+        '/': (context) => LoginScreen(),
         '/home': (context) => HomePage(),
         '/settings': (context) => SettingsLayout(),
       }
