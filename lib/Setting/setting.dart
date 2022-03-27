@@ -36,6 +36,20 @@ Widget userList(BuildContext context) {
         },
       ),
       ListTile(
+        leading: Icon(Icons.info),
+        title: Text("About"),
+        trailing: Icon(Icons.navigate_next),
+        onTap: () {
+          Navigator.push(
+            context,
+            PageRouteBuilder(
+              pageBuilder: (_, __, ___) => FooLayout(),
+              transitionDuration: Duration(seconds: 0),
+            ),
+          );
+        },
+      ),
+      ListTile(
         leading: Icon(Icons.lock),
         title: Text("Password"),
         trailing: Icon(Icons.navigate_next),
