@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 class SettingsLayout extends StatelessWidget {
   @override
@@ -9,18 +10,30 @@ class SettingsLayout extends StatelessWidget {
           centerTitle: true,
           backgroundColor: Colors.white,
           foregroundColor: Colors.black,),
-        body: userList(context),
+        body: userList(context)
+    ),
+
         //bottomNavigationBar: build2(context),
-      ),
+
 
     );
   }
 
 }
 
+
+
 Widget userList(BuildContext context) {
   return ListView(
     children: <Widget>[
+      Padding(padding: EdgeInsets.all(13)),
+      Container(
+        child:
+        Text("Account",
+            textAlign: TextAlign.left,
+            style:const TextStyle(fontWeight: FontWeight.bold, fontSize: 25)),
+      ),
+      Padding(padding: EdgeInsets.all(7)),
       ListTile(
         leading: Icon(Icons.person),
         title: Text("Profile"),

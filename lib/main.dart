@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:scrap_it/test_screen.dart';
-
+import 'homeScreen/ui/points.dart';
 import 'Setting/setting.dart';
 import 'homeScreen/ui/home_screen.dart';
 
@@ -14,8 +14,10 @@ class MyApp extends StatelessWidget {
       initialRoute: '/',
       routes: {
         '/': (context) => Screen0(),
-        '/home': (context) => HomePage(),
         '/settings': (context) => SettingsLayout(),
+        '/home': (context) => HomePage(),
+        '/points': (context) => PointPage(),
+
       }
     );
   }
