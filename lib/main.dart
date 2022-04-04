@@ -1,7 +1,10 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:scrap_it/screens/introduction_screen.dart';
 import 'package:scrap_it/screens/login_screen.dart';
+import 'package:scrap_it/screens/signup_screen.dart';
 import 'package:scrap_it/screens/test_screen.dart';
+import 'package:scrap_it/screens/launch_screen.dart';
 import 'Setting/setting.dart';
 import './screens/homeScreen/ui/home_screen.dart';
 
@@ -18,8 +21,11 @@ class MyApp extends StatelessWidget {
       // home: MyStatefulWidget(),
       initialRoute: '/',
       routes: {
-        '/': (context) => LoginScreen(),
-        '/home': (context) => HomePage(),
+        '/': (context) => LaunchScreen(),
+        '/introduction': (context) => IntroductionScreen(),
+        '/sign-up': (context) => SignupScreen(),
+        '/login': (context) => LoginScreen(),
+        '/home': (context) => HomeScreen(),
         '/settings': (context) => SettingsLayout(),
       }
     );

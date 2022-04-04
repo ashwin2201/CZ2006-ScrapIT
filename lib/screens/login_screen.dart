@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:scrap_it/resources/auth_methods.dart';
+import 'package:scrap_it/utils/utils.dart';
 import 'package:scrap_it/widgets/text_field_input.dart';
 
 class LoginScreen extends StatefulWidget {
@@ -18,6 +20,17 @@ class _LoginScreenState extends State<LoginScreen> {
     _emailController.dispose();
     _passwordController.dispose();
   }
+
+  void loginUser() async {
+    String res = await AuthMethods().loginUser(email: _emailController.text, password: _passwordController.text);
+    if (res == "success") {
+      //
+    } else {
+      showSnackBar(res, context);
+    }
+  }
+
+  
 
   @override
   Widget build(BuildContext context) {
@@ -48,18 +61,24 @@ class _LoginScreenState extends State<LoginScreen> {
               const SizedBox(
                 height: 24
               ),
-              // button login
-              Container(
-                child: const Text('Log in'),
-                width: double.infinity,
-                alignment: Alignment.center,
-                padding: const EdgeInsets.symmetric(vertical: 12),
-                decoration: const ShapeDecoration(
-                  shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.all(Radius.circular(4)),
+              // button login 
+              InkWell(
+                onTap: loginUser,
+                child: Container(
+                  child: const Text(
+                    'Log in',
+                    style: TextStyle(color: Colors.white),
                   ),
-                  color: Color.fromRGBO(10, 90, 255, 0.5)
-                ),
+                  width: double.infinity,
+                  alignment: Alignment.center,
+                  padding: const EdgeInsets.symmetric(vertical: 12),
+                  decoration: const ShapeDecoration(
+                    shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.all(Radius.circular(20)),
+                    ),
+                    color: Color(0xFF2f7833)
+                  ),
+                )
               ),
               const SizedBox(
                 height: 12
@@ -76,7 +95,9 @@ class _LoginScreenState extends State<LoginScreen> {
                       vertical: 8,
                     )
                   ),
-                  Container(
+                  GestureDetector(
+                    onTap: () {},
+                    child: Container(
                     child: const Text(
                       "Sign up", 
                       style: TextStyle(
@@ -87,6 +108,8 @@ class _LoginScreenState extends State<LoginScreen> {
                       vertical: 8,
                     )
                   ),
+                  ),
+                  
                 ]
               )
             ],
