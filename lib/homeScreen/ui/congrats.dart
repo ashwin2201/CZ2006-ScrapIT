@@ -3,10 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:scrap_it/homeScreen/ui/home_screen.dart';
 import 'dart:math';
 
-void main() {
-  runApp(CongratsPage());
-}
-
 class CongratsPage extends StatelessWidget {
   //const CongratsPage({ Key? key }) : super(key: key);
 
