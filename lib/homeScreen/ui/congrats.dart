@@ -46,7 +46,8 @@ Widget congratsPage(BuildContext context) {
             //padding: const EdgeInsets.all(20),
             height: 200,
             width: 200,
-            child: Image.asset('Images/E-waste-Disposal.png')),
+            child: Image.asset('Images/E-waste-Disposal.png')
+            ),
       ),
       SafeArea(
         child: Container(

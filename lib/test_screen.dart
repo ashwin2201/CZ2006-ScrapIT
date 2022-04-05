@@ -55,6 +55,14 @@ Widget TestList(BuildContext context) {
           Navigator.pushNamed(context, "/congrats");
         },
       ),
+      ListTile(
+        leading: Icon(Icons.verified),
+        title: Text("Verification"),
+        trailing: Icon(Icons.navigate_next),
+        onTap: () {
+          Navigator.pushNamed(context, "/verification");
+        },
+      ),
 
     ],
   );
