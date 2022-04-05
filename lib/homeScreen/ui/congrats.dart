@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:scrap_it/homeScreen/ui/home_screen.dart';
 import 'dart:math';
 
+import 'package:scrap_it/test_screen.dart';
+
 class CongratsPage extends StatelessWidget {
   //const CongratsPage({ Key? key }) : super(key: key);
 
@@ -23,6 +25,7 @@ class CongratsPage extends StatelessWidget {
 }
 
 Widget congratsPage(BuildContext context) {
+  final navigator = Navigator.of(context);
   return ListView(
     children: <Widget>[
       SafeArea(
@@ -74,8 +77,13 @@ Widget congratsPage(BuildContext context) {
                 textStyle: const TextStyle(fontSize: 26),
                 primary: Colors.green),
             child: const Text('Go back'),
-            onPressed: () => Navigator.pop(context),
-          ))
+            onPressed: () => navigator.push(
+              MaterialPageRoute(
+                builder: (context) => Screen0()
+              ),
+            ), //Navigator
+          ),
+      ),
     ],
   );
 }
