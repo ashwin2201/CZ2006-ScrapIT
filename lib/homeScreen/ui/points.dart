@@ -74,6 +74,7 @@ Widget pointPage(BuildContext context) {
               child:Text("Gold Tier",
                 style: TextStyle(color: Colors.green.withOpacity(1.0),fontSize: 10),),   //#display the tier here
             ),
+            //TODO add points here
             Container(
               padding: EdgeInsets.only(top: 20, left: 10, right: 10, bottom: 55),
               child:Text("Display Points",
