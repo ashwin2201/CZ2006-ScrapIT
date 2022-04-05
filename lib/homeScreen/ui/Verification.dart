@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:scrap_it/homeScreen/ui/home_screen.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:scrap_it/homeScreen/ui/congrats.dart';
+import 'package:scrap_it/homeScreen/ui/loader.dart';
 import 'package:scrap_it/test_screen.dart';
 
 class VerificationPage extends StatefulWidget {
@@ -179,7 +180,7 @@ class _VerificationPageState extends State<VerificationPage> {
       await navigator.push(
         MaterialPageRoute(
           builder: (context) => 
-          CongratsPage()
+          Loader()
         )
       );
     }
