@@ -30,16 +30,16 @@ Widget pointPage(BuildContext context) {
       //   height:150,
       //   width: 150,),
       // ),
-      Padding(padding: EdgeInsets.all(10)),
+      Padding(padding: EdgeInsets.all(11)),
       CircleAvatar(
         backgroundColor: Colors.black,
-        radius: 50,
+        radius: 40,
         child: CircleAvatar(
-          radius: 80,
+          radius: 50,
           backgroundImage: AssetImage('assets/tempprofile.jpg'),
         ),
       ),
-      Padding(padding: EdgeInsets.all(16)),
+      Padding(padding: EdgeInsets.all(8)),
       Container(
         margin: EdgeInsets.only(top: 25, left: 70.0, right: 70.0, bottom: 20),
         //padding: EdgeInsets.only(top: 30, left: 20.0, right: 20.0, bottom: 20),
@@ -82,7 +82,7 @@ Widget pointPage(BuildContext context) {
         ],
       ),
       ),
-      Padding(padding: EdgeInsets.all(10)),
+      Padding(padding: EdgeInsets.all(5)),
       Container(
         padding: EdgeInsets.only(top: 10, bottom: 10),
         margin: EdgeInsets.only(top: 10,  bottom: 15),
