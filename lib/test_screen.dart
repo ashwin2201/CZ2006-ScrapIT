@@ -47,6 +47,14 @@ Widget TestList(BuildContext context) {
           Navigator.pushNamed(context, "/points");
         },
       ),
+      ListTile(
+        leading: Icon(Icons.reviews),
+        title: Text("Congrats"),
+        trailing: Icon(Icons.navigate_next),
+        onTap: () {
+          Navigator.pushNamed(context, "/congrats");
+        },
+      ),
 
     ],
   );

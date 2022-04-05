@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:scrap_it/homeScreen/ui/congrats.dart';
 import 'package:scrap_it/test_screen.dart';
 import 'homeScreen/ui/points.dart';
 import 'Setting/setting.dart';
@@ -17,6 +18,7 @@ class MyApp extends StatelessWidget {
         '/settings': (context) => SettingsLayout(),
         '/home': (context) => HomePage(),
         '/points': (context) => PointPage(),
+        '/congrats': (context) => CongratsPage()
 
       }
     );
