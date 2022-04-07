@@ -2,7 +2,7 @@ import 'dart:ffi';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import '../DatabaseConnectors/User.dart';
+// import '../DatabaseConnectors/User.dart';
 
 
 
@@ -35,10 +35,10 @@ class _PointPage extends State<PointPage> {
 }
 
 Widget pointPage(BuildContext context) {
-  User();
+  // User();
 
   return FutureBuilder(
-    future: User().getUserPoints('Ashwin'),
+   // future: User().getUserPoints('Ashwin'),
     builder: (BuildContext context, AsyncSnapshot<dynamic> snapshot)
     {
       if(snapshot.hasData){
