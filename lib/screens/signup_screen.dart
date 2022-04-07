@@ -8,7 +8,7 @@ import 'package:scrap_it/widgets/text_field_input.dart';
 import '../utils/utils.dart';
 
 class SignupScreen extends StatefulWidget {
-  const SignupScreen({Key? key}) : super(key: key);
+  const SignupScreen({Key key}) : super(key: key);
 
   @override
   State<SignupScreen> createState() => _SignupScreenState();
@@ -18,7 +18,7 @@ class _SignupScreenState extends State<SignupScreen> {
   final TextEditingController _emailController = TextEditingController();
   final TextEditingController _passwordController = TextEditingController();
   final TextEditingController _nameController = TextEditingController();
-  Uint8List? _image;
+  Uint8List _image;
   bool _isLoading = false;
 
 
@@ -31,7 +31,7 @@ class _SignupScreenState extends State<SignupScreen> {
   }
 
   void selectImage() async {
-    Uint8List? im = await pickImage(ImageSource.gallery);
+    Uint8List im = await pickImage(ImageSource.gallery);
     setState(() {
       _image = im;
     });
@@ -76,7 +76,7 @@ class _SignupScreenState extends State<SignupScreen> {
                   _image != null 
                   ? CircleAvatar(
                     radius: 64,
-                    backgroundImage: MemoryImage(_image!),
+                    backgroundImage: MemoryImage(_image),
                   ) 
                   : const CircleAvatar(
                     radius: 64,
