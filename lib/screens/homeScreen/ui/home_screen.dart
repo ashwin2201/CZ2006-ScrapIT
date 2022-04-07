@@ -5,12 +5,12 @@ import '../api and networking/article_model.dart';
 import 'package:intl/intl.dart';
 import 'greeting.dart';
 
-class HomePage extends StatefulWidget {
+class HomeScreen extends StatefulWidget {
   @override
-  _HomePageState createState() => _HomePageState();
+  _HomeScreenState createState() => _HomeScreenState();
 }
 
-class _HomePageState extends State<HomePage> {
+class _HomeScreenState extends State<HomeScreen> {
   ApiService client = ApiService();
 
   String greetingMes = greetingMessage();
