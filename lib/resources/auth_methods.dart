@@ -26,6 +26,7 @@ class AuthMethods {
           await _firestore.collection('users').doc(cred.user.uid).set({
               'uid': cred.user.uid,
               'email': email,
+              'name': name,
               'friends': [],
               'points': 0,
           });
@@ -35,6 +36,7 @@ class AuthMethods {
             await _firestore.collection('users').doc(cred.user.uid).set({
               'uid': cred.user.uid,
               'email': email,
+              'name': name,
               'friends': [],
               'points': 0,
               'photoUrl': photoUrl

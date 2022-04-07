@@ -54,7 +54,7 @@ class _VerificationPageState extends State<VerificationPage> {
             radius: 100,
             backgroundColor: Colors.green,
             child: Image(
-              image: AssetImage('Images/camera_icon.png'),
+              image: AssetImage('assets/images/camera_icon.png'),
               alignment: Alignment.bottomRight,
             ),
           ),

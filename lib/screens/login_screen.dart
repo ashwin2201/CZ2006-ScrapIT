@@ -25,6 +25,7 @@ class _LoginScreenState extends State<LoginScreen> {
     String res = await AuthMethods().loginUser(email: _emailController.text, password: _passwordController.text);
     if (res == "success") {
       //
+      Navigator.pushNamed(context, '/home');
     } else {
       showSnackBar(res, context);
     }

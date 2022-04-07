@@ -57,6 +57,25 @@ class IntroductionScreen extends StatelessWidget {
                   ),
               )
               ),
+              const SizedBox(
+                height: 24
+              ),
+              InkWell(
+              onTap: () => Navigator.pushNamed(context, '/screen-0'),
+              child: Container(
+                child: const Text("Screen 0", 
+                    style: TextStyle(color: Colors.white),),
+                width: double.infinity,
+                alignment: Alignment.center,
+                padding: const EdgeInsets.symmetric(vertical: 12),
+                decoration: const ShapeDecoration(
+                  shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.all(Radius.circular(20)),
+                  ),
+                  color: Color(0xFF2F7833)
+                ),
+              )
+              ),
               Flexible(child: Container(), flex: 3),
             ],
           )

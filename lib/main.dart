@@ -4,6 +4,7 @@ import 'package:scrap_it/screens/homeScreen/ui/Verification.dart';
 import 'package:scrap_it/screens/homeScreen/ui/congrats.dart';
 import 'package:scrap_it/screens/homeScreen/ui/loader.dart';
 import 'package:scrap_it/screens/homeScreen/ui/recycle.dart';
+import 'package:scrap_it/screens/homeScreen/ui/home_screen.dart';
 import 'package:scrap_it/screens/test_screen.dart';
 import 'screens/homeScreen/ui/points.dart';
 import 'package:scrap_it/screens/introduction_screen.dart';
@@ -31,7 +32,7 @@ class MyApp extends StatelessWidget {
         '/introduction': (context) => IntroductionScreen(),
         '/sign-up': (context) => SignupScreen(),
         '/login': (context) => LoginScreen(),
-        '/home': (context) => HomeScreen(),
+        '/home': (context) => TestHomeScreen(),
         '/settings': (context) => SettingsLayout(),
         '/points': (context) => PointPage(),
         '/congrats': (context) => CongratsPage(),
