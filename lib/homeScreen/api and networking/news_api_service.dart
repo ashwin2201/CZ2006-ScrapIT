@@ -10,7 +10,7 @@ class ApiService {
   final endPointUrl = guardian_api_url;
   Future<List<Article>> getArticle() async {
     //Future<Text> getArticle() async {
-    Response res = await get(endPointUrl);
+    Response res = await get(Uri.parse(endPointUrl));
     if (res.statusCode == 200) {
       Map<String, dynamic> json = jsonDecode(utf8.decode(res.bodyBytes));
       List<dynamic> body = json['response']['results'];
