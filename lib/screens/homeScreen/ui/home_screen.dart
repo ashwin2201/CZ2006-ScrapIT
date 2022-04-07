@@ -47,11 +47,11 @@ class _TestHomeScreenState extends State<TestHomeScreen> {
                 builder: (BuildContext context,
                     AsyncSnapshot<List<Article>> snapshot) {
                   if (snapshot.hasData) {
-                    List<Article> articles = snapshot.data;
+                    List<Article>? articles = snapshot.data;
                     return ListView.builder(
-                      itemCount: articles.length,
+                      itemCount: articles?.length,
                       itemBuilder: (context, index) =>
-                          customListTile(articles[index], context),
+                          customListTile(articles![index], context),
                     );
                   }
                   return Center(
