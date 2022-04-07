@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import "dart:math";
+
+import 'package:scrap_it/homeScreen/ui/loader.dart';
 //import 'globals.dart' as globals;
 
 T getRandomElement<T>(List<T> list) {
@@ -63,7 +65,7 @@ class HomeScreen extends StatelessWidget {
     ];
     String element = getRandomElement(strArr);
 
-    return new Scaffold(
+    return Scaffold(
       appBar: AppBar(
         title: Text('SCRAP IT'),
         backgroundColor: Color(0xffb9fbC0),
@@ -79,10 +81,10 @@ class HomeScreen extends StatelessWidget {
             width: 500.0,
             // margin: EdgeInsets.symmetric(vertical: 0.0),
             //color: Colors.yellow,
-            child: Center(
+            child:const Center(
               //child:
               //alignment: Alignment.topCenter,
-              child: Text(
+              child:  Text(
                 "What do you wish to recycle today? ",
                 style: TextStyle(fontWeight: FontWeight.bold, fontSize: 25),
                 textAlign: TextAlign.center,
@@ -170,11 +172,7 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
       onChanged: (String newValue) {
         setState(() {
           dropdownValue = newValue;
-          // print("hello " + dropdownValue);
-          if (dropdownValue == 'Mobile') print('hello you selected mobile ');
           x = dropdownValue;
-          print(x);
-          //print(s);
         });
       },
       items: <String>[
@@ -204,12 +202,13 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
 
 class SecondRoute extends RecyclePage {
   //SecondRoute({Key? key}) : super(key: key);
-
-  // get s => mystate;
+  
   String y = ewastetype(x);
 
   @override
   Widget build(BuildContext context) {
+    final navigator = Navigator.of(context);
+  // get s => mystate;
     return Scaffold(
         appBar: AppBar(
           title: Text('SCRAP IT'),
@@ -267,8 +266,19 @@ class SecondRoute extends RecyclePage {
                   onPrimary: Colors.black, // foreground
                 ),
                 child: Text('Already Recycled? Verify here'),
-                onPressed: () {}),
-          )
-        ])));
+                onPressed: () {
+                  navigator.push(
+                    MaterialPageRoute(
+                      builder: (context) => 
+                        Loader()
+                    )
+                  );
+                }
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
   }
 }
