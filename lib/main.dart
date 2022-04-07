@@ -13,6 +13,7 @@ import 'package:scrap_it/screens/signup_screen.dart';
 import 'package:scrap_it/screens/test_screen.dart';
 import 'package:scrap_it/screens/launch_screen.dart';
 import 'Setting/setting.dart';
+import '../screens/launch_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -27,17 +28,17 @@ class MyApp extends StatelessWidget {
       // home: MyStatefulWidget(),
       initialRoute: '/',
       routes: {
-        '/': (context) => LaunchScreen(),
+        //'/': (context) => LaunchScreen(),
         '/screen-0': (context) => Screen0(),
-        '/introduction': (context) => IntroductionScreen(),
-        '/sign-up': (context) => SignupScreen(),
-        '/login': (context) => LoginScreen(),
+        //'/introduction': (context) => IntroductionScreen(),
+        //'/sign-up': (context) => SignupScreen(),
+        //'/login': (context) => LoginScreen(),
         '/home': (context) => TestHomeScreen(),
         '/settings': (context) => SettingsLayout(),
         '/points': (context) => PointPage(),
         '/congrats': (context) => CongratsPage(),
         '/verification': (context) => VerificationPage(),
-        '/recycle':(context) => RecyclePage()
+        //'/recycle':(context) => RecyclePage()
       }
     );
   }

@@ -15,7 +15,7 @@ class VerificationPage extends StatefulWidget {
 }
 
 class _VerificationPageState extends State<VerificationPage> {
-  File imageFile;
+  late File imageFile;
 
   @override
   Widget build(BuildContext context) {
@@ -156,7 +156,7 @@ class _VerificationPageState extends State<VerificationPage> {
   }
 
   getFromCamera() async {
-    PickedFile pickedFile = await ImagePicker().getImage(
+    PickedFile? pickedFile = await ImagePicker().getImage(
       source: ImageSource.camera,
       maxWidth: 1800,
       maxHeight: 1800,
@@ -170,7 +170,7 @@ class _VerificationPageState extends State<VerificationPage> {
 
   getFromGallery(BuildContext context) async {
     final navigator = Navigator.of(context);
-    PickedFile pickedFile = await ImagePicker().getImage(
+    PickedFile? pickedFile = await ImagePicker().getImage(
       source: ImageSource.gallery,
       maxWidth: 1800,
       maxHeight: 1800,

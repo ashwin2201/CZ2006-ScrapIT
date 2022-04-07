@@ -11,10 +11,10 @@ class Loader extends StatefulWidget {
 }
 
 class _LoaderState extends State<Loader> with SingleTickerProviderStateMixin {
-  AnimationController controller;
-  Animation<double> animation_rotation;
-  Animation<double> animation_radius_in;
-  Animation<double> animation_radius_out;
+  late AnimationController controller;
+  late Animation<double> animation_rotation;
+  late Animation<double> animation_radius_in;
+  late Animation<double> animation_radius_out;
 
 
   final double initialRadius = 90;
@@ -302,7 +302,7 @@ class Dot extends StatelessWidget {
   final double radius;
   final Color color;
 
-  Dot({this.radius, this.color});
+  Dot({required this.radius, required this.color});
 
   @override
   Widget build(BuildContext context) {
