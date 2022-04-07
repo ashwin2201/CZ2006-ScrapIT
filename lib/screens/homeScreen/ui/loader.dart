@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'dart:math';
 
-import 'package:scrap_it/homeScreen/ui/congrats.dart';
+import 'package:scrap_it/screens/homeScreen/ui/congrats.dart';
 
 class Loader extends StatefulWidget {
   //const Loader({ Key? key }) : super(key: key);

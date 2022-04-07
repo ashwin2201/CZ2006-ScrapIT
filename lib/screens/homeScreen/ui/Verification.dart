@@ -1,11 +1,11 @@
 import 'dart:io';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
-import 'package:scrap_it/homeScreen/ui/home_screen.dart';
+import 'package:scrap_it/screens/homeScreen/ui/home_screen.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:scrap_it/homeScreen/ui/congrats.dart';
-import 'package:scrap_it/homeScreen/ui/loader.dart';
-import 'package:scrap_it/test_screen.dart';
+import 'package:scrap_it/screens/homeScreen/ui/congrats.dart';
+import 'package:scrap_it/screens/homeScreen/ui/loader.dart';
+import 'package:scrap_it/screens/test_screen.dart';
 
 class VerificationPage extends StatefulWidget {
   //const VerificationPage({Key key}) : super(key: key);

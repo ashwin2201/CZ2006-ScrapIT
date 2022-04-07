@@ -1,9 +1,9 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
-import 'package:scrap_it/homeScreen/ui/home_screen.dart';
+import 'package:scrap_it/screens/homeScreen/ui/home_screen.dart';
 import 'dart:math';
 
-import 'package:scrap_it/test_screen.dart';
+import 'package:scrap_it/screens/test_screen.dart';
 
 class CongratsPage extends StatelessWidget {
   //const CongratsPage({ Key? key }) : super(key: key);

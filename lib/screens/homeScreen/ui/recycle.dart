@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import "dart:math";
 
-import 'package:scrap_it/homeScreen/ui/loader.dart';
+import 'package:scrap_it/screens/homeScreen/ui/loader.dart';
 //import 'globals.dart' as globals;
 
 T getRandomElement<T>(List<T> list) {
