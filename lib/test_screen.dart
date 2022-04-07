@@ -63,6 +63,14 @@ Widget TestList(BuildContext context) {
           Navigator.pushNamed(context, "/verification");
         },
       ),
+      ListTile(
+        leading: Icon(Icons.recycling),
+        title: Text("Recycling"),
+        trailing: Icon(Icons.navigate_next),
+        onTap: () {
+          Navigator.pushNamed(context, "/recycle");
+        },
+      ),
 
     ],
   );
