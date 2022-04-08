@@ -236,7 +236,7 @@ Widget pointPage(BuildContext context) {
                 style: TextStyle(color: Colors.white.withOpacity(1.0),fontSize: 25, fontWeight: FontWeight.bold),),
 
             ),
-            //Image.asset('assets/promo.png', height: 300,    width: 300,),
+            ////Image.asset('assets/promo.png', height: 300,    width: 300,),
             Image.asset('assets/noAva.jpg', height: 300,    width: 300,),
 
 
