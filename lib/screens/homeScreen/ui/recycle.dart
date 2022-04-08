@@ -202,7 +202,7 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
 
 class SecondRoute extends RecyclePage {
   //SecondRoute({Key? key}) : super(key: key);
-  
+
   String y = ewastetype(x);
 
   @override
@@ -269,7 +269,7 @@ class SecondRoute extends RecyclePage {
                 onPressed: () {
                   navigator.push(
                     MaterialPageRoute(
-                      builder: (context) => 
+                      builder: (context) =>
                         Loader()
                     )
                   );
