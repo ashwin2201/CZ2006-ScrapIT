@@ -31,7 +31,7 @@ class _LoginScreenState extends State<LoginScreen> {
     }
   }
 
-  
+
 
   @override
   Widget build(BuildContext context) {
@@ -62,7 +62,7 @@ class _LoginScreenState extends State<LoginScreen> {
               const SizedBox(
                 height: 24
               ),
-              // button login 
+              // button login
               InkWell(
                 onTap: loginUser,
                 child: Container(
@@ -100,7 +100,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     onTap: () {},
                     child: Container(
                     child: const Text(
-                      "Sign up", 
+                      "Sign up",
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
                       )
@@ -110,7 +110,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     )
                   ),
                   ),
-                  
+
                 ]
               )
             ],

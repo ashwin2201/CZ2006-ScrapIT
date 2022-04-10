@@ -121,7 +121,7 @@ packages:
     source: hosted
     version: "1.13.1"
   firebase_core_platform_interface:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: firebase_core_platform_interface
       url: "https://pub.dartlang.org"
@@ -225,7 +225,7 @@ packages:
       name: image_picker
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.8.4+11"
+    version: "0.7.5+4"
   image_picker_for_web:
     dependency: transitive
     description:
@@ -318,7 +318,7 @@ packages:
     source: hosted
     version: "4.4.0"
   plugin_platform_interface:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: plugin_platform_interface
       url: "https://pub.dartlang.org"

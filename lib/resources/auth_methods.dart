@@ -23,8 +23,8 @@ class AuthMethods {
         UserCredential cred = await _auth.createUserWithEmailAndPassword(email: email, password: password);
 
         if (file == null) {
-          await _firestore.collection('users').doc(cred.user.uid).set({
-              'uid': cred.user.uid,
+          await _firestore.collection('users').doc(cred.user?.uid).set({
+              'uid': cred.user?.uid,
               'email': email,
               'name': name,
               'friends': [],
@@ -33,8 +33,8 @@ class AuthMethods {
         } else {
             String photoUrl = await StorageMethods().uploadImageToStorage('profilePics', file, false);
               // add user to database
-            await _firestore.collection('users').doc(cred.user.uid).set({
-              'uid': cred.user.uid,
+            await _firestore.collection('users').doc(cred.user?.uid).set({
+              'uid': cred.user?.uid,
               'email': email,
               'name': name,
               'friends': [],

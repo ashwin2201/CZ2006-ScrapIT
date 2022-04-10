@@ -42,8 +42,8 @@ class _SignupScreenState extends State<SignupScreen> {
       _isLoading = true;
     });
     String res = await AuthMethods().signUpUser(
-      email: _emailController.text, 
-      password: _passwordController.text, 
+      email: _emailController.text,
+      password: _passwordController.text,
       name: _nameController.text,
       file: _image,
     );
@@ -56,7 +56,7 @@ class _SignupScreenState extends State<SignupScreen> {
     }
     else {
       showSnackBar(res, context);
-    } 
+    }
   }
 
   @override
@@ -73,11 +73,11 @@ class _SignupScreenState extends State<SignupScreen> {
               const SizedBox(height: 64),
               Stack(
                 children: [
-                  _image != null 
+                  _image != null
                   ? CircleAvatar(
                     radius: 64,
                     backgroundImage: MemoryImage(_image),
-                  ) 
+                  )
                   : const CircleAvatar(
                     radius: 64,
                     backgroundImage: AssetImage('assets/images/anonymous.png'),
@@ -88,7 +88,7 @@ class _SignupScreenState extends State<SignupScreen> {
                     child: IconButton(
                       onPressed: selectImage,
                       icon: const Icon(
-                        Icons.add_a_photo, 
+                        Icons.add_a_photo,
                       )
                     )
                   )
@@ -123,17 +123,17 @@ class _SignupScreenState extends State<SignupScreen> {
               const SizedBox(
                 height: 24
               ),
-              
-              // button login 
+
+              // button login
               InkWell(
                 onTap: signUpUser,
                 child: Container(
-                  child: _isLoading 
+                  child: _isLoading
                     ? const Center(child: CircularProgressIndicator(
                       color: Colors.white,
                     ),
-                  ) 
-                    : const Text("Sign up", 
+                  )
+                    : const Text("Sign up",
                     style: TextStyle(color: Colors.white),),
                   width: double.infinity,
                   alignment: Alignment.center,
