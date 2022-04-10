@@ -1,43 +1,43 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:geolocator/geolocator.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
+import 'package:geolocator/geolocator.dart';
 
 class SecondScreen extends StatefulWidget {
   LatLng showLocation;
   String name;
   String street;
-  String type;
 
-  SecondScreen({this.name, this.showLocation, this.street, this.type });
+  SecondScreen({this.name, this.showLocation, this.street});
 
   @override
   State<StatefulWidget> createState() {
-    return _SecondScreenState(this.name, this.showLocation, this.street, this.type);
+    return _SecondScreenState(name, showLocation, street );
   }}
 
 class _SecondScreenState extends State<SecondScreen> {
   LatLng showLocation;
   String name;
   String street;
-  String type;
 
   GoogleMapController mapController; //controller for Google map
-  final Set<Marker> markers = new Set(); //markers for google map
+  final Set<Marker> markers = Set(); //markers for google map
   final Geolocator geolocator = Geolocator(); //controller for geolocator to find current location
 
-  _SecondScreenState(this.name, this.showLocation, this.street, this.type);
+  _SecondScreenState(this.name, this.showLocation, this.street);
 
   LatLng user=null;
 
   @override
-  void initState() {
+  void initState()
+  {
     super.initState();
-    Geolocator.getCurrentPosition().then((currLocation){
+     Geolocator.getCurrentPosition().then((currLocation){
       setState((){
         user = new LatLng(currLocation.latitude, currLocation.longitude);
       });
     });
+
   }
 
   @override
@@ -55,7 +55,7 @@ class _SecondScreenState extends State<SecondScreen> {
           zoom: 15.0, //initial zoom level
         ),
         markers: getmarkers(),
-        mapType: MapType.normal,
+        mapType: MapType.hybrid,
         onMapCreated: (controller) {
           setState(() {
             mapController = controller;
