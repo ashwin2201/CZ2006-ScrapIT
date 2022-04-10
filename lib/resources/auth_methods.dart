@@ -29,6 +29,7 @@ class AuthMethods {
               'name': name,
               'friends': [],
               'points': 0,
+           //   'displayName':name
           });
         } else {
             String photoUrl = await StorageMethods().uploadImageToStorage('profilePics', file, false);
@@ -39,7 +40,8 @@ class AuthMethods {
               'name': name,
               'friends': [],
               'points': 0,
-              'photoUrl': photoUrl
+              'photoUrl': photoUrl,
+            //  'displayName':name
           });
         }
 

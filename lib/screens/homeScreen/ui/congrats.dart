@@ -1,6 +1,7 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:scrap_it/screens/homeScreen/ui/home_screen.dart';
+import 'package:scrap_it/screens/homeScreen/ui/recycle.dart';
 import 'dart:math';
 
 import 'package:scrap_it/screens/test_screen.dart';
@@ -76,10 +77,10 @@ Widget congratsPage(BuildContext context) {
                 minimumSize: const Size(140, 50),
                 textStyle: const TextStyle(fontSize: 26),
                 primary: Colors.green),
-            child: const Text('Go back'),
+            child: const Text('Recycle More'),
             onPressed: () => navigator.push(
               MaterialPageRoute(
-                builder: (context) => Screen0()
+                builder: (context) => RecyclePage()
               ),
             ), //Navigator
           ),
