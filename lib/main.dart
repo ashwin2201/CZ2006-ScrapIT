@@ -8,7 +8,6 @@ import 'package:scrap_it/screens/homeScreen/ui/congrats.dart';
 import 'package:scrap_it/screens/homeScreen/ui/loader.dart';
 import 'package:scrap_it/screens/homeScreen/ui/recycle.dart';
 import 'package:scrap_it/screens/homeScreen/ui/home_screen.dart';
-import 'package:scrap_it/screens/test_screen.dart';
 import 'Setting/profile.dart';
 import 'screens/homeScreen/ui/points.dart';
 import 'package:scrap_it/screens/introduction_screen.dart';

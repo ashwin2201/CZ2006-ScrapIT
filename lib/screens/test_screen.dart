@@ -108,8 +108,8 @@ class _Screen0State extends State<Screen0> {
             showUnselectedLabels: false,
             items: const <BottomNavigationBarItem>[
               BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
-              BottomNavigationBarItem(icon: Icon(Icons.date_range), label: 'Statistics'),
-              BottomNavigationBarItem(icon: Icon(Icons.wallet_giftcard), label: 'Wallet'),
+              BottomNavigationBarItem(icon: Icon(Icons.favorite_border), label: 'Statistics'),
+              BottomNavigationBarItem(icon: Icon(Icons.menu), label: 'Menu'),
             //  BottomNavigationBarItem(icon: Icon(Icons.person), label: 'Profile'),
             ],
           ),

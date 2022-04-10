@@ -52,7 +52,7 @@ class _SignupScreenState extends State<SignupScreen> {
       setState(() {
         _isLoading = false;
       });
-      Navigator.pushNamed(context, '/screen0');
+      Navigator.pushNamed(context, '/screen-0');
     }
     else {
       showSnackBar(res, context);
