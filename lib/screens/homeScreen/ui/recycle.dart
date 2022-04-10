@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import "dart:math";
 
 import 'package:scrap_it/screens/homeScreen/ui/loader.dart';
+import 'package:scrap_it/screens/stationlistScreen.dart';
 //import 'globals.dart' as globals;
 
 T getRandomElement<T>(List<T> list) {
@@ -207,6 +208,7 @@ class SecondRoute extends  StatelessWidget{
 
   @override
   Widget build(BuildContext context) {
+
     final navigator = Navigator.of(context);
   // get s => mystate;
     return Scaffold(
@@ -222,7 +224,7 @@ class SecondRoute extends  StatelessWidget{
               //alignment: Alignment.topCenter,
 
               child: Text(
-                "So, you have decided to recycle $y type of E-waste today!",
+                "So, you have decided to recycle $y today!",
                 style: TextStyle(fontWeight: FontWeight.bold, fontSize: 25),
                 textAlign: TextAlign.center,
               ),
@@ -245,8 +247,15 @@ class SecondRoute extends  StatelessWidget{
 
                   onPrimary: Colors.black, // foreground
                 ),
-                child: Text('View nearby recycling stations'),
-                onPressed: () {}),
+                child: Text('View list of e-waste recycling stations'),
+                onPressed: () {
+                  navigator.push(
+                      MaterialPageRoute(
+                          builder: (context) =>
+                              ListAllStnScreen()
+                      )
+                  );
+                }),
           ),
           Container(
             height: 30,

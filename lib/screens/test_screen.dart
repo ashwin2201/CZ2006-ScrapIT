@@ -102,13 +102,13 @@ class _Screen0State extends State<Screen0> {
               });
             },
             type: BottomNavigationBarType.fixed,
-            selectedItemColor: Colors.redAccent,
+            selectedItemColor: Colors.green,
             unselectedItemColor: Colors.grey,
-            showSelectedLabels: false,
-            showUnselectedLabels: false,
+            showSelectedLabels: true,
+            showUnselectedLabels: true,
             items: const <BottomNavigationBarItem>[
               BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
-              BottomNavigationBarItem(icon: Icon(Icons.favorite_border), label: 'Statistics'),
+              BottomNavigationBarItem(icon: Icon(Icons.recycling), label: 'Recycle'),
               BottomNavigationBarItem(icon: Icon(Icons.menu), label: 'Menu'),
             //  BottomNavigationBarItem(icon: Icon(Icons.person), label: 'Profile'),
             ],
