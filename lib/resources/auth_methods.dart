@@ -70,14 +70,14 @@ class AuthMethods {
 
     try {
       if (email.isEmpty || password.isNotEmpty) {
-        _auth.signInWithEmailAndPassword(email: email, password: password);
+        await _auth.signInWithEmailAndPassword(email: email, password: password);
         res = "success";
       } else {
         res = "Please enter all fields";
       }
     } catch (e) {
       res = e.toString();
-    }
+    } 
     return res;
   }
 }
