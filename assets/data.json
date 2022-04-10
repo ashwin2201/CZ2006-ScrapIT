@@ -1,0 +1,3100 @@
+{
+"station":[
+    {
+        "": "0",
+        "Pin Code": "608549",
+        "Building": " COURTS @ JEM     ",
+        "Street": " 50 JURONG GATEWAY ROAD, JEM, #04-30  ",
+        "latitude": "1.33320021038331",
+        "longitude": "103.743170436292"
+    },
+    {
+        "": "1",
+        "Pin Code": "529510",
+        "Building": " CAPITALAND TAMPINES MALL     ",
+        "Street": " 4 TAMPINES CENTRAL 5  ",
+        "latitude": "1.35267231590699",
+        "longitude": "103.944387987324"
+    },
+    {
+        "": "2",
+        "Pin Code": "188024",
+        "Building": " BUGIS JUNCTION TOWERS     ",
+        "Street": " 230 VICTORIA STREET  ",
+        "latitude": "1.29981638982486",
+        "longitude": "103.855923563242"
+    },
+    {
+        "": "3",
+        "Pin Code": "608549",
+        "Building": " FAIRPRICE @ JEM     ",
+        "Street": " 50 JURONG GATEWAY RD, JEM, #B1-21/22 & #B3-01  ",
+        "latitude": "1.33320021038331",
+        "longitude": "103.743170436292"
+    },
+    {
+        "": "4",
+        "Pin Code": "609601",
+        "Building": " IMM     ",
+        "Street": " 2 JURONG EAST STREET 21  ",
+        "latitude": "1.33489843717476",
+        "longitude": "103.7467344968"
+    },
+    {
+        "": "5",
+        "Pin Code": "609731",
+        "Building": " CAPITALAND JCUBE     ",
+        "Street": " 2 JURONG EAST CENTRAL 1  ",
+        "latitude": "1.33333039944934",
+        "longitude": "103.740167234363"
+    },
+    {
+        "": "6",
+        "Pin Code": "640602",
+        "Building": " PIONEER ZONE 9 RN     ",
+        "Street": " 602 JURONG WEST ST 65  ",
+        "latitude": "1.33925339612415",
+        "longitude": "103.700219203285"
+    },
+    {
+        "": "7",
+        "Pin Code": "689812",
+        "Building": " LOT ONE SHOPPERS' MALL     ",
+        "Street": " 21 CHOA CHU KANG AVE 4, WALKWAY BESIDE MCDONALD'S  ",
+        "latitude": "1.38506835667563",
+        "longitude": "103.744950384161"
+    },
+    {
+        "": "8",
+        "Pin Code": "89774",
+        "Building": " TANJONG PAGAR CC     ",
+        "Street": " 101 CANTONMENT ROAD  ",
+        "latitude": "1.27616698002633",
+        "longitude": "103.841584210034"
+    },
+    {
+        "": "9",
+        "Pin Code": "98633",
+        "Building": " HARBOURFRONT TOWER ONE     ",
+        "Street": " 1 HARBOURFRONT PLACE  ",
+        "latitude": "1.26499758815146",
+        "longitude": "103.81902706845"
+    },
+    {
+        "": "10",
+        "Pin Code": "99253",
+        "Building": " HARBOURFRONT CENTRE     ",
+        "Street": " 1 MARITIME SQUARE  ",
+        "latitude": "1.26206336420704",
+        "longitude": "103.818732565555"
+    },
+    {
+        "": "11",
+        "Pin Code": "168730",
+        "Building": " CENTRAL PLAZA     ",
+        "Street": " 298 TIONG BAHRU ROAD  ",
+        "latitude": "1.28630852981463",
+        "longitude": "103.828004847991"
+    },
+    {
+        "": "12",
+        "Pin Code": "319194",
+        "Building": " TOA PAYOH CENTRAL CC     ",
+        "Street": " 93 TOA PAYOH CENTRAL  ",
+        "latitude": "1.33493451709456",
+        "longitude": "103.850204545922"
+    },
+    {
+        "": "13",
+        "Pin Code": "319258",
+        "Building": " TOA PAYOH SOUTH CC     ",
+        "Street": " 1999 LORONG 8 TOA PAYOH  ",
+        "latitude": "1.33489037046643",
+        "longitude": "103.859378979813"
+    },
+    {
+        "": "14",
+        "Pin Code": "319380",
+        "Building": " TOA PAYOH EAST CC     ",
+        "Street": " 160 LORONG 6 TOA PAYOH  ",
+        "latitude": "1.33627489206396",
+        "longitude": "103.85470024903"
+    },
+    {
+        "": "15",
+        "Pin Code": "538776",
+        "Building": " CI YUAN CC     ",
+        "Street": " 51 HOUGANG AVENUE 9  ",
+        "latitude": "1.37514897825787",
+        "longitude": "103.882894179307"
+    },
+    {
+        "": "16",
+        "Pin Code": "538840",
+        "Building": " HOUGANG CC     ",
+        "Street": " 35 HOUGANG AVENUE 3  ",
+        "latitude": "1.36475743233025",
+        "longitude": "103.892622240184"
+    },
+    {
+        "": "17",
+        "Pin Code": "569933",
+        "Building": " CHALLENGER @ ANG MO KIO HUB     ",
+        "Street": " ANG MO KIO AVENUE 3, ANG MOH KIO HUB, #B1-58  ",
+        "latitude": "1.3692489128202",
+        "longitude": "103.848399227484"
+    },
+    {
+        "": "18",
+        "Pin Code": "575738",
+        "Building": " MARYMOUNT CC     ",
+        "Street": " SIN MING AVE  ",
+        "latitude": "1.36213756796576",
+        "longitude": "103.8412861742"
+    },
+    {
+        "": "19",
+        "Pin Code": "738099",
+        "Building": " CAUSEWAY POINT     ",
+        "Street": " 1 WOODLANDS SQUARE  ",
+        "latitude": "1.43600784517148",
+        "longitude": "103.785688739235"
+    },
+    {
+        "": "20",
+        "Pin Code": "449269",
+        "Building": " BEST DENKI @ PARKWAY PARADE     ",
+        "Street": " 80 MARINE PARADE ROAD, PARKWAY PARADE, #3-29  ",
+        "latitude": "1.30119130748691",
+        "longitude": "103.905113592255"
+    },
+    {
+        "": "21",
+        "Pin Code": "310192",
+        "Building": " CASH CONVERTERS @ 192 TOA PAYOH LORONG 4     ",
+        "Street": " 192 TOA PAYOH LORONG 4  ",
+        "latitude": "1.33166814039843",
+        "longitude": "103.850487239152"
+    },
+    {
+        "": "22",
+        "Pin Code": "561710",
+        "Building": " CASH CONVERTERS @ 710A ANG MO KIO AVE 8     ",
+        "Street": " 710A ANG MO KIO AVE 8  ",
+        "latitude": "1.37060311973576",
+        "longitude": "103.847944283348"
+    },
+    {
+        "": "23",
+        "Pin Code": "609601",
+        "Building": " CHALLENGER @ IMM     ",
+        "Street": " 2 JURONG EAST STREET 21, IMM, #2-23  ",
+        "latitude": "1.33489843717476",
+        "longitude": "103.7467344968"
+    },
+    {
+        "": "24",
+        "Pin Code": "98585",
+        "Building": " CHALLENGER @ VIVOCITY     ",
+        "Street": " 1 HARBOURFRONT WALK, VIVOCITY, #2-34  ",
+        "latitude": "1.2638958023183",
+        "longitude": "103.821589254908"
+    },
+    {
+        "": "25",
+        "Pin Code": "528833",
+        "Building": " COURTS @ EASTPOINT MALL     ",
+        "Street": " 3 SIMEI STREET 6, EASTPOINT MALL, #04-07  ",
+        "latitude": "1.34270618643901",
+        "longitude": "103.953024503826"
+    },
+    {
+        "": "26",
+        "Pin Code": "528765",
+        "Building": " GIANT @ GIANT HYPERMART TAMPINES     ",
+        "Street": " 21 TAMPINES NORTH DRIVE 2, GIANT HYPERMART TAMPINES, #03-01  ",
+        "latitude": "1.37210169627783",
+        "longitude": "103.931999887749"
+    },
+    {
+        "": "27",
+        "Pin Code": "467351",
+        "Building": " HARVEY NORMAN @ BEDOK POINT     ",
+        "Street": " 799 NEW UPPER CHANGI ROAD, BEDOK POINT, #B1-01/02, #B-16/2 AND #B1-K1/K14  ",
+        "latitude": "1.32496142341112",
+        "longitude": "103.932360135904"
+    },
+    {
+        "": "28",
+        "Pin Code": "677743",
+        "Building": " HARVEY NORMAN @ BUKIT PANJANG PLAZA     ",
+        "Street": " 1 JELEBU ROAD, BUKIT PANJANG PLAZA, #03-06  ",
+        "latitude": "1.38051732815914",
+        "longitude": "103.763961852618"
+    },
+    {
+        "": "29",
+        "Pin Code": "569663",
+        "Building": " HARVEY NORMAN @ DJITSUN MALL     ",
+        "Street": " 5 ANG MO KIO CENTRAL 3, DJITSUN MALL, #2-1  ",
+        "latitude": "1.37285425440227",
+        "longitude": "103.847607917674"
+    },
+    {
+        "": "30",
+        "Pin Code": "39596",
+        "Building": " HARVEY NORMAN @ MILLENIA WALK     ",
+        "Street": " 9 RAFFLES BOULEVARD, MILLENIA WALK, #02-27  ",
+        "latitude": "1.29296503959681",
+        "longitude": "103.85934397868"
+    },
+    {
+        "": "31",
+        "Pin Code": "689578",
+        "Building": " FAIRPRICE @ YEW TEE POINT     ",
+        "Street": " 21 CHOA CHU KANG NORTH 6, YEW TEE POINT, #B1-01  ",
+        "latitude": "1.39730190406931",
+        "longitude": "103.746558072887"
+    },
+    {
+        "": "32",
+        "Pin Code": "600135",
+        "Building": " FAIRPRICE @ BLK 135 JURONG GATEWAY RD     ",
+        "Street": " BLK 135 JURONG GATEWAY RD, #01-337  ",
+        "latitude": "1.33375343199036",
+        "longitude": "103.739371389964"
+    },
+    {
+        "": "33",
+        "Pin Code": "659003",
+        "Building": " FAIRPRICE @ HOMETEAM NS BUKIT BATOK CLUBHOUSE     ",
+        "Street": " 2 BUKIT BATOK WEST AVE 7, HOMETEAM NS BUKIT BATOK CLUBHOUSE, #01-10  ",
+        "latitude": "1.36650698454332",
+        "longitude": "103.746847120427"
+    },
+    {
+        "": "34",
+        "Pin Code": "658713",
+        "Building": " HARVEY NORMAN @ WEST MALL     ",
+        "Street": " 1 BUKIT BATOK CENTRAL LINK, WEST MALL, #03-06 TO 09  ",
+        "latitude": "1.35018915982967",
+        "longitude": "103.749021980031"
+    },
+    {
+        "": "35",
+        "Pin Code": "608532",
+        "Building": " HARVEY NORMAN @ WESTGATE     ",
+        "Street": " 3 GATEWAY DRIVE, WESTGATE, #B1-32  ",
+        "latitude": "1.33402528745454",
+        "longitude": "103.742586017746"
+    },
+    {
+        "": "36",
+        "Pin Code": "397693",
+        "Building": " MEGA DISCOUNT STORE @ KALLANG LEISURE PARK     ",
+        "Street": " 5 STADIUM WALK, KALLANG LEISURE PARK, #01-46-50  ",
+        "latitude": "1.30222177114752",
+        "longitude": "103.876152670397"
+    },
+    {
+        "": "37",
+        "Pin Code": "159465",
+        "Building": " BUKIT MERAH CC     ",
+        "Street": " 4000 JALAN BUKIT MERAH  ",
+        "latitude": "1.28525426592061",
+        "longitude": "103.815828543116"
+    },
+    {
+        "": "38",
+        "Pin Code": "678295",
+        "Building": " BUKIT PANJANG CC     ",
+        "Street": " 8 PENDING ROAD  ",
+        "latitude": "1.37645074924612",
+        "longitude": "103.77055880601"
+    },
+    {
+        "": "39",
+        "Pin Code": "129880",
+        "Building": " CLEMENTI CC     ",
+        "Street": " 220 CLEMENTI AVENUE 4  ",
+        "latitude": "1.31881518814763",
+        "longitude": "103.768153686645"
+    },
+    {
+        "": "40",
+        "Pin Code": "279621",
+        "Building": " ULU PANDAN CC     ",
+        "Street": " 170 GHIM MOH ROAD  ",
+        "latitude": "1.31200940949362",
+        "longitude": "103.789211186001"
+    },
+    {
+        "": "41",
+        "Pin Code": "129605",
+        "Building": " WEST COAST CC     ",
+        "Street": " 2 CLEMENTI WEST STREET 2  ",
+        "latitude": "1.30264555979077",
+        "longitude": "103.764832077473"
+    },
+    {
+        "": "42",
+        "Pin Code": "609958",
+        "Building": " YUHUA CC     ",
+        "Street": " 90 BOON LAY WAY  ",
+        "latitude": "1.33997285278881",
+        "longitude": "103.737065915264"
+    },
+    {
+        "": "43",
+        "Pin Code": "117438",
+        "Building": " MAPLETREE BUSINESS CITY     ",
+        "Street": " 10 PASIR PANJANG ROAD, CLUNY COURT  ",
+        "latitude": "1.27494101471276",
+        "longitude": "103.798931949053"
+    },
+    {
+        "": "44",
+        "Pin Code": "408528",
+        "Building": " WISMA GEYLANG SERAI     ",
+        "Street": " 1 ENGKU AMAN TURN  ",
+        "latitude": "1.3164501683615",
+        "longitude": "103.89659695323"
+    },
+    {
+        "": "45",
+        "Pin Code": "529889",
+        "Building": " CHANGI GENERAL HOSPITAL     ",
+        "Street": " 2 SIMEI STREET 3, ADMIRALTY PLACE  ",
+        "latitude": "1.34068473973667",
+        "longitude": "103.949294393687"
+    },
+    {
+        "": "46",
+        "Pin Code": "199581",
+        "Building": " KAMPONG GLAM CC     ",
+        "Street": " 385 BEACH ROAD, KAMPONG GLAM CC  ",
+        "latitude": "1.30279521839327",
+        "longitude": "103.863597858268"
+    },
+    {
+        "": "47",
+        "Pin Code": "260004",
+        "Building": " FARRER GARDENS RC     ",
+        "Street": " 4 QUEEN\u00e2\u20ac\u2122S ROAD, FARRER GARDENS RC  ",
+        "latitude": "1.31883225067726",
+        "longitude": "103.808061968709"
+    },
+    {
+        "": "48",
+        "Pin Code": "530116",
+        "Building": " PAYA LEBAR ZONE 5 RC     ",
+        "Street": " 116 HOUGANG AVENUE 1, PAYA LEBAR ZONE 5 RC, #01-1206  ",
+        "latitude": "1.35313871558187",
+        "longitude": "103.887727364285"
+    },
+    {
+        "": "49",
+        "Pin Code": "641653",
+        "Building": " PIONEER ZONE 12 RN     ",
+        "Street": " 653A JURONG WEST ST 61, PIONEER ZONE 12 RN, #01-422  ",
+        "latitude": "1.33689136709064",
+        "longitude": "103.696638818729"
+    },
+    {
+        "": "50",
+        "Pin Code": "689286",
+        "Building": " YEW TEE CC     ",
+        "Street": " 20 CHOA CHU KANG STREET 52, YEW TEE CC  ",
+        "latitude": "1.39491758447052",
+        "longitude": "103.744727853367"
+    },
+    {
+        "": "51",
+        "Pin Code": "730353",
+        "Building": " WOODGROVE CC     ",
+        "Street": " 353 WOODLANDS AVENUE 1, WOODGROVE CC  ",
+        "latitude": "1.43177102177052",
+        "longitude": "103.785006866148"
+    },
+    {
+        "": "52",
+        "Pin Code": "738623",
+        "Building": " SHENG SIONG @ 4 WOODLANDS     ",
+        "Street": " BLK 4 WOODLANDS STREET 12, #02-61  ",
+        "latitude": "1.43351252898231",
+        "longitude": "103.779746868505"
+    },
+    {
+        "": "53",
+        "Pin Code": "142057",
+        "Building": " DAWSON PLACE     ",
+        "Street": " 57 DAWSON RD, DAWSON PLACE  ",
+        "latitude": "1.2927033928985",
+        "longitude": "103.81095896399"
+    },
+    {
+        "": "54",
+        "Pin Code": "160054",
+        "Building": " 54 CHIN SWEE RD     ",
+        "Street": " 54 CHIN SWEE ROAD HDB-CENTRAL AREA, 54 CHIN SWEE RD  ",
+        "latitude": "1.28738855750969",
+        "longitude": "103.841152117124"
+    },
+    {
+        "": "55",
+        "Pin Code": "200808",
+        "Building": " KITCHENER COMPLEX     ",
+        "Street": " 809 FRENCH ROAD, KITCHENER COMPLEX  ",
+        "latitude": "1.30880609288659",
+        "longitude": "103.861311962893"
+    },
+    {
+        "": "56",
+        "Pin Code": "307683",
+        "Building": " NOVENA SQUARE     ",
+        "Street": " 238 THOMSON ROAD, NOVENA SQUARE  ",
+        "latitude": "1.32021099973819",
+        "longitude": "103.843656770909"
+    },
+    {
+        "": "57",
+        "Pin Code": "310480",
+        "Building": " HDB HUB     ",
+        "Street": " 6 LORONG TOA PAYOH, HDB HUB  ",
+        "latitude": "1.33214111914629",
+        "longitude": "103.848326054144"
+    },
+    {
+        "": "58",
+        "Pin Code": "330070",
+        "Building": " 70 GEYLANG BAHRU     ",
+        "Street": " 70 GEYLANG BAHRU, 70 GEYLANG BAHRU  ",
+        "latitude": "1.32188556778471",
+        "longitude": "103.870318570635"
+    },
+    {
+        "": "59",
+        "Pin Code": "350121",
+        "Building": " HDB-POTONG PASIR     ",
+        "Street": " 121 POTONG PASIR AVENUE, HDB-POTONG PASIR  ",
+        "latitude": "1.33576029121741",
+        "longitude": "103.865597002044"
+    },
+    {
+        "": "60",
+        "Pin Code": "409051",
+        "Building": " PAYA LEBAR SQUARE     ",
+        "Street": " 60 PAYA LEBAR RD, PAYA LEBAR SQUARE  ",
+        "latitude": "1.3186757503745",
+        "longitude": "103.892550607124"
+    },
+    {
+        "": "61",
+        "Pin Code": "510258",
+        "Building": " LOYANG POINT     ",
+        "Street": " 259 PASIR RIS STREET 21, LOYANG POINT  ",
+        "latitude": "1.36700053783377",
+        "longitude": "103.964617781926"
+    },
+    {
+        "": "62",
+        "Pin Code": "510623",
+        "Building": " ELIAS MALL     ",
+        "Street": " 623 ELIAS ROAD, ELIAS MALL  ",
+        "latitude": "1.37790945286479",
+        "longitude": "103.942281486106"
+    },
+    {
+        "": "63",
+        "Pin Code": "510735",
+        "Building": " PASIR RIS WEST PLAZA     ",
+        "Street": " 735 PASIR RIS STREET 72, PASIR RIS WEST PLAZA  ",
+        "latitude": "1.37930651729418",
+        "longitude": "103.936272108833"
+    },
+    {
+        "": "64",
+        "Pin Code": "540118",
+        "Building": " RIVERVALE PLAZA     ",
+        "Street": " 118 RIVERVALE DRIVE, RIVERVALE PLAZA  ",
+        "latitude": "1.38493202032929",
+        "longitude": "103.901558027564"
+    },
+    {
+        "": "65",
+        "Pin Code": "588996",
+        "Building": " BUKIT TIMAH PLAZA     ",
+        "Street": " 1 JALAN ANAK BUKIT BUKIT TIMAH PLAZA, BUKIT TIMAH PLAZA  ",
+        "latitude": "1.33865676913061",
+        "longitude": "103.778560470199"
+    },
+    {
+        "": "66",
+        "Pin Code": "610399",
+        "Building": " TAMAN JURONG SHOPPING CENTRE     ",
+        "Street": " 399 YUNG SHENG ROAD, TAMAN JURONG SHOPPING CENTRE  ",
+        "latitude": "1.335042021408",
+        "longitude": "103.720268024233"
+    },
+    {
+        "": "67",
+        "Pin Code": "640638",
+        "Building": " PIONEER MALL     ",
+        "Street": " 638 JURONG WEST STREET 61, PIONEER MALL  ",
+        "latitude": "1.34159107979646",
+        "longitude": "103.69702008582"
+    },
+    {
+        "": "68",
+        "Pin Code": "640762",
+        "Building": " GEK POH SHOPPING CENTRE     ",
+        "Street": " 762 JURONG WEST STREET 75, GEK POH SHOPPING CENTRE  ",
+        "latitude": "1.34874357157007",
+        "longitude": "103.697732094253"
+    },
+    {
+        "": "69",
+        "Pin Code": "670445",
+        "Building": " FAJAR SHOPPING CENTRE     ",
+        "Street": " 445 FARJAR ROAD, FAJAR SHOPPING CENTRE  ",
+        "latitude": "1.38358044141429",
+        "longitude": "103.770768312339"
+    },
+    {
+        "": "70",
+        "Pin Code": "671524",
+        "Building": " GREENRIDGE SHOPPING CENTRE     ",
+        "Street": " 524A JELAPANG ROAD, GREENRIDGE SHOPPING CENTRE  ",
+        "latitude": "1.38529556520099",
+        "longitude": "103.766170532015"
+    },
+    {
+        "": "71",
+        "Pin Code": "680622",
+        "Building": " YEW TEE SQUARE     ",
+        "Street": " 624 CHOA CHU KANG STREET 62, YEW TEE SQUARE  ",
+        "latitude": "1.3982771941105",
+        "longitude": "103.747182456762"
+    },
+    {
+        "": "72",
+        "Pin Code": "730768",
+        "Building": " WOODLANDS MART     ",
+        "Street": " 768 WOODLANDS AVENUE 6, WOODLANDS MART  ",
+        "latitude": "1.44575077511561",
+        "longitude": "103.798119771491"
+    },
+    {
+        "": "73",
+        "Pin Code": "730888",
+        "Building": " 888 PLAZA     ",
+        "Street": " 888 WOODLANDS DRIVE 50, 888 PLAZA  ",
+        "latitude": "1.43767919710846",
+        "longitude": "103.795136736247"
+    },
+    {
+        "": "74",
+        "Pin Code": "750511",
+        "Building": " SEMBAWANG MART     ",
+        "Street": " 511 CANBERRA ROAD, SEMBAWANG MART  ",
+        "latitude": "1.45384518348657",
+        "longitude": "103.819543348907"
+    },
+    {
+        "": "75",
+        "Pin Code": "409057",
+        "Building": " PAYA LEBAR QUARTER (PLQ)     ",
+        "Street": " 10 PAYA LEBAR ROAD, PAYA LEBAR QUARTER (PLQ)  ",
+        "latitude": "1.31752384126856",
+        "longitude": "103.892724434212"
+    },
+    {
+        "": "76",
+        "Pin Code": "540110",
+        "Building": " RIVERVALE COURT RC     ",
+        "Street": " 110 RIVERVALE WALK, RIVERVALE COURT RC  ",
+        "latitude": "1.38349233371644",
+        "longitude": "103.900312365788"
+    },
+    {
+        "": "77",
+        "Pin Code": "540135",
+        "Building": " RIVERVALE SPRING RC     ",
+        "Street": " 135 RIVERVALE STREET, RIVERVALE SPRING RC, #01-730  ",
+        "latitude": "1.38814105023846",
+        "longitude": "103.905022045791"
+    },
+    {
+        "": "78",
+        "Pin Code": "542188",
+        "Building": " RIVERVALE VISTA RC     ",
+        "Street": " 188B RIVERVALE DRIVE, RIVERVALE VISTA RC, 01-1076  ",
+        "latitude": "1.39454067766739",
+        "longitude": "103.905458978888"
+    },
+    {
+        "": "79",
+        "Pin Code": "542201",
+        "Building": " COMPASSVALE SOUTHGATE RC     ",
+        "Street": " 201B COMPASSVALE DRIVE, COMPASSVALE SOUTHGATE RC, #01-545  ",
+        "latitude": "1.38831310758384",
+        "longitude": "103.893923648496"
+    },
+    {
+        "": "80",
+        "Pin Code": "543180",
+        "Building": " RIVERVALE ARC RC     ",
+        "Street": " 180C RIVERVALE CRESCENT, RIVERVALE ARC RC, #01-367  ",
+        "latitude": "1.38949149935928",
+        "longitude": "103.909660431254"
+    },
+    {
+        "": "81",
+        "Pin Code": "543206",
+        "Building": " COMPASSVALE VILLA RC     ",
+        "Street": " 206C COMPASSVALE LANE, COMPASSVALE VILLA RC  ",
+        "latitude": "1.38681828916719",
+        "longitude": "103.8975474119"
+    },
+    {
+        "": "82",
+        "Pin Code": "544965",
+        "Building": " ANCHORVALE CC     ",
+        "Street": " 59 ANCHORVALE ROAD, ANCHORVALE COMMUNITY CLUB  ",
+        "latitude": "1.39712791773438",
+        "longitude": "103.886665684716"
+    },
+    {
+        "": "83",
+        "Pin Code": "820602",
+        "Building": " PUNGGOL VISTA CC     ",
+        "Street": " 602 PUNGGOL CENTRAL, PUNGGOL VISTA CC  ",
+        "latitude": "1.40328429076968",
+        "longitude": "103.907288602075"
+    },
+    {
+        "": "84",
+        "Pin Code": "821175",
+        "Building": " PUNGGOL OASIS RC     ",
+        "Street": " 176C EDGEFIELD PLAINS, PUNGGOL OASIS RC, #01-569  ",
+        "latitude": "1.39740420680146",
+        "longitude": "103.908973751235"
+    },
+    {
+        "": "85",
+        "Pin Code": "821204",
+        "Building": " PUNGGOL CLOVER RN     ",
+        "Street": " 204A  204A PUNGGOL FIELD, PUNGGOL CLOVER RN, #01-288  ",
+        "latitude": "1.39877826808137",
+        "longitude": "103.902910898023"
+    },
+    {
+        "": "86",
+        "Pin Code": "823259",
+        "Building": " PUNGGOL WEST CC     ",
+        "Street": " 259C PUNGGOL FIELD, PUNGGOL WEST CC  ",
+        "latitude": "1.40451590068484",
+        "longitude": "103.89566486383"
+    },
+    {
+        "": "87",
+        "Pin Code": "824268",
+        "Building": " PUNGGOL SAPPHIRALD RN     ",
+        "Street": " 268D PUNGGOL FIELD, PUNGGOL SAPPHIRALD RN, #01-173  ",
+        "latitude": "1.40331377225975",
+        "longitude": "103.898358930385"
+    },
+    {
+        "": "88",
+        "Pin Code": "530991",
+        "Building": " BUANGKOK SQUARE     ",
+        "Street": " 991 BUANGKOK LINK, LEVEL 1  ",
+        "latitude": "1.3843342640345",
+        "longitude": "103.881623077407"
+    },
+    {
+        "": "89",
+        "Pin Code": "642648",
+        "Building": " WESTWOOD PRIMARY SCHOOL     ",
+        "Street": " 1 JURONG WEST ST 71, SECURITY GUARD POST  ",
+        "latitude": "1.33838768620432",
+        "longitude": "103.698192624513"
+    },
+    {
+        "": "90",
+        "Pin Code": "730548",
+        "Building": " VISTA POINT     ",
+        "Street": " 548 WOODLANDS DRIVE 44, LEVEL 1  ",
+        "latitude": "1.43084006633629",
+        "longitude": "103.793416336246"
+    },
+    {
+        "": "91",
+        "Pin Code": "750133",
+        "Building": " CANBERRA PLAZA     ",
+        "Street": " 133 CANBERRA VIEW, LEVEL 1  ",
+        "latitude": "1.44349544002733",
+        "longitude": "103.830345370073"
+    },
+    {
+        "": "92",
+        "Pin Code": "119614",
+        "Building": " YUSOF ISHAK INSTITUTE     ",
+        "Street": " 30 HENG MUI KENG TERRACE, LEVEL 1  ",
+        "latitude": "1.29125963881342",
+        "longitude": "103.776679540457"
+    },
+    {
+        "": "93",
+        "Pin Code": "409286",
+        "Building": " CITY PLAZA     ",
+        "Street": " 810 GEYLANG RD, LEVEL 1  ",
+        "latitude": "1.31495729637934",
+        "longitude": "103.893400329176"
+    },
+    {
+        "": "94",
+        "Pin Code": "531477",
+        "Building": " BEDOK RESERVOIR-PUNGGOL CAPEVIEW RC     ",
+        "Street": " 477A UPPER SERANGOON VIEW, LEVEL 1  ",
+        "latitude": "1.37830875828283",
+        "longitude": "103.903841964129"
+    },
+    {
+        "": "95",
+        "Pin Code": "560260",
+        "Building": " FOOD CANOPY COFFEE SHOP     ",
+        "Street": " 260 ANG MO KIO STREET 21, #01-06  ",
+        "latitude": "1.36891616406036",
+        "longitude": "103.834499527161"
+    },
+    {
+        "": "96",
+        "Pin Code": "823312",
+        "Building": " PUNGGOL PARC TERRACE RN     ",
+        "Street": " 312B SUMANG LINK, #01-171  ",
+        "latitude": "1.41090728243885",
+        "longitude": "103.901186083679"
+    },
+    {
+        "": "97",
+        "Pin Code": "179103",
+        "Building": " RAFFLES CITY SHOPPING CENTRE     ",
+        "Street": " 252 NORTH BRIDGE RD  ",
+        "latitude": "1.29376027875418",
+        "longitude": "103.852768332387"
+    },
+    {
+        "": "98",
+        "Pin Code": "769098",
+        "Building": " CHALLENGER @ NORTHPOINT SHOPPING CENTRE     ",
+        "Street": " 930 YISHUN AVE 2, #03-90/10  ",
+        "latitude": "1.42969847969486",
+        "longitude": "103.835776496688"
+    },
+    {
+        "": "99",
+        "Pin Code": "179103",
+        "Building": " CHALLENGER @ RAFFLES CITY SHOPPING CENTRE     ",
+        "Street": " 252 NORTH BRIDGE RD, #03-22/23  ",
+        "latitude": "1.29376027875418",
+        "longitude": "103.852768332387"
+    },
+    {
+        "": "100",
+        "Pin Code": "82001",
+        "Building": " FAIRPRICE @ TANJONG PAGAR PLAZA     ",
+        "Street": " TANJONG PAGAR PLAZA, #01-01  ",
+        "latitude": "1.27559619005356",
+        "longitude": "103.842393168675"
+    },
+    {
+        "": "101",
+        "Pin Code": "150166",
+        "Building": " FAIRPRICE @ 166 BUKIT MERAH CENTRAL     ",
+        "Street": " 166 BUKIT MERAH CENTRAL, #01-3531 & 02-3531  ",
+        "latitude": "1.28311949644729",
+        "longitude": "103.817642874205"
+    },
+    {
+        "": "102",
+        "Pin Code": "142057",
+        "Building": " FAIRPRICE @ DAWSON PLACE     ",
+        "Street": " BLK 57 DAWSON RD, DAWSON PLACE, #01-07  ",
+        "latitude": "1.2927033928985",
+        "longitude": "103.81095896399"
+    },
+    {
+        "": "103",
+        "Pin Code": "160050",
+        "Building": " FAIRPRICE @ BLK 50 HAVELOCK RD     ",
+        "Street": " BLK 50 HAVELOCK RD, BLK 50 HAVELOCK RD, #01-755  ",
+        "latitude": "1.2897781328001",
+        "longitude": "103.82679375163"
+    },
+    {
+        "": "104",
+        "Pin Code": "119963",
+        "Building": " FAIRPRICE @ 460 ALEXANDRA RD     ",
+        "Street": " 460 ALEXANDRA RD, 460 ALEXANDRA RD, #01-09 AND #01-16  ",
+        "latitude": "1.27367657754603",
+        "longitude": "103.801126950046"
+    },
+    {
+        "": "105",
+        "Pin Code": "119082",
+        "Building": " FAIRPRICE @ NUH MEDICAL CENTRE     ",
+        "Street": " 1 LOWER KENT RIDGE RD, NUH MEDICAL CENTRE, #02-16  ",
+        "latitude": "1.2927743133923",
+        "longitude": "103.784084015695"
+    },
+    {
+        "": "106",
+        "Pin Code": "828815",
+        "Building": " PUNGGOL 21 CC     ",
+        "Street": " 80 PUNGGOL FIELD, PUNGGOL 21 CC  ",
+        "latitude": "1.39360624159956",
+        "longitude": "103.913464113125"
+    },
+    {
+        "": "107",
+        "Pin Code": "247933",
+        "Building": " COLD STORAGE@TANGLIN MALL     ",
+        "Street": " 163 TANGLIN ROAD, TANGLIN MALL, #B1-01  ",
+        "latitude": "1.30484343221316",
+        "longitude": "103.823852800985"
+    },
+    {
+        "": "108",
+        "Pin Code": "238895",
+        "Building": " SONY @ 313 SOMERSET     ",
+        "Street": " 313 ORCHARD ROAD, 313 SOMERSET, #02-28  ",
+        "latitude": "1.30138509490103",
+        "longitude": "103.837684358423"
+    },
+    {
+        "": "109",
+        "Pin Code": "238877",
+        "Building": " SONY @ WISMA ATRIA     ",
+        "Street": " 435 ORCHARD ROAD, WISMA ATRIA, #03-01  ",
+        "latitude": "1.30369890150462",
+        "longitude": "103.833189600965"
+    },
+    {
+        "": "110",
+        "Pin Code": "556083",
+        "Building": " SONY @ NEX     ",
+        "Street": " 23 SERANGOON CENTRAL, NEX, #03-21  ",
+        "latitude": "1.35043817177432",
+        "longitude": "103.87170454945"
+    },
+    {
+        "": "111",
+        "Pin Code": "238839",
+        "Building": " STARHUB @ PLAZA SINGAPURA     ",
+        "Street": " 68 ORCHARD ROAD, STAHUB @ PLAZA SING, #1-36  ",
+        "latitude": "1.30074770847155",
+        "longitude": "103.845047580881"
+    },
+    {
+        "": "112",
+        "Pin Code": "529510",
+        "Building": " STARHUB @ TAMPINES CENTRAL     ",
+        "Street": " 4 TAMPINES CENTRAL 5, STARHUB @ TAMPINES, #2-27  ",
+        "latitude": "1.35267231590699",
+        "longitude": "103.944387987324"
+    },
+    {
+        "": "113",
+        "Pin Code": "556083",
+        "Building": " M1 @ NEX     ",
+        "Street": " 23 SERANGOON CENTRAL, NEX, #B1-56  ",
+        "latitude": "1.35043817177432",
+        "longitude": "103.87170454945"
+    },
+    {
+        "": "114",
+        "Pin Code": "609601",
+        "Building": " M1 @ IMM     ",
+        "Street": " 2 JURONG EAST STREET 21, IMM, #01-53  ",
+        "latitude": "1.33489843717476",
+        "longitude": "103.7467344968"
+    },
+    {
+        "": "115",
+        "Pin Code": "658713",
+        "Building": " M1 @ WEST MALL     ",
+        "Street": " 1 BUKIT BATOK CENTRAL LINK, WEST MALL, #01-16  ",
+        "latitude": "1.35018915982967",
+        "longitude": "103.749021980031"
+    },
+    {
+        "": "116",
+        "Pin Code": "48616",
+        "Building": " M1 @ ONE RAFFLES PLACE     ",
+        "Street": " 1 RAFFLES PLACE, ONE RAFFLES PLACE, #02-25  ",
+        "latitude": "1.28433993485695",
+        "longitude": "103.850982351781"
+    },
+    {
+        "": "117",
+        "Pin Code": "238859",
+        "Building": " M1 @ THE PARAGON     ",
+        "Street": " 290 ORCHARD ROAD, THE PARAGON, #04-31  ",
+        "latitude": "1.30372321372467",
+        "longitude": "103.835240310126"
+    },
+    {
+        "": "118",
+        "Pin Code": "529510",
+        "Building": " M1 @ TAMPINES MALL     ",
+        "Street": " 4 TAMPINES CENTRAL 5, TAMPINES MALL, #03-01  ",
+        "latitude": "1.35267231590699",
+        "longitude": "103.944387987324"
+    },
+    {
+        "": "119",
+        "Pin Code": "738099",
+        "Building": " M1 @ CAUSEWAY POINT     ",
+        "Street": " 1 WOODLANDS SQUARE, CAUSEWAY POINT, #03-01  ",
+        "latitude": "1.43600784517148",
+        "longitude": "103.785688739235"
+    },
+    {
+        "": "120",
+        "Pin Code": "188966",
+        "Building": " M1 @ BUGIS JUNCTION     ",
+        "Street": " 80 MIDDLE ROAD, BUGIS JUNCTION, #01-81  ",
+        "latitude": "1.29846962637",
+        "longitude": "103.854867046362"
+    },
+    {
+        "": "121",
+        "Pin Code": "449269",
+        "Building": " M1 @ PARKWAY PARADE     ",
+        "Street": " 80 MARINE PARADE ROAD, PARKWAY PARADE, #02-24  ",
+        "latitude": "1.30119130748691",
+        "longitude": "103.905113592255"
+    },
+    {
+        "": "122",
+        "Pin Code": "138633",
+        "Building": " FUSIONOPOLIS ONE     ",
+        "Street": " 3 FUSIONOPOLIS WAY, BASEMENT 2 CONNEXIS  ",
+        "latitude": "1.29901131909216",
+        "longitude": "103.787567251574"
+    },
+    {
+        "": "123",
+        "Pin Code": "189655",
+        "Building": " NANYANG ACADEMY OF FINE ARTS     ",
+        "Street": " 80 BENCOOLEN STREET, LEVEL 1 WING A  ",
+        "latitude": "1.29946332963088",
+        "longitude": "103.851185944181"
+    },
+    {
+        "": "124",
+        "Pin Code": "437440",
+        "Building": " PASSION WAVE @ MARINA BAY     ",
+        "Street": " 11 RHU CROSS  ",
+        "latitude": "1.29499327834417",
+        "longitude": "103.866775484716"
+    },
+    {
+        "": "125",
+        "Pin Code": "618662",
+        "Building": " PASSION WAVE @ JURONG LAKE GARDENS     ",
+        "Street": " 100 YUAN CHING RD  ",
+        "latitude": "1.33935955388184",
+        "longitude": "103.727299471215"
+    },
+    {
+        "": "126",
+        "Pin Code": "641674",
+        "Building": " BOON LAY ZONE F RN     ",
+        "Street": " 674A, JURONG WEST STREET 65, #01-66  ",
+        "latitude": "1.34446132877907",
+        "longitude": "103.702315285031"
+    },
+    {
+        "": "127",
+        "Pin Code": "640218",
+        "Building": " BOON LAY VIEW RN     ",
+        "Street": " 218D BOON LAY AVE #01-309  ",
+        "latitude": "1.350218607854",
+        "longitude": "103.710255719064"
+    },
+    {
+        "": "128",
+        "Pin Code": "391005",
+        "Building": " PINE CLOSE RC     ",
+        "Street": " 5 PINE CLOSE, #01-141  ",
+        "latitude": "1.30704305553309",
+        "longitude": "103.882688424945"
+    },
+    {
+        "": "129",
+        "Pin Code": "307987",
+        "Building": " REVENUE HOUSE (LEVEL 2)     ",
+        "Street": " 55 NEWTON RD, LEVEL 2  ",
+        "latitude": "1.3194895845632",
+        "longitude": "103.841975318466"
+    },
+    {
+        "": "130",
+        "Pin Code": "298136",
+        "Building": " MSF BUILDING     ",
+        "Street": " 512 THOMSON ROAD MSF BUILDING LOBBY  ",
+        "latitude": "1.3336652631755",
+        "longitude": "103.839419161507"
+    },
+    {
+        "": "131",
+        "Pin Code": "461051",
+        "Building": " BEDOK IXORA RC     ",
+        "Street": " 51 NEW UPPER CHANGI ROAD, #01-1500  ",
+        "latitude": "1.32342985595863",
+        "longitude": "103.942269412202"
+    },
+    {
+        "": "132",
+        "Pin Code": "460071",
+        "Building": " SIGLAP LUCKY VALLEY RC     ",
+        "Street": " 71 BEDOK SOUTH ROAD, #01-250  ",
+        "latitude": "1.32041601686604",
+        "longitude": "103.942732315687"
+    },
+    {
+        "": "133",
+        "Pin Code": "460167",
+        "Building": " SIGLAP EAST RC     ",
+        "Street": " 167 BEDOK SOUTH AVE 3, #01-501  ",
+        "latitude": "1.3196396832799",
+        "longitude": "103.944965235932"
+    },
+    {
+        "": "134",
+        "Pin Code": "59413",
+        "Building": " CHINATOWN POINT     ",
+        "Street": " 133 NEW BRIDGE ROAD, #06-01  ",
+        "latitude": "1.28499882771298",
+        "longitude": "103.844697085395"
+    },
+    {
+        "": "135",
+        "Pin Code": "319642",
+        "Building": " TOA PAYOH WEST CC     ",
+        "Street": " 200 LORONG 2 TOA PAYOH  ",
+        "latitude": "1.3353827124599",
+        "longitude": "103.844830875826"
+    },
+    {
+        "": "136",
+        "Pin Code": "521232",
+        "Building": " TAMPINES EAST ZONE 3 RC     ",
+        "Street": " 232 TAMPINES STREET 21, #01-639  ",
+        "latitude": "1.35641019022249",
+        "longitude": "103.948701743616"
+    },
+    {
+        "": "137",
+        "Pin Code": "128020",
+        "Building": " NEWEST     ",
+        "Street": " 1 WEST COAST DRIVE, #01-111  ",
+        "latitude": "1.31641320903159",
+        "longitude": "103.757451264505"
+    },
+    {
+        "": "138",
+        "Pin Code": "408718",
+        "Building": " KAMPONG UBI INDUSTRIAL ESTATE BLOCK 3024A     ",
+        "Street": " 3024A UBI RD 1  ",
+        "latitude": "1.32985965145243",
+        "longitude": "103.896058169727"
+    },
+    {
+        "": "139",
+        "Pin Code": "489978",
+        "Building": " BEDOK INDUSTRIAL PARK E     ",
+        "Street": " BEDOK INDUSTRIAL PARK E, PAVILION  ",
+        "latitude": "1.33674833674262",
+        "longitude": "103.949900396416"
+    },
+    {
+        "": "140",
+        "Pin Code": "150166",
+        "Building": " TANJONG PAGAR TOWN COUNCIL     ",
+        "Street": " 166 BUKIT MERAH CENTRAL, #03-3527  ",
+        "latitude": "1.28311949644729",
+        "longitude": "103.817642874205"
+    },
+    {
+        "": "141",
+        "Pin Code": "90108",
+        "Building": " BUKIT PURMEI ZONE A RC     ",
+        "Street": " 108 BUKIT PURMEI ROAD, #01-129  ",
+        "latitude": "1.27337412903551",
+        "longitude": "103.825328122484"
+    },
+    {
+        "": "142",
+        "Pin Code": "150169",
+        "Building": " CONNECTION ONE     ",
+        "Street": " 168 JALAN BUKIT MARAH, SURBANA ONE, LEVEL 1  ",
+        "latitude": "1.28331721051266",
+        "longitude": "103.818863113389"
+    },
+    {
+        "": "143",
+        "Pin Code": "100108",
+        "Building": " FAIRPRICE @ DEPOT HEIGHTS SHOPPING CENTRE     ",
+        "Street": " BLK 108 DEPOT RD, DEPOT HEIGHTS SHOPPING CENTRE, #01-01  ",
+        "latitude": "1.28112226404962",
+        "longitude": "103.810031318703"
+    },
+    {
+        "": "144",
+        "Pin Code": "270036",
+        "Building": " FAIRPRICE @ BLK 36 HOLLAND DR     ",
+        "Street": " BLK 36 HOLLAND DR, BLK 36 HOLLAND DR, #01-03/04/05  ",
+        "latitude": "1.30925871460611",
+        "longitude": "103.792619417011"
+    },
+    {
+        "": "145",
+        "Pin Code": "130028",
+        "Building": " FAIRPRICE @ BLK 28 DOVER CRESCENT     ",
+        "Street": " BLK 28 DOVER CRESCENT, BLK 28 DOVER CRESCENT, #01-83  ",
+        "latitude": "1.30476356255085",
+        "longitude": "103.781697209464"
+    },
+    {
+        "": "146",
+        "Pin Code": "120451",
+        "Building": " FAIRPRICE @ BLK 451 AVE 3     ",
+        "Street": " BLK 451 CLEMENTI AVE 3, BLK 451 AVE 3, #01-307  ",
+        "latitude": "1.31248108236843",
+        "longitude": "103.765476504358"
+    },
+    {
+        "": "147",
+        "Pin Code": "610399",
+        "Building": " FAIRPRICE @ TAMAN JURONG SHOPPING CENTRE     ",
+        "Street": " BLK 399 YUNG SHENG RD, TAMAN JURONG SHOPPING CENTRE, #01-35  ",
+        "latitude": "1.335042021408",
+        "longitude": "103.720268024233"
+    },
+    {
+        "": "148",
+        "Pin Code": "610063",
+        "Building": " FAIRPRICE @ BLK 66 YUNG KANG RD     ",
+        "Street": " BLK 63/66 YUNG KUANG RD, BLK 66 YUNG KANG RD, #01-119 AND #02-119  ",
+        "latitude": "1.33205938361655",
+        "longitude": "103.722452883915"
+    },
+    {
+        "": "149",
+        "Pin Code": "640221",
+        "Building": " FAIRPRICE @ BOON LAY SHOPPING CENTRE     ",
+        "Street": " BLK 221 BOON LAY PLACE, BOON LAY SHOPPING CENTRE, #02-200  ",
+        "latitude": "1.34639604067888",
+        "longitude": "103.712387719568"
+    },
+    {
+        "": "150",
+        "Pin Code": "648886",
+        "Building": " FAIRPRICE @ JURONG POINT 1     ",
+        "Street": " NO. 1 JURONG WEST CENTRAL 2, JURONG POINT 1, #B1-09  ",
+        "latitude": "1.3398301525794",
+        "longitude": "103.70646088413"
+    },
+    {
+        "": "151",
+        "Pin Code": "120502",
+        "Building": " FAIRPRICE @ BLK 502 WEST COAST DR     ",
+        "Street": " BLK 502 WEST COAST DR, BLK 502 WEST COAST DR, #01-41  ",
+        "latitude": "1.31188595555903",
+        "longitude": "103.759080937631"
+    },
+    {
+        "": "152",
+        "Pin Code": "678278",
+        "Building": " FAIRPRICE @ HILLION MALL     ",
+        "Street": " 17 PETIR RD, HILLION MALL, #B2-67  ",
+        "latitude": "1.37834971260866",
+        "longitude": "103.76274117629"
+    },
+    {
+        "": "153",
+        "Pin Code": "689812",
+        "Building": " FAIRPRICE @ LOT 1 SHOPPERS' MALL     ",
+        "Street": " 21 CHOA CHU KANG AVE 4, LOT 1 SHOPPERS' MALL, #B1-03  ",
+        "latitude": "1.38506835667563",
+        "longitude": "103.744950384161"
+    },
+    {
+        "": "154",
+        "Pin Code": "688236",
+        "Building": " ITE COLLEGE WEST     ",
+        "Street": " 1 CHOA CHU KANG GROVE, ITE COLLEGE WEST, BLOCK 1, LEVEL 3 FOOD CANOPY  ",
+        "latitude": "1.37502493396044",
+        "longitude": "103.752112715995"
+    },
+    {
+        "": "155",
+        "Pin Code": "529510",
+        "Building": " COURTS @ TAMPINES MALL     ",
+        "Street": " 4 TAMPINES CENTRAL 5, TAMPINES MALL, #03-16/16A  ",
+        "latitude": "1.35267231590699",
+        "longitude": "103.944387987324"
+    },
+    {
+        "": "156",
+        "Pin Code": "521602",
+        "Building": " SHENG SIONG @ 602A TAMPINES     ",
+        "Street": " 602A TAMPINES AVENUE 9, #01-01  ",
+        "latitude": "1.36113645470954",
+        "longitude": "103.93742559472"
+    },
+    {
+        "": "157",
+        "Pin Code": "579837",
+        "Building": " BEST DENKI @ JUNCTION 8 SHOPPING CENTRE     ",
+        "Street": " 9 BISHAN PLACE, JUNCTION 8 SHOPPING CENTRE, #3-2  ",
+        "latitude": "1.35017242685302",
+        "longitude": "103.848430082687"
+    },
+    {
+        "": "158",
+        "Pin Code": "117404",
+        "Building": " ICA @ PASIR PANJANG TERMINAL BUILDING 3     ",
+        "Street": " 3 HARBOUR DRIVE, PASIR PANJANG TERMINAL BUILDING 3  ",
+        "latitude": "1.27459998107058",
+        "longitude": "103.790191441877"
+    },
+    {
+        "": "159",
+        "Pin Code": "486018",
+        "Building": " FAIRPRICE @ 8 CHANGI BUSINESS PARK AVE 1     ",
+        "Street": " 8 CHANGI BUSINESS PARK AVE 1, #01-51 &, #02-51  ",
+        "latitude": "1.33491977308775",
+        "longitude": "103.963653904182"
+    },
+    {
+        "": "160",
+        "Pin Code": "730573",
+        "Building": " SHENG SIONG @ 573 WOODLANDS     ",
+        "Street": " BLK 573 WOODLANDS DRIVE 16, #02-01  ",
+        "latitude": "1.43109806887589",
+        "longitude": "103.798507625095"
+    },
+    {
+        "": "161",
+        "Pin Code": "730182",
+        "Building": " SHENG SIONG @ 128 WOODLANDS     ",
+        "Street": " BLK 182 WOODLANDS ST 13, #01-01  ",
+        "latitude": "1.4351589456523",
+        "longitude": "103.776023346965"
+    },
+    {
+        "": "162",
+        "Pin Code": "270025",
+        "Building": " SHENG SIONG @ 25 GHIM MOH     ",
+        "Street": " BLK 25 GHIM MOH LINK, #01-11  ",
+        "latitude": "1.30811885974155",
+        "longitude": "103.786049387238"
+    },
+    {
+        "": "163",
+        "Pin Code": "560122",
+        "Building": " SHENG SIONG @ 122 ANG MO KIO     ",
+        "Street": " BLK 122 ANG MO KIO AVE 3, #01-1753  ",
+        "latitude": "1.37018859803198",
+        "longitude": "103.843413235622"
+    },
+    {
+        "": "164",
+        "Pin Code": "560233",
+        "Building": " SHENG SIONG @ 233 ANG MO KIO     ",
+        "Street": " BLK 233 ANG MO KIO AVE 3, #01-1168  ",
+        "latitude": "1.36754924240467",
+        "longitude": "103.83674063165"
+    },
+    {
+        "": "165",
+        "Pin Code": "120352",
+        "Building": " SHENG SIONG @ 352 CLEMENTI     ",
+        "Street": " BLK 352 CLEMENTI AVE 2, #01-91  ",
+        "latitude": "1.31427859810327",
+        "longitude": "103.771350564245"
+    },
+    {
+        "": "166",
+        "Pin Code": "640544",
+        "Building": " SHENG SIONG @ 544 JURONG WEST     ",
+        "Street": " BLK 544 JURONG WEST ST 42, #01-97  ",
+        "latitude": "1.35239357898915",
+        "longitude": "103.715759515182"
+    },
+    {
+        "": "167",
+        "Pin Code": "680018",
+        "Building": " SHENG SIONG @ 18 TECK WHYE     ",
+        "Street": " BLK 18 TECK WHYE LANE, #01-95  ",
+        "latitude": "1.37829768231958",
+        "longitude": "103.754071399254"
+    },
+    {
+        "": "168",
+        "Pin Code": "651154",
+        "Building": " SHENG SIONG @ 154A BUKIT BATOK WEST     ",
+        "Street": " BLK 154A BUKIT BATOK WEST AVE 8, #01-01  ",
+        "latitude": "1.34737179771512",
+        "longitude": "103.743698108315"
+    },
+    {
+        "": "169",
+        "Pin Code": "670547",
+        "Building": " SHENG SIONG @ SEGAR     ",
+        "Street": " BLK 547 SEGAR ROAD, #01-06  ",
+        "latitude": "1.38824020983746",
+        "longitude": "103.769575393265"
+    },
+    {
+        "": "170",
+        "Pin Code": "670446",
+        "Building": " SHENG SIONG @ FAJAR     ",
+        "Street": " BLK 446 FAJAR RD, #01-01  ",
+        "latitude": "1.38400582300801",
+        "longitude": "103.771029605045"
+    },
+    {
+        "": "171",
+        "Pin Code": "650440",
+        "Building": " SHENG SIONG @ BUKIT BATOK WEST     ",
+        "Street": " BLK 440 BUKIT BATOK WEST AVE 8, #01-10  ",
+        "latitude": "1.35572307969423",
+        "longitude": "103.739303113535"
+    },
+    {
+        "": "172",
+        "Pin Code": "650292",
+        "Building": " SHENG SIONG @ 292 BUKIT BATOK EAST AVENUE     ",
+        "Street": " BLK 292 BUKIT BATOK EAST AVENUE 6, #01-02  ",
+        "latitude": "1.34447135579337",
+        "longitude": "103.755394621037"
+    },
+    {
+        "": "173",
+        "Pin Code": "730202",
+        "Building": " SHENG SIONG @ MARSILING DRIVE 202     ",
+        "Street": " BLK 202 MARSILING DRIVE, #01-138  ",
+        "latitude": "1.44315120177467",
+        "longitude": "103.775164786038"
+    },
+    {
+        "": "174",
+        "Pin Code": "677899",
+        "Building": " SHENG SIONG @ JUNCTION TEN     ",
+        "Street": " NO.1 WOODLANDS ROADS, #01-07  ",
+        "latitude": "1.38060512479732",
+        "longitude": "103.760041590511"
+    },
+    {
+        "": "175",
+        "Pin Code": "574424",
+        "Building": " SHENG SIONG @ 200 UPPER THOMSON     ",
+        "Street": " 200 UPP THOMSON RD, #B1-01  ",
+        "latitude": "1.35184498416505",
+        "longitude": "103.83605365678"
+    },
+    {
+        "": "176",
+        "Pin Code": "141085",
+        "Building": " SHENG SIONG @ DAWSON     ",
+        "Street": " BLK 85 DAWSON ROAD, #01-01  ",
+        "latitude": "1.29531965769669",
+        "longitude": "103.809758599549"
+    },
+    {
+        "": "177",
+        "Pin Code": "121420",
+        "Building": " SHENG SIONG @ 420A CLEMENTI     ",
+        "Street": " BLK 420A CLEMENTI AVE 1, #01-01  ",
+        "latitude": "1.30973330594899",
+        "longitude": "103.768637303114"
+    },
+    {
+        "": "178",
+        "Pin Code": "486038",
+        "Building": " CHALLENGER @ CHANGI CITY POINT     ",
+        "Street": " 5 CHANGI BUSINESS PARK CENTRAL 1, CHANGI CITY POINT, #01-56  ",
+        "latitude": "1.33432515600981",
+        "longitude": "103.962389303195"
+    },
+    {
+        "": "179",
+        "Pin Code": "569500",
+        "Building": " GAIN CITY @ ANG MO KIO INDUSTIRAL PARK 2     ",
+        "Street": " 8 ANG MO KIO INDUSTRIAL PARK 2  ",
+        "latitude": "1.37189393393221",
+        "longitude": "103.864574202325"
+    },
+    {
+        "": "180",
+        "Pin Code": "659440",
+        "Building": " PEOPLE'S ASSOCIATION @ HONG KAH NORTH CC     ",
+        "Street": " 30 BUKIT BATOK STREET 31, HONG KAH NORTH CC  ",
+        "latitude": "1.35905888839505",
+        "longitude": "103.749456841487"
+    },
+    {
+        "": "181",
+        "Pin Code": "678278",
+        "Building": " BEST DENKI @ HILLION MALL     ",
+        "Street": " 17 PETIR ROAD, HILLION MALL, #B1-65  ",
+        "latitude": "1.37834971260866",
+        "longitude": "103.76274117629"
+    },
+    {
+        "": "182",
+        "Pin Code": "729577",
+        "Building": " GAIN CITY @ GAIN CITY MEGASTORE @ SUNGEI KADUT     ",
+        "Street": " 71 SUNGEI KADUT DRIVE, GAIN CITY MEGASTORE @ SUNGEI KADUT  ",
+        "latitude": "1.41286385690526",
+        "longitude": "103.74601574229"
+    },
+    {
+        "": "183",
+        "Pin Code": "828761",
+        "Building": " BEST DENKI @ WATERWAY POINT     ",
+        "Street": " 83 PUNGGOL CENTRAL, WATERWAY POINT  ",
+        "latitude": "1.40653610720599",
+        "longitude": "103.901988174009"
+    },
+    {
+        "": "184",
+        "Pin Code": "467360",
+        "Building": " BEST DENKI @ BEDOK MALL     ",
+        "Street": " 311 NEW UPPER CHANGI ROAD, BEDOK MALL, #B1-01/43/44  ",
+        "latitude": "1.32479360710739",
+        "longitude": "103.929182078245"
+    },
+    {
+        "": "185",
+        "Pin Code": "528833",
+        "Building": " CHALLENGER @ EASTPOINT MALL     ",
+        "Street": " 3 SIMEI STREET 6, EASTPOINT MALL, #B1-08  ",
+        "latitude": "1.34270618643901",
+        "longitude": "103.953024503826"
+    },
+    {
+        "": "186",
+        "Pin Code": "538692",
+        "Building": " FAIRPRICE @ HOUGANG 1     ",
+        "Street": " 1 HOUGANG ST 91, HOUGANG 1, #2-01  ",
+        "latitude": "1.37584997338503",
+        "longitude": "103.879300024096"
+    },
+    {
+        "": "187",
+        "Pin Code": "538766",
+        "Building": " CHALLENGER @ HOUGANG MALL     ",
+        "Street": " 90 HOUGANG AVENUE 10, HOUGANG MALL, #02-13  ",
+        "latitude": "1.37231185642959",
+        "longitude": "103.89366161203"
+    },
+    {
+        "": "188",
+        "Pin Code": "556083",
+        "Building": " FAIRPRICE @ NEX MALL     ",
+        "Street": " 23 SERANGOON CENTRAL, NEX MALL, #03-42  ",
+        "latitude": "1.35043817177432",
+        "longitude": "103.87170454945"
+    },
+    {
+        "": "189",
+        "Pin Code": "667970",
+        "Building": " PEOPLE'S ASSOCIATION @ HILLVIEW CC     ",
+        "Street": " 1 HILLVIEW RISE, HILLVIEW CC  ",
+        "latitude": "1.36196724402422",
+        "longitude": "103.764266389757"
+    },
+    {
+        "": "190",
+        "Pin Code": "397628",
+        "Building": " FAIRPRICE @ WAVE MALL     ",
+        "Street": " 1 STADIUM PLACE LEVEL 1, WAVE MALL, #01-29  ",
+        "latitude": "1.30384326764684",
+        "longitude": "103.872750711332"
+    },
+    {
+        "": "191",
+        "Pin Code": "239917",
+        "Building": " COLD STORAGE @ UE SQUARE     ",
+        "Street": " 81 CLEMENCEAU AVENUE, UE SQUARE, #02-15  ",
+        "latitude": "1.29225958039889",
+        "longitude": "103.842561025611"
+    },
+    {
+        "": "192",
+        "Pin Code": "307683",
+        "Building": " COLD STORAGE @ NOVENA SQUARE     ",
+        "Street": " 238 THOMSON ROAD, NOVENA SQUARE, #01-28  ",
+        "latitude": "1.32021099973819",
+        "longitude": "103.843656770909"
+    },
+    {
+        "": "193",
+        "Pin Code": "238839",
+        "Building": " CHALLENGER @ PLAZA SINGAPURA     ",
+        "Street": " 68 ORCHARD ROAD, PLAZA SINGAPURA, #4-12  ",
+        "latitude": "1.30074770847155",
+        "longitude": "103.845047580881"
+    },
+    {
+        "": "194",
+        "Pin Code": "757713",
+        "Building": " CHALLENGER @ SUN PLAZA     ",
+        "Street": " 30 SEMBAWANG DRIVE, SUN PLAZA, #2-06  ",
+        "latitude": "1.44822653184262",
+        "longitude": "103.819462104528"
+    },
+    {
+        "": "195",
+        "Pin Code": "738099",
+        "Building": " COURTS @ CAUSEWAY POINT     ",
+        "Street": " 1 WOODLANDS SQUARE, CAUSEWAY POINT, #04-19/20  ",
+        "latitude": "1.43600784517148",
+        "longitude": "103.785688739235"
+    },
+    {
+        "": "196",
+        "Pin Code": "310460",
+        "Building": " COURTS @ 460 TOA PAYOH LORONG 6     ",
+        "Street": " 460 TOA PAYOH LORONG 6  ",
+        "latitude": "1.3319945583363",
+        "longitude": "103.849796103257"
+    },
+    {
+        "": "197",
+        "Pin Code": "560730",
+        "Building": " COURTS @ ANG MO KIO AVE 6     ",
+        "Street": " 730 ANG MO KIO AVE 6  ",
+        "latitude": "1.37343368369214",
+        "longitude": "103.845765158161"
+    },
+    {
+        "": "198",
+        "Pin Code": "556083",
+        "Building": " COURTS @ NEX MALL     ",
+        "Street": " 23 SERANGOON CENTRAL, NEX MALL, #02-49/50  ",
+        "latitude": "1.35043817177432",
+        "longitude": "103.87170454945"
+    },
+    {
+        "": "199",
+        "Pin Code": "528766",
+        "Building": " COURTS @ COURTS MEGASTORE     ",
+        "Street": " 50 TAMPINES NORTH DRIVE 2, COURTS MEGASTORE  ",
+        "latitude": "1.37362335947781",
+        "longitude": "103.933805897843"
+    },
+    {
+        "": "200",
+        "Pin Code": "569933",
+        "Building": " FAIRPRICE @ ANG MO KIO HUB     ",
+        "Street": " 53 ANG MO KIO AVE 3, ANG MO KIO HUB, #B2-40  ",
+        "latitude": "1.3692489128202",
+        "longitude": "103.848399227484"
+    },
+    {
+        "": "201",
+        "Pin Code": "179105",
+        "Building": " LENOVO FLAGSHIP @ FUNAN MALL     ",
+        "Street": " 107 NORTH BRIDGE ROAD, FUNAN MALL, #03-19/20  ",
+        "latitude": "1.29124400033468",
+        "longitude": "103.849984794935"
+    },
+    {
+        "": "202",
+        "Pin Code": "109841",
+        "Building": " HEWLETT-PACKARD @ HP ENTERPRISE     ",
+        "Street": " 1 DEPOT CLOSE, HP ENTERPRISE  ",
+        "latitude": "1.28243134568209",
+        "longitude": "103.805032356604"
+    },
+    {
+        "": "203",
+        "Pin Code": "307591",
+        "Building": " MEGA DISCOUNT STORE @ UNITED SQUARE     ",
+        "Street": " 101 THOMSON ROAD, UNITED SQUARE, #B1-56D/E  ",
+        "latitude": "1.31733462987407",
+        "longitude": "103.843463185977"
+    },
+    {
+        "": "204",
+        "Pin Code": "750105",
+        "Building": " SHENG SIONG @ EAST BROOK @ CANBERRA     ",
+        "Street": " 105 CANBERRA ST, EAST BROOK @ CANBERRA, #02-05  ",
+        "latitude": "1.44885564521184",
+        "longitude": "103.832409180973"
+    },
+    {
+        "": "205",
+        "Pin Code": "149732",
+        "Building": " QUEENSTOWN CC     ",
+        "Street": " 365 COMMONWEALTH AVE  ",
+        "latitude": "1.29915022797049",
+        "longitude": "103.80130510766"
+    },
+    {
+        "": "206",
+        "Pin Code": "159049",
+        "Building": " LENG KEE CC     ",
+        "Street": " 400 LENGKOK BAHRU  ",
+        "latitude": "1.28978711891653",
+        "longitude": "103.81444834816"
+    },
+    {
+        "": "207",
+        "Pin Code": "648886",
+        "Building": " COURTS @ JURONG POINT     ",
+        "Street": " 1 JURONG WEST CENTRAL, JURONG POINT, #02-05  ",
+        "latitude": "1.3398301525794",
+        "longitude": "103.70646088413"
+    },
+    {
+        "": "208",
+        "Pin Code": "538766",
+        "Building": " HARVEY NORMAN @ HOUGANG MALL     ",
+        "Street": " 90 HOUGANG AVENUE 10, HOUGANG MALL, #04-15  ",
+        "latitude": "1.37231185642959",
+        "longitude": "103.89366161203"
+    },
+    {
+        "": "209",
+        "Pin Code": "648886",
+        "Building": " HARVEY NORMAN @ JURONG POINT     ",
+        "Street": " 1 JURONG WEST CENTRAL 2, JURONG POINT, #03-37  ",
+        "latitude": "1.3398301525794",
+        "longitude": "103.70646088413"
+    },
+    {
+        "": "210",
+        "Pin Code": "797653",
+        "Building": " HARVEY NORMAN @ SELETAR MALL     ",
+        "Street": " 33 SENGKANG WEST AVE, SELETAR MALL, #03-25  ",
+        "latitude": "1.39139305815613",
+        "longitude": "103.876067657689"
+    },
+    {
+        "": "211",
+        "Pin Code": "238843",
+        "Building": " HARVEY NORMAN @ THE CENTREPOINT     ",
+        "Street": " 176 ORCHARD ROAD, THE CENTREPOINT, #03-31  ",
+        "latitude": "1.30197836640112",
+        "longitude": "103.839759027803"
+    },
+    {
+        "": "212",
+        "Pin Code": "556083",
+        "Building": " CHALLENGER @ NEX MALL     ",
+        "Street": " 23 SERANGOON CENTRAL, NEX MALL, #03-33/34  ",
+        "latitude": "1.35043817177432",
+        "longitude": "103.87170454945"
+    },
+    {
+        "": "213",
+        "Pin Code": "239733",
+        "Building": " SINGTEL @ COMCENTRE     ",
+        "Street": " 31B EXETER ROAD, COMCENTRE  ",
+        "latitude": "1.29897549945424",
+        "longitude": "103.83840640501"
+    },
+    {
+        "": "214",
+        "Pin Code": "677743",
+        "Building": " BUKIT PANJANG PLAZA     ",
+        "Street": " 1 JELEBU ROAD, BUKIT PANJANG PLAZA, #04-03  ",
+        "latitude": "1.38051732815914",
+        "longitude": "103.763961852618"
+    },
+    {
+        "": "215",
+        "Pin Code": "108943",
+        "Building": " TELOK BLANGAH CC     ",
+        "Street": " 450 TELOK BLANGAH STREET 31, TELOK BLANGAH CC  ",
+        "latitude": "1.27486265663736",
+        "longitude": "103.807875435609"
+    },
+    {
+        "": "216",
+        "Pin Code": "117541",
+        "Building": " KENT RIDGE CAMPUS     ",
+        "Street": " 27 SCIENCE DRIVE 1, KENT RIDGE CAMPUS, OUTSIDE LT27 AND LT29 STUDENT SPACE, LEVEL 1  ",
+        "latitude": "1.29546718054057",
+        "longitude": "103.779773956451"
+    },
+    {
+        "": "217",
+        "Pin Code": "119275",
+        "Building": " KENT RIDGE CAMPUS     ",
+        "Street": " 12 KENT RIDGE CRES, KENT RIDGE CAMPUS, CENTRAL LIBRARY FORUM SPACE, LEVEL 1  ",
+        "latitude": "1.29672886339029",
+        "longitude": "103.773151759339"
+    },
+    {
+        "": "218",
+        "Pin Code": "138607",
+        "Building": " UTOWN - STEPHEN RIADY CENTRE     ",
+        "Street": " 2 COLLEGE AVE WEST, UTOWN - STEPHEN RIADY CENTRE, LEVEL 1 IN FRONT OF WAACOW RESTAURANT  ",
+        "latitude": "1.30477687700985",
+        "longitude": "103.772396246249"
+    },
+    {
+        "": "219",
+        "Pin Code": "327737",
+        "Building": " WHAMPOA CC     ",
+        "Street": " 300 WHAMPOA DRIVE  ",
+        "latitude": "1.32463959408329",
+        "longitude": "103.856979169641"
+    },
+    {
+        "": "220",
+        "Pin Code": "358361",
+        "Building": " POTONG PASIR CC     ",
+        "Street": " 6 POTONG PASIR AVENUE 2  ",
+        "latitude": "1.33253591154285",
+        "longitude": "103.86703683934"
+    },
+    {
+        "": "221",
+        "Pin Code": "469662",
+        "Building": " HEARTBEAT @ BEDOK     ",
+        "Street": " 11 BEDOK NORTH STREET 1, MAIN ATRIUM  ",
+        "latitude": "1.32698498848449",
+        "longitude": "103.931620621577"
+    },
+    {
+        "": "222",
+        "Pin Code": "528523",
+        "Building": " OUR TAMPINES HUB     ",
+        "Street": " 1 TAMPINES WALK  ",
+        "latitude": "1.35349615471813",
+        "longitude": "103.939683594446"
+    },
+    {
+        "": "223",
+        "Pin Code": "609916",
+        "Building": " GERMAN CENTRE     ",
+        "Street": " 25 INTERNATIONAL BUSINESS PARK  ",
+        "latitude": "1.32519950719568",
+        "longitude": "103.746377198218"
+    },
+    {
+        "": "224",
+        "Pin Code": "18982",
+        "Building": " MARINA BAY FINANCIAL CENTRE TOWER 3     ",
+        "Street": " 12 MARINA BOULEVARD  ",
+        "latitude": "1.27910566824918",
+        "longitude": "103.854297426525"
+    },
+    {
+        "": "225",
+        "Pin Code": "18984",
+        "Building": " MARINA BAY LINK MALL     ",
+        "Street": " 8A MARINA BOULEVARD, #B2-10  ",
+        "latitude": "1.28023825346251",
+        "longitude": "103.853369669154"
+    },
+    {
+        "": "226",
+        "Pin Code": "48423",
+        "Building": " CROSS STREET EXCHANGE     ",
+        "Street": " 18 CROSS STREET  ",
+        "latitude": "1.28351521183249",
+        "longitude": "103.846878912631"
+    },
+    {
+        "": "227",
+        "Pin Code": "48583",
+        "Building": " ONE RAFFLES QUAY     ",
+        "Street": " 1 RAFFLES QUAY, #B2  ",
+        "latitude": "1.28089477091411",
+        "longitude": "103.851677108516"
+    },
+    {
+        "": "228",
+        "Pin Code": "608549",
+        "Building": " CHALLENGER @ JEM     ",
+        "Street": " 50 JURONG GATEWAY ROAD, JEM, #04-01  ",
+        "latitude": "1.33320021038331",
+        "longitude": "103.743170436292"
+    },
+    {
+        "": "229",
+        "Pin Code": "735785",
+        "Building": " SHENG SIONG @ 785E WOODLANDS     ",
+        "Street": " BLK 785E WOODLANDS RISE, #01-01  ",
+        "latitude": "1.44679887813048",
+        "longitude": "103.805489778956"
+    },
+    {
+        "": "230",
+        "Pin Code": "730876",
+        "Building": " WOODLANDS ZONE 3 RN     ",
+        "Street": " 876 WOODLANDS STREET 83, WOODLANDS ZONE 3 RN  ",
+        "latitude": "1.44479629224386",
+        "longitude": "103.790602762447"
+    },
+    {
+        "": "231",
+        "Pin Code": "738526",
+        "Building": " WOODLANDS CC     ",
+        "Street": " 1 WOODLANDS STREET 81, WOODLANDS CC  ",
+        "latitude": "1.43973033862036",
+        "longitude": "103.788235404817"
+    },
+    {
+        "": "232",
+        "Pin Code": "738581",
+        "Building": " FUCHUN CC     ",
+        "Street": " 1 WOODLANDS STREET 31, FUCHUN CC  ",
+        "latitude": "1.42952981919595",
+        "longitude": "103.774811855067"
+    },
+    {
+        "": "233",
+        "Pin Code": "738991",
+        "Building": " WOODLANDS GALAXY CC     ",
+        "Street": " 31 WOODLANDS AVENUE 6, WOODLANDS GALAXY CC  ",
+        "latitude": "1.43904160690114",
+        "longitude": "103.802610984283"
+    },
+    {
+        "": "234",
+        "Pin Code": "739069",
+        "Building": " ACE THE PLACE CC     ",
+        "Street": " 120 WOODLANDS AVENUE 1, ACE THE PLACE CC  ",
+        "latitude": "1.42749277602918",
+        "longitude": "103.792240772323"
+    },
+    {
+        "": "235",
+        "Pin Code": "768019",
+        "Building": " NEE SOON CENTRAL CC     ",
+        "Street": " 1 NORTHPOINT DRIVE NEE SOON CENTRAL COMMUNITY CLUB, NEE SOON CENTRAL CC  ",
+        "latitude": "1.42803584532257",
+        "longitude": "103.836092102185"
+    },
+    {
+        "": "236",
+        "Pin Code": "768455",
+        "Building": " NEE SOON SOUTH CC     ",
+        "Street": " 30 YISHUN STREET 81, NEE SOON SOUTH CC  ",
+        "latitude": "1.4151749664221",
+        "longitude": "103.834693130803"
+    },
+    {
+        "": "237",
+        "Pin Code": "768893",
+        "Building": " NEE SOON EAST CC     ",
+        "Street": " 1 YISHUN AVENUE 9, NEE SOON EAST CC  ",
+        "latitude": "1.43102087212489",
+        "longitude": "103.838488083545"
+    },
+    {
+        "": "238",
+        "Pin Code": "449282",
+        "Building": " MARINE PARADE CC     ",
+        "Street": " 278 MARINE PARADE ROAD, MARINE PARADE CC  ",
+        "latitude": "1.30482859822658",
+        "longitude": "103.9095452826"
+    },
+    {
+        "": "239",
+        "Pin Code": "486047",
+        "Building": " ITE COLLEGE EAST     ",
+        "Street": " 10 SIMEI AVE, ITE COLLEGE EAST, #B1-14  ",
+        "latitude": "1.33455404275229",
+        "longitude": "103.954985037641"
+    },
+    {
+        "": "240",
+        "Pin Code": "529757",
+        "Building": " TEMASEK POLYTECHHIC     ",
+        "Street": " 21 TAMPINES AVENUE 1, TEMASEK POLYTECHHIC  ",
+        "latitude": "1.34793947802841",
+        "longitude": "103.928839989349"
+    },
+    {
+        "": "241",
+        "Pin Code": "38983",
+        "Building": " HARVEY NORMAN @ SUNTEC CITY MALL     ",
+        "Street": " 3 TEMASEK BOULEVARD, SUNTEC CITY MALL, #01-634  ",
+        "latitude": "1.29487904117328",
+        "longitude": "103.857675497949"
+    },
+    {
+        "": "242",
+        "Pin Code": "469002",
+        "Building": " HARVEY NORMAN @ VIVA BUSINESS PARK     ",
+        "Street": " 750B CHAI CHEE ROAD #01-01 TO 06, TO 12, #02-02 TO 06 BUSINESS PARK, #01-09  ",
+        "latitude": "1.32315929186444",
+        "longitude": "103.920979982361"
+    },
+    {
+        "": "243",
+        "Pin Code": "79903",
+        "Building": " INTERNATIONAL PLAZA     ",
+        "Street": " 10 ANSON ROAD, INTERNATIONAL PLAZA, #36-05  ",
+        "latitude": "1.27573568080889",
+        "longitude": "103.845703220386"
+    },
+    {
+        "": "244",
+        "Pin Code": "138683",
+        "Building": " SIT @ DOVER     ",
+        "Street": " 10 DOVER DRIVE, SIT @ DOVER  ",
+        "latitude": "1.3010087280189",
+        "longitude": "103.780125253594"
+    },
+    {
+        "": "245",
+        "Pin Code": "188504",
+        "Building": " SIM LIM SQUARE     ",
+        "Street": " 1 ROCHOR CANAL RD, SIM LIM SQUARE  ",
+        "latitude": "1.30302298258031",
+        "longitude": "103.852875624824"
+    },
+    {
+        "": "246",
+        "Pin Code": "229233",
+        "Building": " THE CATHAY     ",
+        "Street": " 2 HANDY RD, THE CATHAY  ",
+        "latitude": "1.29918373003642",
+        "longitude": "103.847789789234"
+    },
+    {
+        "": "247",
+        "Pin Code": "567720",
+        "Building": " ITE COLLEGE CENTRAL     ",
+        "Street": " 2 ANG MO KIO DRIVE  ",
+        "latitude": "1.37789203173292",
+        "longitude": "103.856411986641"
+    },
+    {
+        "": "248",
+        "Pin Code": "278628",
+        "Building": " COLD STORAGE @ JELITA SHOPPING CENTRE     ",
+        "Street": " 293 HOLLAND ROAD, JELITA SHOPPING CENTRE, #01-01  ",
+        "latitude": "1.31756196654772",
+        "longitude": "103.785840623813"
+    },
+    {
+        "": "249",
+        "Pin Code": "307591",
+        "Building": " COLD STORAGE @ UNITED SQUARE     ",
+        "Street": " 101 THOMSON ROAD, UNITED SQUARE, #B1-29  ",
+        "latitude": "1.31733462987407",
+        "longitude": "103.843463185977"
+    },
+    {
+        "": "250",
+        "Pin Code": "188021",
+        "Building": " COLD STORAGE @ BUGIS JUNCTION     ",
+        "Street": " 230 VICTORIA STREET, BUGIS JUNCTION, #B1-17  ",
+        "latitude": "1.299112870967",
+        "longitude": "103.855411182582"
+    },
+    {
+        "": "251",
+        "Pin Code": "268802",
+        "Building": " COLD STORAGE @ GUTHRIE HOUSE     ",
+        "Street": " 1 FIFTH AVENUE, GUTHRIE HOUSE, #01-05  ",
+        "latitude": "1.33081740087425",
+        "longitude": "103.795692355521"
+    },
+    {
+        "": "252",
+        "Pin Code": "179103",
+        "Building": " COLD STORAGE @ RAFFLES CITY SHOPPING CENTRE     ",
+        "Street": " 1 STAMFORD ROAD, RAFFLES CITY SHOPPING CENTRE, #B1-01  ",
+        "latitude": "1.29376027875418",
+        "longitude": "103.852768332387"
+    },
+    {
+        "": "253",
+        "Pin Code": "259760",
+        "Building": " COLD STORAGE @ CLUNY COURT     ",
+        "Street": " 501 BUKIT TIMAH ROAD, CLUNY COURT, #01-02  ",
+        "latitude": "1.32257316960795",
+        "longitude": "103.814245550689"
+    },
+    {
+        "": "254",
+        "Pin Code": "127371",
+        "Building": " COLD STORAGE @ WEST COAST PLAZA     ",
+        "Street": " 154 WEST COAST ROAD, WEST COAST PLAZA, #B1-19  ",
+        "latitude": "1.30358268148237",
+        "longitude": "103.765284520206"
+    },
+    {
+        "": "255",
+        "Pin Code": "237994",
+        "Building": " COLD STORAGE @ GREAT WORLD CITY     ",
+        "Street": " 1 KIM SENG PROMENADE, GREAT WORLD CITY, #B1-18  ",
+        "latitude": "1.29380234644511",
+        "longitude": "103.83175791999"
+    },
+    {
+        "": "256",
+        "Pin Code": "138617",
+        "Building": " COLD STORAGE @ THE STAR VISTA     ",
+        "Street": " 1 VISTA EXCHANGE GREEN, THE STAR VISTA, #B1-02  ",
+        "latitude": "1.3068488176344",
+        "longitude": "103.788214531337"
+    },
+    {
+        "": "257",
+        "Pin Code": "667979",
+        "Building": " COLD STORAGE @ HILLVIEW MARKET PLACE     ",
+        "Street": " 4 HILLVIEW RISE, HILLVIEW MARKET PLACE, #02-07  ",
+        "latitude": "1.36267450617912",
+        "longitude": "103.764172923137"
+    },
+    {
+        "": "258",
+        "Pin Code": "339511",
+        "Building": " COLD STORAGE @ APERIA     ",
+        "Street": " 12  KALLANG AVE, APERIA, #01-47  ",
+        "latitude": "1.30974241289377",
+        "longitude": "103.864101648717"
+    },
+    {
+        "": "259",
+        "Pin Code": "545078",
+        "Building": " COLD STORAGE @ COMPASS ONE     ",
+        "Street": " 1 SENGKANG SQUARE, COMPASS ONE, #B1-25  ",
+        "latitude": "1.39209415018227",
+        "longitude": "103.894980032554"
+    },
+    {
+        "": "260",
+        "Pin Code": "138632",
+        "Building": " COLD STORAGE @ ONE NORTH     ",
+        "Street": " 1 FUSIONOPOLIS WAY, ONE NORTH, #B2-03  ",
+        "latitude": "1.29929405573076",
+        "longitude": "103.787404060926"
+    },
+    {
+        "": "261",
+        "Pin Code": "769098",
+        "Building": " HARVEY NORMAN @ NORTHPOINT CITY     ",
+        "Street": " 930 YISHUN AVENUE 2, NORTHPOINT CITY, SOUTH WING, #B1-136/138  ",
+        "latitude": "1.42969847969486",
+        "longitude": "103.835776496688"
+    },
+    {
+        "": "262",
+        "Pin Code": "98585",
+        "Building": " BEST DENKI @ VIVOCITY     ",
+        "Street": " 1 HARBOURFRONT WALK, VIVOCITY, #2-07  ",
+        "latitude": "1.2638958023183",
+        "longitude": "103.821589254908"
+    },
+    {
+        "": "263",
+        "Pin Code": "98585",
+        "Building": " FAIRPRICE @ VIVOCITY     ",
+        "Street": " 1 HARBOURFRONT WALK, VIVOCITY, #B2-23  ",
+        "latitude": "1.2638958023183",
+        "longitude": "103.821589254908"
+    },
+    {
+        "": "264",
+        "Pin Code": "129588",
+        "Building": " BEST DENKI @ THE CLEMENTI MALL     ",
+        "Street": " 3155 COMMONWEALTH AVENUE WEST, THE CLEMENTI MALL, #04-46/47/48/49  ",
+        "latitude": "1.31485321802259",
+        "longitude": "103.764248205662"
+    },
+    {
+        "": "265",
+        "Pin Code": "738964",
+        "Building": " REPUBLIC POLYTECHNIC     ",
+        "Street": " 9 WOODLANDS AVENUE 9, REPUBLIC POLYTECHNIC  ",
+        "latitude": "1.44627224974557",
+        "longitude": "103.783228728956"
+    },
+    {
+        "": "266",
+        "Pin Code": "768698",
+        "Building": " WISTERIA MALL     ",
+        "Street": " 598 YISHUN RING RD, WISTERIA MALL  ",
+        "latitude": "1.41799925556566",
+        "longitude": "103.841236459776"
+    },
+    {
+        "": "267",
+        "Pin Code": "820681",
+        "Building": " OASIS TERRACES     ",
+        "Street": " 681 PUNGGOL DRIVE, OASIS TERRACES  ",
+        "latitude": "1.40287845319493",
+        "longitude": "103.913195748836"
+    },
+    {
+        "": "268",
+        "Pin Code": "179105",
+        "Building": " COURTS @ FUNAN     ",
+        "Street": " 107 NORTH BRIDGE ROAD, FUNAN, #03-01  ",
+        "latitude": "1.29124400033468",
+        "longitude": "103.849984794935"
+    },
+    {
+        "": "269",
+        "Pin Code": "238853",
+        "Building": " COURTS @ COURTS ORCHARD     ",
+        "Street": " 228 ORCHARD ROAD, COURTS ORCHARD  ",
+        "latitude": "1.30185487652123",
+        "longitude": "103.83848662393"
+    },
+    {
+        "": "270",
+        "Pin Code": "588181",
+        "Building": " COURTS @ SIM LIAN BUILDING     ",
+        "Street": " 205 UPPER BUKIT TIMAH ROAD, SIM LIAN BUILDING  ",
+        "latitude": "1.34449154991689",
+        "longitude": "103.774321072771"
+    },
+    {
+        "": "271",
+        "Pin Code": "120451",
+        "Building": " COURTS @ CLEMENTI     ",
+        "Street": " 451 CLEMENTI AVE 3, COURTS CLEMENTI, #01-309  ",
+        "latitude": "1.31248108236843",
+        "longitude": "103.765476504358"
+    },
+    {
+        "": "272",
+        "Pin Code": "689812",
+        "Building": " COURTS @ LOT ONE     ",
+        "Street": " 21 CHOA CHU KANG AVE 4, LOT ONE, #03-01  ",
+        "latitude": "1.38506835667563",
+        "longitude": "103.744950384161"
+    },
+    {
+        "": "273",
+        "Pin Code": "18972",
+        "Building": " APPLE @ MBS     ",
+        "Street": " 2 BAYFRONT AVENUE, MBS, B2-06  ",
+        "latitude": "1.28332249304312",
+        "longitude": "103.857629113441"
+    },
+    {
+        "": "274",
+        "Pin Code": "238857",
+        "Building": " APPLE @ ORCHARD     ",
+        "Street": " 270 ORCHARD ROAD, APPLE ORCHARD  ",
+        "latitude": "1.30310525131104",
+        "longitude": "103.836202012782"
+    },
+    {
+        "": "275",
+        "Pin Code": "819666",
+        "Building": " APPLE @ JEWEL     ",
+        "Street": " 78 AIRPORT BOULEVARD, JEWEL, #02-234  ",
+        "latitude": "1.36034099671656",
+        "longitude": "103.989077555194"
+    },
+    {
+        "": "276",
+        "Pin Code": "680146",
+        "Building": " TECK WHYE LANE     ",
+        "Street": " 146 TECK WHYE LANE  ",
+        "latitude": "1.3811166761303",
+        "longitude": "103.752527098063"
+    },
+    {
+        "": "277",
+        "Pin Code": "48621",
+        "Building": " CLIFFORD CENTRE     ",
+        "Street": " 24 RAFFLES PLACE, CLIFFORD CENTRE  ",
+        "latitude": "1.28385698132703",
+        "longitude": "103.852128172968"
+    },
+    {
+        "": "278",
+        "Pin Code": "730611",
+        "Building": " WOODLANDS ZONE 7 RN     ",
+        "Street": " 611 WOODLANDS RING ROAD, WOODLANDS ZONE 7 RN  ",
+        "latitude": "1.43542608539826",
+        "longitude": "103.796998851606"
+    },
+    {
+        "": "279",
+        "Pin Code": "730638",
+        "Building": " WOODLANDS ZONE 8 RN     ",
+        "Street": " 638 WOODLANDS RING ROAD, WOODLANDS ZONE 8 RN  ",
+        "latitude": "1.43671737846592",
+        "longitude": "103.803192516442"
+    },
+    {
+        "": "280",
+        "Pin Code": "730656",
+        "Building": " WOODLANDS ZONE 9 RN     ",
+        "Street": " 656 WOODLANDS RING ROAD, WOODLANDS ZONE 9 RN  ",
+        "latitude": "1.43698595559977",
+        "longitude": "103.799117869578"
+    },
+    {
+        "": "281",
+        "Pin Code": "730846",
+        "Building": " WOODLANDS ZONE 2 RN     ",
+        "Street": " 846 WOODLANDS AVENUE 4, WOODLANDS ZONE 2 RN  ",
+        "latitude": "1.44330259673776",
+        "longitude": "103.793474578196"
+    },
+    {
+        "": "282",
+        "Pin Code": "730862",
+        "Building": " WOODLANDS ZONE 4 RN     ",
+        "Street": " 862 WOODLANDS STREET 83, WOODLANDS ZONE 4 RN, #01-184  ",
+        "latitude": "1.43995507442934",
+        "longitude": "103.795048911761"
+    },
+    {
+        "": "283",
+        "Pin Code": "168732",
+        "Building": " CHALLENGER @ TIONG BAHRU PLAZA     ",
+        "Street": " 302 TIONG BAHRU ROAD, TIONG BAHRU PLAZA, #3-19  ",
+        "latitude": "1.28646345318688",
+        "longitude": "103.826935084287"
+    },
+    {
+        "": "284",
+        "Pin Code": "238839",
+        "Building": " BEST DENKI @ PLAZA SINGAPURA     ",
+        "Street": " 68 ORCHARD ROAD, PLAZA SINGAPURA, #3-39  ",
+        "latitude": "1.30074770847155",
+        "longitude": "103.845047580881"
+    },
+    {
+        "": "285",
+        "Pin Code": "238839",
+        "Building": " STARHUB @ PLAZA SINGAPURA     ",
+        "Street": " 68 ORCHARD ROAD, PLAZA SINGAPURA, #1-36  ",
+        "latitude": "1.30074770847155",
+        "longitude": "103.845047580881"
+    },
+    {
+        "": "286",
+        "Pin Code": "600135",
+        "Building": " CASH CONVERTERS @ 135 JURONG GATEWAY ROAD     ",
+        "Street": " 135 JURONG GATEWAY ROAD  ",
+        "latitude": "1.33375343199036",
+        "longitude": "103.739371389964"
+    },
+    {
+        "": "287",
+        "Pin Code": "609601",
+        "Building": " BEST DENKI @ IMM     ",
+        "Street": " 2 JURONG EAST STREET 21, IMM, #3-33  ",
+        "latitude": "1.33489843717476",
+        "longitude": "103.7467344968"
+    },
+    {
+        "": "288",
+        "Pin Code": "648331",
+        "Building": " BEST DENKI @ JURONG POINT     ",
+        "Street": " 63 JURONG WEST CENTRAL 3, JURONG POINT, #B1-92  ",
+        "latitude": "1.33931503396417",
+        "longitude": "103.705351000578"
+    },
+    {
+        "": "289",
+        "Pin Code": "648331",
+        "Building": " FAIRPRICE @ JURONG POINT     ",
+        "Street": " 63 JURONG WEST CENTRAL 3, JURONG POINT, #03-01  ",
+        "latitude": "1.33931503396417",
+        "longitude": "103.705351000578"
+    },
+    {
+        "": "290",
+        "Pin Code": "648886",
+        "Building": " CHALLENGER @ JURONG POINT     ",
+        "Street": " 1 JURONG WEST CENTRAL 2, JURONG POINT, #B1-94  ",
+        "latitude": "1.3398301525794",
+        "longitude": "103.70646088413"
+    },
+    {
+        "": "291",
+        "Pin Code": "39594",
+        "Building": " GAIN CITY @ MARINA SQUARE     ",
+        "Street": " 6 RAFFLES BOULEVARD, MARINA SQUARE, #03 - 223 / 232  ",
+        "latitude": "1.29145525906521",
+        "longitude": "103.857007341008"
+    },
+    {
+        "": "292",
+        "Pin Code": "179097",
+        "Building": " BEST DENKI @ FUNAN     ",
+        "Street": " 109 NORTH BRIDGE ROAD, FUNAN, #3-16  ",
+        "latitude": "1.29114627294634",
+        "longitude": "103.849834212162"
+    },
+    {
+        "": "293",
+        "Pin Code": "188021",
+        "Building": " CHALLENGER @ BUGIS JUNCTION     ",
+        "Street": " 200 VICTORIA STREET, BUGIS JUNCTION, #3-10E  ",
+        "latitude": "1.299112870967",
+        "longitude": "103.855411182582"
+    },
+    {
+        "": "294",
+        "Pin Code": "237994",
+        "Building": " BEST DENKI @ GREAT WORLD CITY     ",
+        "Street": " 1 KIM SENG PROMENADE, GREAT WORLD CITY, #07-01  ",
+        "latitude": "1.29380234644511",
+        "longitude": "103.83175791999"
+    },
+    {
+        "": "295",
+        "Pin Code": "449269",
+        "Building": " HARVEY NORMAN @ PARKWAY PARADE     ",
+        "Street": " 80 MARINE PARADE ROAD, PARKWAY PARADE, #02-34  ",
+        "latitude": "1.30119130748691",
+        "longitude": "103.905113592255"
+    },
+    {
+        "": "296",
+        "Pin Code": "409057",
+        "Building": " CHALLENGER @ PAYA LEBAR QUARTER(PLQ)     ",
+        "Street": " 10 PAYA LEBAR ROAD, PAYA LEBAR QUARTER(PLQ), #4-01  ",
+        "latitude": "1.31752384126856",
+        "longitude": "103.892724434212"
+    },
+    {
+        "": "297",
+        "Pin Code": "449269",
+        "Building": " FAIRPRICE @ PARKWAY PARADE     ",
+        "Street": " 80 MARINE PARADE RD, PARKWAY PARADE, #3-28  ",
+        "latitude": "1.30119130748691",
+        "longitude": "103.905113592255"
+    },
+    {
+        "": "298",
+        "Pin Code": "520510",
+        "Building": " CASH CONVERTERS @ 510 TAMPINES CENTRAL 1     ",
+        "Street": " 510 TAMPINES CENTRAL 1  ",
+        "latitude": "1.35480107846676",
+        "longitude": "103.944458093925"
+    },
+    {
+        "": "299",
+        "Pin Code": "529510",
+        "Building": " STARHUB @ TAMPINES CENTRAL     ",
+        "Street": " 4 TAMPINES CENTRAL 5, TAMPINES CENTRAL, #2-27  ",
+        "latitude": "1.35267231590699",
+        "longitude": "103.944387987324"
+    },
+    {
+        "": "300",
+        "Pin Code": "529536",
+        "Building": " CHALLENGER @ TAMPINES 1     ",
+        "Street": " 10 TAMPINES CENTRAL 1, TAMPINES 1, #4-25  ",
+        "latitude": "1.35431555986081",
+        "longitude": "103.945019461564"
+    },
+    {
+        "": "301",
+        "Pin Code": "529536",
+        "Building": " GAIN CITY @ TAMPINES 1     ",
+        "Street": " 10 TAMPINES CENTRAL 1, TAMPINES 1, #B1-09  ",
+        "latitude": "1.35431555986081",
+        "longitude": "103.945019461564"
+    },
+    {
+        "": "302",
+        "Pin Code": "680475",
+        "Building": " SUNSHINE PLACE @ 475 CHOA CHU KANG AVENUE 3     ",
+        "Street": " 475 CHOA CHU KANG AVENUE 3  ",
+        "latitude": "1.3780561421762",
+        "longitude": "103.738931802142"
+    },
+    {
+        "": "303",
+        "Pin Code": "689687",
+        "Building": " PEOPLE'S ASSOCIATION @ KEAT HONG CC     ",
+        "Street": " 2 CHOA CHU KANG LOOP, KEAT HONG CC  ",
+        "latitude": "1.38406515926541",
+        "longitude": "103.744923812722"
+    },
+    {
+        "": "304",
+        "Pin Code": "208539",
+        "Building": " CITY SQUARE MALL @ 180 KITCHENER ROAD     ",
+        "Street": " 180 KITCHENER ROAD  ",
+        "latitude": "1.31130516479714",
+        "longitude": "103.856421771906"
+    },
+    {
+        "": "305",
+        "Pin Code": "545078",
+        "Building": " COMPASS ONE #B1-52/53 @ 1 SENGKANG SQUARE     ",
+        "Street": " 1 SENGKANG SQUARE  ",
+        "latitude": "1.39209415018227",
+        "longitude": "103.894980032554"
+    },
+    {
+        "": "306",
+        "Pin Code": "730900",
+        "Building": " FAIRPRICE @ WOODLANDS CIVIC CENTRE     ",
+        "Street": " 900 SOUTH WOODLANDS DRIVE, WOODLANDS CIVIC CENTRE, #B1-01  ",
+        "latitude": "1.43507788583776",
+        "longitude": "103.786619621971"
+    },
+    {
+        "": "307",
+        "Pin Code": "730888",
+        "Building": " FAIRPRICE @ BLK 888 WOODLANDS DR 50     ",
+        "Street": " BLK 888 WOODLANDS DR 50, #01-757  ",
+        "latitude": "1.43767919710846",
+        "longitude": "103.795136736247"
+    },
+    {
+        "": "308",
+        "Pin Code": "730676",
+        "Building": " FAIRPRICE @ KAMPUND ADMIRALTY     ",
+        "Street": " BLK 676 WOODLANDS DR 71, KAMPUND ADMIRALTY, #B1-02  ",
+        "latitude": "1.43977701137209",
+        "longitude": "103.800573465174"
+    },
+    {
+        "": "309",
+        "Pin Code": "739044",
+        "Building": " FAIRPRICE @ MARSLING MRT     ",
+        "Street": " 71 WOODLANDS AVE 3, MARSLING MRT, #01-01  ",
+        "latitude": "1.43262603029887",
+        "longitude": "103.774051203192"
+    },
+    {
+        "": "310",
+        "Pin Code": "560712",
+        "Building": " FAIRPRICE @ BLK 712 ANG MO KIO     ",
+        "Street": " BLK 712 ANG MO KIO AVE 6, BLK 712 ANG MO KIO, #01-4056  ",
+        "latitude": "1.37140920643065",
+        "longitude": "103.847082884002"
+    },
+    {
+        "": "311",
+        "Pin Code": "570510",
+        "Building": " FAIRPRICE @ BLK 510 ST13     ",
+        "Street": " BLK 510 BISHAN ST 13, #01-520  ",
+        "latitude": "1.34888843913816",
+        "longitude": "103.849691988212"
+    },
+    {
+        "": "312",
+        "Pin Code": "520880",
+        "Building": " TAMPINES SPRING RN     ",
+        "Street": " 880 TAMPINES AVENUE 8, TAMPINES SPRING RN  ",
+        "latitude": "1.35132607390816",
+        "longitude": "103.931478811435"
+    },
+    {
+        "": "313",
+        "Pin Code": "521124",
+        "Building": " TAMPINES CHANGKAT ZONE 5 RC     ",
+        "Street": " 124 TAMPINES STREET 11, TAMPINES CHANGKAT ZONE 5 RC  ",
+        "latitude": "1.34518427892421",
+        "longitude": "103.949793334969"
+    },
+    {
+        "": "314",
+        "Pin Code": "569830",
+        "Building": " NANYANG POLYTECHNIC, BLOCK E (NORTH CANTEEN)     ",
+        "Street": " ANG MO KIO AVENUE 8, NANYANG POLYTECHNIC, BLOCK E (NORTH CANTEEN)  ",
+        "latitude": "1.38034090667762",
+        "longitude": "103.848083335838"
+    },
+    {
+        "": "315",
+        "Pin Code": "574408",
+        "Building": " THOMSON PLAZA     ",
+        "Street": " 301 UPPER THOMSON ROAD, THOMSON PLAZA  ",
+        "latitude": "1.3546690188205",
+        "longitude": "103.83091978573"
+    },
+    {
+        "": "316",
+        "Pin Code": "599489",
+        "Building": " NGEE ANN POLYTECHNIC, BLK 22     ",
+        "Street": " 535 CLEMENTI ROAD, NGEE ANN POLYCLINIC, BLK 22  ",
+        "latitude": "1.3327625965271",
+        "longitude": "103.771562462036"
+    },
+    {
+        "": "317",
+        "Pin Code": "259569",
+        "Building": " NATIONAL PARKS BOARD HQ     ",
+        "Street": " 1 CLUNY ROAD, NATIONAL PARKS BOARD HQ, SINGAPORE BOTANIC GARDENS  ",
+        "latitude": "1.31347941588508",
+        "longitude": "103.813180045951"
+    },
+    {
+        "": "318",
+        "Pin Code": "649486",
+        "Building": " SHENG SIONG @ 7 JURONG WEST     ",
+        "Street": " 7 JURONG WEST AVE 5, #01-01  ",
+        "latitude": "1.34878489184957",
+        "longitude": "103.703415660179"
+    },
+    {
+        "": "319",
+        "Pin Code": "757177",
+        "Building": " SHENG SIONG @ 200 WOODLANDS IND PARK     ",
+        "Street": " 200 WOODLANDS INDUSTRIAL PARK E7, #01-30  ",
+        "latitude": "1.45074972447127",
+        "longitude": "103.796846522878"
+    },
+    {
+        "": "320",
+        "Pin Code": "141088",
+        "Building": " SHENG SIONG @ 88 TANGLIN HALT     ",
+        "Street": " BLK 88 TANGLIN HALT ROAD, #01-10  ",
+        "latitude": "1.30203801734289",
+        "longitude": "103.798021748872"
+    },
+    {
+        "": "321",
+        "Pin Code": "554913",
+        "Building": " SHENG SIONG @ 19 SERANGOON     ",
+        "Street": " 19 SERANGOON NORTH AVE 5, #01-01  ",
+        "latitude": "1.37563499622553",
+        "longitude": "103.871996421774"
+    },
+    {
+        "": "322",
+        "Pin Code": "618642",
+        "Building": " SHENG SIONG @ 3 YUAN CHING     ",
+        "Street": " 3 YUAN CHING RD, #01-01A/02  ",
+        "latitude": "1.32546807053288",
+        "longitude": "103.725221540647"
+    },
+    {
+        "": "323",
+        "Pin Code": "730301",
+        "Building": " SHENG SIONG @ 301 WOODLANDS     ",
+        "Street": " BLK 301 WOODLANDS ST 31, #01-217  ",
+        "latitude": "1.43150526507051",
+        "longitude": "103.773515660456"
+    },
+    {
+        "": "324",
+        "Pin Code": "600061",
+        "Building": " SHENG SIONG @ 61 TEBAN GARDENS RD     ",
+        "Street": " BLK 61 TEBAN GARDENS RD, #01-21  ",
+        "latitude": "1.32213635836523",
+        "longitude": "103.738292805557"
+    },
+    {
+        "": "325",
+        "Pin Code": "160052",
+        "Building": " SHENG SIONG @ 52 CHIN SWEE     ",
+        "Street": " BLK 52 CHIN SWEE RD, #01-25  ",
+        "latitude": "1.28708277772418",
+        "longitude": "103.841580116173"
+    },
+    {
+        "": "326",
+        "Pin Code": "228231",
+        "Building": " ENVIRONMENT BUILDING (MSE/)     ",
+        "Street": " 40 SCOTTS ROAD  ",
+        "latitude": "1.31056745258169",
+        "longitude": "103.83610405607"
+    },
+    {
+        "": "327",
+        "Pin Code": "479220",
+        "Building": " EUNOS CC     ",
+        "Street": " 180 BEDOK RESERVOIR ROAD  ",
+        "latitude": "1.33255277788544",
+        "longitude": "103.91514355252"
+    },
+    {
+        "": "328",
+        "Pin Code": "529204",
+        "Building": " TAMPINES NORTH CC     ",
+        "Street": " 2 TAMPINES STREET 41  ",
+        "latitude": "1.35736478775974",
+        "longitude": "103.946602685067"
+    },
+    {
+        "": "329",
+        "Pin Code": "529453",
+        "Building": " TAMPINES CHANGKAT CC     ",
+        "Street": " 13 TAMPINES STREET 11  ",
+        "latitude": "1.3458133461735",
+        "longitude": "103.947687834643"
+    },
+    {
+        "": "330",
+        "Pin Code": "530207",
+        "Building": " PAYA LEBAR KOVAN CC     ",
+        "Street": " 207 HOUGANG STREET 21  ",
+        "latitude": "1.35779860505296",
+        "longitude": "103.886092082636"
+    },
+    {
+        "": "331",
+        "Pin Code": "238873",
+        "Building": " BEST DENKI @ NGEE ANN CITY TOWER A     ",
+        "Street": " 391A ORCHARD ROAD, NGEE ANN CITY TOWER A  ",
+        "latitude": "1.30242416552881",
+        "longitude": "103.834676129269"
+    },
+    {
+        "": "332",
+        "Pin Code": "670628",
+        "Building": " FAIRPRICE @ SENJA GRAND     ",
+        "Street": " BLK 628 SENJA RD, SENJA GRAND, #01-01  ",
+        "latitude": "1.38509602280679",
+        "longitude": "103.760218442452"
+    },
+    {
+        "": "333",
+        "Pin Code": "680140",
+        "Building": " FAIRPRICE @ BLK 140 TECK WHYE LANE     ",
+        "Street": " BLK 140 TECK WHYE LANE, #01-351  ",
+        "latitude": "1.38003057945933",
+        "longitude": "103.753118413925"
+    },
+    {
+        "": "334",
+        "Pin Code": "659958",
+        "Building": " FAIRPRICE @ 10 BUKIT BATOK CENTRAL     ",
+        "Street": " 10 BUKIT BATOK CENTRAL, #01-08  ",
+        "latitude": "1.34871080233675",
+        "longitude": "103.749334517405"
+    },
+    {
+        "": "335",
+        "Pin Code": "600345",
+        "Building": " FAIRPRICE @ BLK 345 JURONG EAST ST 31     ",
+        "Street": " BLK 345 JURONG EAST ST 31, #01-29  ",
+        "latitude": "1.34551209415107",
+        "longitude": "103.731219147651"
+    },
+    {
+        "": "336",
+        "Pin Code": "579837",
+        "Building": " FAIRPRICE @ JUNCTION 8 SHOPPING CENTRE     ",
+        "Street": " 9 BISHAN PLACE, JUNCTION 8 SHOPPING CENTRE, #B1-01  ",
+        "latitude": "1.35017242685302",
+        "longitude": "103.848430082687"
+    },
+    {
+        "": "337",
+        "Pin Code": "677743",
+        "Building": " FAIRPRICE @ BUKIT PANJANG PLAZA     ",
+        "Street": " NO. 1 JELEBU RD, BUKIT PANJANG PLAZA, #01-15 & #02-20  ",
+        "latitude": "1.38051732815914",
+        "longitude": "103.763961852618"
+    },
+    {
+        "": "338",
+        "Pin Code": "689715",
+        "Building": " FAIRPRICE @ YEW TEE MRT STATION     ",
+        "Street": " 61 CHOA CHU KANG DR, YEW TEE MRT STATION, #01-01  ",
+        "latitude": "1.39712886014404",
+        "longitude": "103.747329719197"
+    },
+    {
+        "": "339",
+        "Pin Code": "129588",
+        "Building": " FAIRPRICE @ THE CLEMENTI MALL     ",
+        "Street": " 3155 COMMONWEALTH AVENUE WEST, THE CLEMENTI MALL, #B1-12  ",
+        "latitude": "1.31485321802259",
+        "longitude": "103.764248205662"
+    },
+    {
+        "": "340",
+        "Pin Code": "556679",
+        "Building": " FAIRPRICE @ SERANGOON GARDEN VILLAGE     ",
+        "Street": " 1 MAJU AVE, SERANGOON GARDEN VILLAGE, #B1-11  ",
+        "latitude": "1.36516070778275",
+        "longitude": "103.865041855148"
+    },
+    {
+        "": "341",
+        "Pin Code": "588996",
+        "Building": " FAIRPRICE @ BUKIT TIMAH PLAZA     ",
+        "Street": " NO. 1 JLN ANAK BUKIT, BUKIT TIMAH PLAZA, #B1-01 & #B2-01  ",
+        "latitude": "1.33865676913061",
+        "longitude": "103.778560470199"
+    },
+    {
+        "": "342",
+        "Pin Code": "574408",
+        "Building": " FAIRPRICE @ THOMSON PLAZA     ",
+        "Street": " 301 UPPER THOMSON RD, THOMSON PLAZA, #03-37/38  ",
+        "latitude": "1.3546690188205",
+        "longitude": "103.83091978573"
+    },
+    {
+        "": "343",
+        "Pin Code": "397693",
+        "Building": " COLD STORAGE @ LEISURE PARK     ",
+        "Street": " 5 STADIUM WALK, KALLANG LIESURE PARK, #B1-01  ",
+        "latitude": "1.30222177114752",
+        "longitude": "103.876152670397"
+    },
+    {
+        "": "344",
+        "Pin Code": "120720",
+        "Building": " SHENG SIONG @ 720 CLEMENTI WEST     ",
+        "Street": " 720  CLEMENTI WEST ST 2, #01-144  ",
+        "latitude": "1.30246408379367",
+        "longitude": "103.763750976116"
+    },
+    {
+        "": "345",
+        "Pin Code": "650451",
+        "Building": " SHENG SIONG @ 451 BUKIT BATOK     ",
+        "Street": " 451 BUKIT BATOK WEST AVENUE 6, #01-10  ",
+        "latitude": "1.35303717544773",
+        "longitude": "103.74394257144"
+    },
+    {
+        "": "346",
+        "Pin Code": "380118",
+        "Building": " SHENG SIONG @ 118  ALJUNIED     ",
+        "Street": " 118 ALJUNIED AVE 2, #01-100  ",
+        "latitude": "1.32000040191606",
+        "longitude": "103.887363067673"
+    },
+    {
+        "": "347",
+        "Pin Code": "460209",
+        "Building": " SHENG SIONG @ 209 NEW UPPER CHANGI RD     ",
+        "Street": " 209 NEW UPPER CHANGI RD, #01-631  ",
+        "latitude": "1.32463572606471",
+        "longitude": "103.931068835678"
+    },
+    {
+        "": "348",
+        "Pin Code": "555877",
+        "Building": " SERANGOON CC     ",
+        "Street": " 10 SERANGOON NORTH AVENUE 2  ",
+        "latitude": "1.37005486240283",
+        "longitude": "103.873927617452"
+    },
+    {
+        "": "349",
+        "Pin Code": "569163",
+        "Building": " YIO CHU KANG CC     ",
+        "Street": " 50 ANG MO KIO STREET 61  ",
+        "latitude": "1.38151727157775",
+        "longitude": "103.841428124035"
+    },
+    {
+        "": "350",
+        "Pin Code": "569734",
+        "Building": " TECK GHEE CC     ",
+        "Street": " ANG MO KIO AVENUE 10  ",
+        "latitude": "1.36308867917974",
+        "longitude": "103.853536076665"
+    },
+    {
+        "": "351",
+        "Pin Code": "569897",
+        "Building": " KEBUN BARU CC     ",
+        "Street": " ANG MO KIO AVENUE 4  ",
+        "latitude": "1.37300749906274",
+        "longitude": "103.83761242449"
+    },
+    {
+        "": "352",
+        "Pin Code": "569976",
+        "Building": " ANG MO KIO CC     ",
+        "Street": " ANG MO KIO AVENUE 1  ",
+        "latitude": "1.36683348076669",
+        "longitude": "103.840668130336"
+    },
+    {
+        "": "353",
+        "Pin Code": "287994",
+        "Building": " THE GRANDSTAND (TURF CITY)     ",
+        "Street": " 200 TURF CLUB ROAD DBS THE GRANDSTAND, THE GRANDSTAND (TURF CITY)  ",
+        "latitude": "1.33899462699318",
+        "longitude": "103.793133806944"
+    },
+    {
+        "": "354",
+        "Pin Code": "329984",
+        "Building": " ZHONGSHAN MALL     ",
+        "Street": " AH HOOD ROAD, ZHONGSHAN MALL  ",
+        "latitude": "1.32702990626384",
+        "longitude": "103.846490874615"
+    },
+    {
+        "": "355",
+        "Pin Code": "510565",
+        "Building": " REPAIR KOPITIAM     ",
+        "Street": " 565 PASIR RIS ST 51, REPAIR KOPITIAM  ",
+        "latitude": "1.36882713078143",
+        "longitude": "103.950296247759"
+    },
+    {
+        "": "356",
+        "Pin Code": "520285",
+        "Building": " TAMPINES CHANGKAT ZONE 4 RC     ",
+        "Street": " 285 TAMPINES STREET 22, TAMPINES CHANGKAT ZONE 4 RC  ",
+        "latitude": "1.35001073882934",
+        "longitude": "103.952816065919"
+    },
+    {
+        "": "357",
+        "Pin Code": "520364",
+        "Building": " TAMPINES CHANGKAT ZONE 8 RC     ",
+        "Street": " 364 TAMPINES STREET 34, TAMPINES CHANGKAT ZONE 8 RC  ",
+        "latitude": "1.35693800555856",
+        "longitude": "103.959873499831"
+    },
+    {
+        "": "358",
+        "Pin Code": "520430",
+        "Building": " TAMPINES NORTH ZONE 3 RC     ",
+        "Street": " 430 TAMPINES STREET 41, TAMPINES NORTH ZONE 3 RC  ",
+        "latitude": "1.35955258017468",
+        "longitude": "103.950148200773"
+    },
+    {
+        "": "359",
+        "Pin Code": "520730",
+        "Building": " TAMPINES COURTVIEW RC     ",
+        "Street": " 730 TAMPINES STREET 71, TAMPINES COURTVIEW RC  ",
+        "latitude": "1.35670605826191",
+        "longitude": "103.933499184206"
+    },
+    {
+        "": "360",
+        "Pin Code": "520736",
+        "Building": " TAMPINES GREENVALE RC     ",
+        "Street": " 736 TAMPINES STREET 72, TAMPINES GREENVALE RC  ",
+        "latitude": "1.35904159378304",
+        "longitude": "103.934383364035"
+    },
+    {
+        "": "361",
+        "Pin Code": "520842",
+        "Building": " TAMPINES VILLE RN     ",
+        "Street": " 842 TAMPINES STREET 82, TAMPINES VILLE RN  ",
+        "latitude": "1.35173850438617",
+        "longitude": "103.935952394886"
+    },
+    {
+        "": "362",
+        "Pin Code": "567720",
+        "Building": " SHENG SIONG @ ITE COLLEGE CENTRAL     ",
+        "Street": " ANG MO KIO DRIVE, #A1-12  ",
+        "latitude": "1.37789203173292",
+        "longitude": "103.856411986641"
+    },
+    {
+        "": "363",
+        "Pin Code": "100108",
+        "Building": " DEPOT HEIGHTS SHOPPING CENTRE     ",
+        "Street": " 108 DEPOT ROAD, DEPOT HEIGHTS SHOPPING CENTRE  ",
+        "latitude": "1.28112226404962",
+        "longitude": "103.810031318703"
+    },
+    {
+        "": "364",
+        "Pin Code": "78884",
+        "Building": " GUOCO TOWER     ",
+        "Street": " 7 WALLICH STREET, GUOCO TOWER  ",
+        "latitude": "1.27672492300406",
+        "longitude": "103.845155402476"
+    },
+    {
+        "": "365",
+        "Pin Code": "658713",
+        "Building": " BUKIT BATOK PUBLIC LIBRARY     ",
+        "Street": " 1 BUKIT BATOK\u00c2\u00a0CENTRAL LINK, #3-01  ",
+        "latitude": "1.35018915982967",
+        "longitude": "103.749021980031"
+    },
+    {
+        "": "366",
+        "Pin Code": "677743",
+        "Building": " BUKIT PANJANG PUBLIC LIBRARY     ",
+        "Street": " 1 JELEBU ROAD, #4-04 & 16/17  ",
+        "latitude": "1.38051732815914",
+        "longitude": "103.763961852618"
+    },
+    {
+        "": "367",
+        "Pin Code": "569842",
+        "Building": " ANG MO KIO PUBLIC LIBRARY     ",
+        "Street": " 4300 ANG MO KIO\u00c2\u00a0AVENUE 6  ",
+        "latitude": "1.37479009534678",
+        "longitude": "103.845580700883"
+    },
+    {
+        "": "368",
+        "Pin Code": "469662",
+        "Building": " BEDOK PUBLIC LIBRARY     ",
+        "Street": " 11 BEDOK NORTH STREET 1, #2-03 & #3-04  ",
+        "latitude": "1.32698498848449",
+        "longitude": "103.931620621577"
+    },
+    {
+        "": "369",
+        "Pin Code": "579841",
+        "Building": " BISHAN PUBLIC LIBRARY     ",
+        "Street": " 5 BISHAN\u00c2\u00a0PLACE, #1-01  ",
+        "latitude": "1.34985304885287",
+        "longitude": "103.848843026999"
+    },
+    {
+        "": "370",
+        "Pin Code": "538766",
+        "Building": " CHENG SAN PUBLIC LIBRARY     ",
+        "Street": " 90 HOUGANG AVENUE, #3-11  ",
+        "latitude": "1.37231185642959",
+        "longitude": "103.89366161203"
+    },
+    {
+        "": "371",
+        "Pin Code": "689812",
+        "Building": " CHOA CHU KANG PUBLIC LIBRARY     ",
+        "Street": " 21 CHOA CHU KANG AVE 4, #4-01/02  ",
+        "latitude": "1.38506835667563",
+        "longitude": "103.744950384161"
+    },
+    {
+        "": "372",
+        "Pin Code": "129588",
+        "Building": " CLEMENTI PUBLIC LIBRARY     ",
+        "Street": " 3155 COMMONWEALTH AVENUE WEST, #5-13/14/15  ",
+        "latitude": "1.31485321802259",
+        "longitude": "103.764248205662"
+    },
+    {
+        "": "373",
+        "Pin Code": "389777",
+        "Building": " GEYLANG EAST PUBLIC LIBRARY     ",
+        "Street": " 50 GEYLANG EAST\u00c2\u00a0AVE 1  ",
+        "latitude": "1.3174429839463",
+        "longitude": "103.885837275913"
+    },
+    {
+        "": "374",
+        "Pin Code": "609732",
+        "Building": " JURONG REGIONAL LIBRARY     ",
+        "Street": " 21 JURONG EAST CENTRAL 1  ",
+        "latitude": "1.33288484168537",
+        "longitude": "103.739490178697"
+    },
+    {
+        "": "375",
+        "Pin Code": "648346",
+        "Building": " JURONG WEST PUBLIC LIBRARY     ",
+        "Street": " 60 JURONG WEST CENTRAL 3, #1-03  ",
+        "latitude": "1.34046956412475",
+        "longitude": "103.704452685304"
+    },
+    {
+        "": "376",
+        "Pin Code": "449282",
+        "Building": " MARINE PARADE PUBLIC LIBRARY     ",
+        "Street": " 278 MARINE PARADE\u00c2\u00a0ROAD, #1-02  ",
+        "latitude": "1.30482859822658",
+        "longitude": "103.9095452826"
+    },
+    {
+        "": "377",
+        "Pin Code": "188064",
+        "Building": " NATIONAL LIBRARY BUILDING     ",
+        "Street": " 100 VICTORIA STREET  ",
+        "latitude": "1.297489753102",
+        "longitude": "103.853942302347"
+    },
+    {
+        "": "378",
+        "Pin Code": "528523",
+        "Building": " TAMPINES REGIONAL LIBRARY     ",
+        "Street": " 1 TAMPINES WALK, #2-01  ",
+        "latitude": "1.35349615471813",
+        "longitude": "103.939683594446"
+    },
+    {
+        "": "379",
+        "Pin Code": "319191",
+        "Building": " TOA PAYOH PUBLIC LIBRARY     ",
+        "Street": " 6 TOA PAYOH CENTRAL  ",
+        "latitude": "1.33352076184374",
+        "longitude": "103.85049180316"
+    },
+    {
+        "": "380",
+        "Pin Code": "149297",
+        "Building": " QUEENSTOWN PUBLIC LIBRARY     ",
+        "Street": " 53 MARGARET DRIVE  ",
+        "latitude": "1.29864021099395",
+        "longitude": "103.805430802302"
+    },
+    {
+        "": "381",
+        "Pin Code": "730900",
+        "Building": " WOODLANDS REGIONAL LIBRARY     ",
+        "Street": " 900 SOUTH\u00c2\u00a0WOODLANDS\u00c2\u00a0DRIVE, #1-03  ",
+        "latitude": "1.43507788583776",
+        "longitude": "103.786619621971"
+    },
+    {
+        "": "382",
+        "Pin Code": "769098",
+        "Building": " YISHUN PUBLIC LIBRARY     ",
+        "Street": " 930 YISHUN AVE 2, #4-01  ",
+        "latitude": "1.42969847969486",
+        "longitude": "103.835776496688"
+    },
+    {
+        "": "383",
+        "Pin Code": "545078",
+        "Building": " SENGKANG PUBLIC LIBRARY     ",
+        "Street": " 1 SENGKANG SQUARE & COMPASS ONE, #3-28 / #4-19  ",
+        "latitude": "1.39209415018227",
+        "longitude": "103.894980032554"
+    },
+    {
+        "": "384",
+        "Pin Code": "556083",
+        "Building": " SERANGOON PUBLIC LIBRARY     ",
+        "Street": " 23 SERANGOON\u00c2\u00a0CENTRAL, #4-82/83  ",
+        "latitude": "1.35043817177432",
+        "longitude": "103.87170454945"
+    },
+    {
+        "": "385",
+        "Pin Code": "757713",
+        "Building": " SEMBAWANG PUBLIC LIBRARY     ",
+        "Street": " 30 SEMBAWANG DRIVE, #5-01  ",
+        "latitude": "1.44822653184262",
+        "longitude": "103.819462104528"
+    },
+    {
+        "": "386",
+        "Pin Code": "39802",
+        "Building": " LIBRARY@ESPLANADE     ",
+        "Street": " 8 RAFFLES AVENUE, #3-01  ",
+        "latitude": "1.2895095530213",
+        "longitude": "103.855665762299"
+    }
+]
+}
