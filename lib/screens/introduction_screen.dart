@@ -60,7 +60,7 @@ class IntroductionScreen extends StatelessWidget {
               const SizedBox(
                 height: 24
               ),
-              InkWell(
+              /*InkWell(
               onTap: () => Navigator.pushNamed(context, '/screen-0'),
               child: Container(
                 child: const Text("Screen 0", 
@@ -75,7 +75,7 @@ class IntroductionScreen extends StatelessWidget {
                   color: Color(0xFF2F7833)
                 ),
               )
-              ),
+              ),*/
               Flexible(child: Container(), flex: 3),
             ],
           )
