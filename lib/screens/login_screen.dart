@@ -28,6 +28,7 @@ class _LoginScreenState extends State<LoginScreen> {
       Navigator.pushNamed(context, '/home');
     } else {
       showSnackBar(res, context);
+      Navigator.pushNamed(context, '/sign-in');
     }
   }
 
