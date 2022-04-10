@@ -1,5 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:scrap_it/Setting/profile.dart';
+import 'package:scrap_it/screens/homeScreen/ui/recycle.dart';
+//import 'package:flutter/profile.dart';
 class SettingsLayout extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -42,7 +45,7 @@ Widget userList(BuildContext context) {
           Navigator.push(
             context,
             PageRouteBuilder(
-              pageBuilder: (_, __, ___) => FooLayout(),
+              pageBuilder: (_, __, ___) => Profile(),
               transitionDuration: Duration(seconds: 0),
             ),
           );
@@ -56,7 +59,7 @@ Widget userList(BuildContext context) {
           Navigator.push(
             context,
             PageRouteBuilder(
-              pageBuilder: (_, __, ___) => FooLayout(),
+              pageBuilder: (_, __, ___) => About(),
               transitionDuration: Duration(seconds: 0),
             ),
           );
@@ -122,6 +125,70 @@ class FooLayout extends StatelessWidget {
         ),
         body: Center(
           child: Text("Not Coded Yet"),
+        ),
+      ),
+    );
+  }
+}
+
+
+class About extends StatefulWidget {
+
+
+  // static const String id = 'welcome_screen';
+  @override
+  _AboutState createState() => _AboutState();
+}
+class _AboutState extends State<About> {
+  //get child => null;
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        backgroundColor: Colors.white,
+        title: Text("About",
+          style: TextStyle(
+              color: Colors.black
+          ),),
+
+        leading: new IconButton(
+          icon: Icon(Icons.arrow_back, color: Colors.black,),
+          onPressed: () {
+            Navigator.pop(context);
+          },
+        ),
+      ),
+      body:Padding(
+        padding: EdgeInsets.symmetric(horizontal: 24.0),
+        child: Column(
+          children: <Widget>[
+            Container(
+              child: Image.asset('images/about2.jpg' ),
+              height: 350,
+
+            ),
+            SizedBox(
+              height: 0.0,
+            ),
+            Text("As Singapore progresses into a more technologically advanced country, where online shopping and electronics usage becomes more prevalent. as a result, massive amount of recyclables such as E-waste and cardboards are being produced daily. This application is developed with the aim to aid and encourage our citizens into adopting a more eco friendly approach while dealing with their recyclable waste.",
+              style: TextStyle(
+                  fontSize: 20.00,
+                  color: Colors.black
+              ),
+              textAlign: TextAlign.left,
+            ),
+            SizedBox(
+              height: 30.0,
+            ),
+            Text("This is a part of our academic curriculum for the course CZ2006: Software Engineering at NTU, Singapore",
+              style: TextStyle(
+                  fontSize: 20.00,
+                  color: Colors.black
+              ),
+              textAlign: TextAlign.left,
+            ),
+          ],
         ),
       ),
     );

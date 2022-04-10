@@ -24,7 +24,7 @@ String ewastetype(x) {
   else if (x == 'Lamps' || x == 'Bulbs' || x == 'Batteries')
     return ' Batteries and Lamps';
   else
-    return 'unknown';
+    return 'ICT';
 }
 
 
@@ -200,7 +200,7 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
   }
 }
 
-class SecondRoute extends RecyclePage {
+class SecondRoute extends  StatelessWidget{
   //SecondRoute({Key? key}) : super(key: key);
 
   String y = ewastetype(x);

@@ -4,6 +4,8 @@ import 'customListTile.dart';
 import '../api and networking/article_model.dart';
 import 'package:intl/intl.dart';
 import 'greeting.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+
 
 class TestHomeScreen extends StatefulWidget {
   @override
@@ -13,6 +15,22 @@ class TestHomeScreen extends StatefulWidget {
 class _TestHomeScreenState extends State<TestHomeScreen> {
   ApiService client = ApiService();
 
+  final auth = FirebaseAuth.instance;
+
+  @override
+  void initState(){
+    super.initState();
+
+    getuser();
+  }
+  void getuser() async {
+    final user = await auth.currentUser;
+    if(user!=null){
+      print(user.displayName);
+      print(user.email);
+
+    }
+  }
   String greetingMes = greetingMessage();
   String date = DateFormat("EEEEE, yyyy-MM-dd").format(DateTime.now());
   String time = DateFormat("hh:mm a").format(DateTime.now());
