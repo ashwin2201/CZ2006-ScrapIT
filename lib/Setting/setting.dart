@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:scrap_it/Setting/profile.dart';
 import 'package:scrap_it/screens/homeScreen/ui/recycle.dart';
+import 'package:scrap_it/screens/points.dart';
 //import 'package:flutter/profile.dart';
 class SettingsLayout extends StatelessWidget {
   @override
@@ -81,13 +82,13 @@ Widget userList(BuildContext context) {
       ),
       ListTile(
         leading: Icon(Icons.notifications),
-        title: Text("Notifications"),
+        title: Text("Points"),
         trailing: Icon(Icons.navigate_next),
         onTap: () {
           Navigator.push(
             context,
             PageRouteBuilder(
-              pageBuilder: (_, __, ___) => FooLayout(),
+              pageBuilder: (_, __, ___) => PointPage(),
               transitionDuration: Duration(seconds: 0),
             ),
           );

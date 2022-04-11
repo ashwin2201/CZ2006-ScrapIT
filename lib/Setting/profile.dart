@@ -73,7 +73,22 @@ class _ProfileState extends State<Profile> {
     //return user.email;
   //}
   //void getData(){
-  //  final data=_firestore.collection('users').getDocuments();
+  //  final data=_firestore.colappBar: AppBar(
+  //         backgroundColor: Colors.green,
+  //         title: Text(
+  //           "PROFILE",
+  //           style: TextStyle(color: Colors.black),
+  //         ),
+  //         leading: new IconButton(
+  //           icon: Icon(
+  //             Icons.arrow_back,
+  //             color: Colors.black,
+  //           ),
+  //           onPressed: () {
+  //             Navigator.pop(context);
+  //           },
+  //         ),
+  //       ),lection('users').getDocuments();
 
   //}
   @override
@@ -82,7 +97,7 @@ class _ProfileState extends State<Profile> {
       appBar: AppBar(
         backgroundColor: Colors.green,
         title: Text(
-          "PROFILE",
+          "Profile",
           style: TextStyle(color: Colors.black),
         ),
         leading: new IconButton(
@@ -95,6 +110,7 @@ class _ProfileState extends State<Profile> {
           },
         ),
       ),
+
       body: Padding(
         padding: EdgeInsets.symmetric(horizontal: 24.0),
         child: Column(
