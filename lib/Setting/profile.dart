@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 
-String email;
+
 
 class Profile extends StatefulWidget {
 
@@ -13,39 +13,69 @@ class Profile extends StatefulWidget {
 }
 class _ProfileState extends State<Profile> {
   final FirebaseAuth auth = FirebaseAuth.instance;
+  String email12 ='';
+  String name;
+  int points;
   // final _firestore = Firestore.instance;
   //FirebaseUser loggedInUser;
-
-
+ // String email12 ='';
+   //String email12 ='';
   @override
   void initState() {
     super.initState();
 
     getUser();
+    getUsername();
   }
 
  // var currentUserLoginUser = FirebaseAuth.instance.currentUser;
 //  String xyz= currentUserLoginUser.email;
 
    void getUser()  async {
-     User user = await auth.currentUser;
+     final User user = await auth.currentUser;
     //uid = user.uid;
   //  var firebaseUser = await FirebaseFirestore.instance
    //     .collection('users')
     //    .doc(currentUserLoginUser.uid);
-    email=user.email;
-    print(user.email);
+      //email12 =user.email;
+      setState((){
+       email12 =user.email;
+       print(user.photoURL);
+      });
+    //print(email12);
+  }
+  void getUsername()  async {
+   // final User user = await auth.currentUser;
+    //uid = user.uid;
+    DocumentSnapshot snap = await FirebaseFirestore.instance
+    .collection('users')
+    .doc(FirebaseAuth.instance.currentUser.uid).get();
+    FirebaseFirestore.instance
+        .collection('users')
+        .doc(FirebaseAuth.instance.currentUser.uid).get();
+
+    setState((){
+      name= (snap.data() as Map<String, dynamic>)['name'];
+      points= (snap.data() as Map<String, dynamic>)['points'];
+
+      print(name);
+      print(points);
+    });
+    //var firebaseUser = await FirebaseFirestore.instance.user.uid
+  //       .collection('users')
+  //       .doc(user.uid);
+  //  email12 =user.email;
+    //print(email12);
   }
 
-  Future<String> getEmail() async{
-    User user = await auth.currentUser;
-    return user.email;
-  }
+ // Future<String> getEmail() async{
+   // User user = await auth.currentUser;
+    //return user.email;
+  //}
   //void getData(){
   //  final data=_firestore.collection('users').getDocuments();
 
   //}
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -99,6 +129,15 @@ class _ProfileState extends State<Profile> {
                 textAlign: TextAlign.left,
               ),
             ),
+            Container(
+              alignment: Alignment.topLeft,
+              child: Text(
+                "$name",
+                style: TextStyle(fontSize: 20.00, color: Colors.black),
+                textAlign: TextAlign.left,
+              ),
+
+            ),
             SizedBox(
               height: 40.0,
             ),
@@ -114,7 +153,7 @@ class _ProfileState extends State<Profile> {
           Container(
           alignment: Alignment.topLeft,
           child: Text(
-            '$getEmail()',
+            '$email12',
             style: TextStyle(fontSize: 20.00, color: Colors.black),
             textAlign: TextAlign.left,
           ),
