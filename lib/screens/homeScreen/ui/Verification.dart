@@ -39,7 +39,7 @@ class _VerificationPageState extends State<VerificationPage> {
           child: Container(
             padding: const EdgeInsets.all(20),
             child: const Text(
-              'Please submit      visual evidence',
+              'Please submit visual evidence',
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontWeight: FontWeight.bold,

@@ -33,9 +33,6 @@ class _LoginScreenState extends State<LoginScreen> {
       print(res);
       showSnackBar(res, context);
       Navigator.pushNamed(context, '/screen-0');
-      setState(() {
-        _isLoading = false;
-      });
     } else {
       setState(() {
         _isLoading = false;
@@ -80,7 +77,13 @@ class _LoginScreenState extends State<LoginScreen> {
               InkWell(
                 onTap: loginUser,
                 child: Container(
-                  child: const Text(
+                  child: _isLoading
+                  ? const Center(child: CircularProgressIndicator(
+                      color: Colors.white,
+                    ),
+                  )
+                  :
+                  const Text(
                     'Log in',
                     style: TextStyle(color: Colors.white),
                   ),
