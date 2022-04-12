@@ -14,6 +14,7 @@ const googleApiKey = 'AIzaSyBNTTeislDh-6Lf_Rm2hPqeq-oaZI-DFjM';
 //Colors
 Color bg_offwhite = Color.fromARGB(255, 239, 255, 226);
 Color appbar_green = Colors.green;
+Color button_green = Colors.green;
 Color text_heading = Colors.white;
 Color text_body = Colors.black;
 
