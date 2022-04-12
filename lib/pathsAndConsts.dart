@@ -1,5 +1,6 @@
 import 'dart:ui';
 import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 
 const google_serp_api_url =
     'https://serpapi.com/search.json?q=environment&hl=en&gl=us&google_domain=google.com&tbm=nws&api_key=d76eb107841b2ae7b1306eb6bdbe60fe73fedb21b1706efb2fedd5f77164966f';
@@ -8,4 +9,14 @@ const news_api_url =
 const guardian_api_url =
     'https://content.guardianapis.com/search?q=environment%20OR%20recycling&api-key=264990ed-d58c-427a-9022-2180b6e430d6&charset=utf';
 
-Color bg_green = const Color(0xFFB9FBC0);
+
+//Colors
+Color bg_offwhite = Color.fromARGB(255, 239, 255, 226);
+Color appbar_green = Colors.green;
+Color text_heading = Colors.white;
+Color text_body = Colors.black;
+
+//Fonts and Sizes
+
+
+
