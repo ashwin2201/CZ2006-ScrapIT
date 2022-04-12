@@ -1,6 +1,7 @@
 import 'dart:ffi';
 import 'dart:typed_data';
 
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
@@ -20,33 +21,21 @@ class _ProfileState extends State<Profile> {
   String name;
   int points;
   String picture;
-  // final _firestore = Firestore.instance;
-  //FirebaseUser loggedInUser;
- // String email12 ='';
-   //String email12 ='';
+
   @override
   void initState() {
     super.initState();
-
     getUser();
     getUsername();
   }
 
- // var currentUserLoginUser = FirebaseAuth.instance.currentUser;
-//  String xyz= currentUserLoginUser.email;
 
    void getUser()  async {
      final User user = await auth.currentUser;
-    //uid = user.uid;
-  //  var firebaseUser = await FirebaseFirestore.instance
-   //     .collection('users')
-    //    .doc(currentUserLoginUser.uid);
-      //email12 =user.email;
       setState((){
        email12 =user.email;
        print(user.photoURL);
       });
-    //print(email12);
   }
   void getUsername()  async {
    // final User user = await auth.currentUser;
@@ -59,8 +48,6 @@ class _ProfileState extends State<Profile> {
     .doc(auth.currentUser.uid).get();
 
     setState((){
-    /*  name = (snap.data() as Map<String, dynamic>)['name'];
-      points = (snap.data() as Map<String, dynamic>)['points'];*/
       Map<String, dynamic> data = snap.data() as Map<String, dynamic>;
       name = data['name'];
       points = data['points'];
@@ -69,51 +56,21 @@ class _ProfileState extends State<Profile> {
       print(points);
       print(picture);
     });
-    //var firebaseUser = await FirebaseFirestore.instance.user.uid
-  //       .collection('users')
-  //       .doc(user.uid);
-  //  email12 =user.email;
-    //print(email12);
   }
 
-
-
- // Future<String> getEmail() async{
-   // User user = await auth.currentUser;
-    //return user.email;
-  //}
-  //void getData(){
-  //  final data=_firestore.colappBar: AppBar(
-  //         backgroundColor: Colors.green,
-  //         title: Text(
-  //           "PROFILE",
-  //           style: TextStyle(color: Colors.black),
-  //         ),
-  //         leading: new IconButton(
-  //           icon: Icon(
-  //             Icons.arrow_back,
-  //             color: Colors.black,
-  //           ),
-  //           onPressed: () {
-  //             Navigator.pop(context);
-  //           },
-  //         ),
-  //       ),lection('users').getDocuments();
-
-  //}
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.green,
-        title: Text(
+        title: const Text(
           "Profile",
-          style: TextStyle(color: Colors.black),
+          style: TextStyle(color: Colors.white),
         ),
-        leading: new IconButton(
-          icon: Icon(
+        leading: IconButton(
+          icon: const Icon(
             Icons.arrow_back,
-            color: Colors.black,
+            color: Colors.white,
           ),
           onPressed: () {
             Navigator.pop(context);
@@ -127,65 +84,46 @@ class _ProfileState extends State<Profile> {
           children: <Widget>[
             Container(height: 50, width: 100),
             Container(
-                child: CircleAvatar(
-                    backgroundImage: NetworkImage('$picture'),
-                    radius: 80)),
-            SizedBox(
-              height: 50.0,
-            ),
+                child: CircleAvatar(backgroundImage: NetworkImage('$picture'), radius: 50)),
+            SizedBox(height: 50.0,),
             Container(
               alignment: Alignment.topLeft,
-              child: Text(
-                'PERSONAL INFORMATION',
-                style: TextStyle(fontSize: 15.00, color: Colors.grey),
-                textAlign: TextAlign.center,
-
-                // textAlign: TextAlign.left,
-              ),
+              child: Text('Personal information', style: TextStyle(fontSize: 18.00, color: Colors.grey), textAlign: TextAlign.center,),
             ),
-            SizedBox(
-              height: 30.0,
-            ),
+            SizedBox(height: 30.0,),
             Container(
               alignment: Alignment.topLeft,
-              child: Text(
-                "Name:",
-                style: TextStyle(fontSize: 20.00, color: Colors.black),
-                textAlign: TextAlign.left,
-              ),
+              child: Text("Name : ", style: TextStyle(fontSize: 13.00, color: Colors.grey), textAlign: TextAlign.left,),
             ),
+            SizedBox(height: 10.0,),
+            Container(
+              padding: EdgeInsets.all(6.9),
+              alignment: Alignment.topLeft,
+              decoration: BoxDecoration(
+                  border: Border.all(color: Colors.green, width: 2),
+                borderRadius: BorderRadius.circular(10)
+              ),
+              child: Text("$name", style: TextStyle(fontSize: 16.00, color: Colors.black)),
+            ),
+            SizedBox(height: 40.0,),
             Container(
               alignment: Alignment.topLeft,
-              child: Text(
-                "$name",
-                style: TextStyle(fontSize: 20.00, color: Colors.black),
-                textAlign: TextAlign.left,
-              ),
-
+              child: Text("E-mail : ", style: TextStyle(fontSize: 13.00, color: Colors.grey), textAlign: TextAlign.left,),
             ),
-            SizedBox(
-              height: 40.0,
-            ),
+            SizedBox(height: 10.0,),
             Container(
+              padding: EdgeInsets.all(6.9),
               alignment: Alignment.topLeft,
-              child: Text(
-                "E-mail:",
-                style: TextStyle(fontSize: 20.00, color: Colors.black),
-                textAlign: TextAlign.left,
+              decoration: BoxDecoration(
+                  border: Border.all(color: Colors.green, width: 2),
+                  borderRadius: BorderRadius.circular(10)
               ),
-
+              child: Text("$email12", style: TextStyle(fontSize: 16.00, color: Colors.black),),
             ),
-          Container(
-          alignment: Alignment.topLeft,
-          child: Text(
-            '$email12',
-            style: TextStyle(fontSize: 20.00, color: Colors.black),
-            textAlign: TextAlign.left,
-          ),
-          )
           ],
         ),
       ),
+
     );
   }
 }
