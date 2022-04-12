@@ -37,7 +37,10 @@ class _FriendsScreenState extends State<FriendsScreen> {
             return ListTile(
               contentPadding: EdgeInsets.all(20),
               
-              leading: Image.network(data['photoUrl']),
+              leading: CircleAvatar(
+                  backgroundImage: NetworkImage(data['photoUrl']),
+                  radius: 30
+                ),
               title: Text(data['name']),
               
 
