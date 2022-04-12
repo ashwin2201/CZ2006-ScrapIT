@@ -279,8 +279,10 @@ class _LoaderState extends State<Loader> with SingleTickerProviderStateMixin {
             flex: 1, 
             child: ElevatedButton(
               style: ElevatedButton.styleFrom(
-                  minimumSize: const Size(175, 40),
-                  textStyle: const TextStyle(fontSize: 16),
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(1000)),
+                  minimumSize: const Size(225, 50),
+                  textStyle: const TextStyle(fontSize: 20),
                   primary: Colors.green),
               child: const Text('manually verify?'),
               onPressed: () => navigator.push(

@@ -110,9 +110,9 @@ class _CongratsPageState extends State<CongratsPage> {
                 minimumSize: const Size(120, 45),
                 textStyle: const TextStyle(fontSize: 26),
                 primary: Colors.green),
-            child: const Text('Recycle More'),
+            child: const Text('Home'),
             onPressed: () => navigator.push(
-              MaterialPageRoute(builder: (context) => RecyclePage()),
+              MaterialPageRoute(builder: (context) => Screen0()),
             ), //Navigator
           ),
         ),

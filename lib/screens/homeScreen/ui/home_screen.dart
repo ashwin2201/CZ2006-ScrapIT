@@ -5,7 +5,7 @@ import '../api and networking/article_model.dart';
 import 'package:intl/intl.dart';
 import 'greeting.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-
+import 'package:scrap_it/pathsAndConsts.dart';
 
 class TestHomeScreen extends StatefulWidget {
   @override
@@ -38,10 +38,8 @@ class _TestHomeScreenState extends State<TestHomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text("ScrapIT", style: TextStyle(color: Colors.black)),
-        backgroundColor: Colors.white,
-      ),
+      appBar: appbardefault,
+      
       body: Container(
         margin: EdgeInsets.all(12.0),
         padding: EdgeInsets.all(8.0),
@@ -50,15 +48,41 @@ class _TestHomeScreenState extends State<TestHomeScreen> {
             SizedBox(
               height: 5,
             ),
-            Align(alignment: Alignment.topLeft, child: Text(greetingMes)),
+            Align(alignment: Alignment.topLeft, 
+            child: Text(
+                greetingMes,
+                style: TextStyle(
+                  fontWeight: FontWeight.w600,
+                  fontFamily: 'Inter',
+                  fontSize: 28,
+                  color: text_body,
+                ),
+              ),
+            ),
             SizedBox(
               height: 5,
             ),
-            Align(alignment: Alignment.topLeft, child: Text(date)),
+            Align(alignment: Alignment.topLeft, child: Text(date,
+            style: TextStyle(
+                  fontWeight: FontWeight.w300,
+                  fontFamily: 'PTSans',
+                  fontSize: 24,
+                  color: text_body,
+                ),
+              ),
+            ),
             SizedBox(
               height: 5,
             ),
-            Align(alignment: Alignment.topLeft, child: Text(time)),
+            Align(alignment: Alignment.topLeft, child: Text(time,
+            style: TextStyle(
+                  fontWeight: FontWeight.w300,
+                  fontFamily: 'PTSans',
+                  fontSize: 20,
+                  color: text_body,
+                ),
+              ),
+            ),
             Expanded(
               child: FutureBuilder(
                 future: client.getArticle(),

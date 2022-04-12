@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:scrap_it/pathsAndConsts.dart';
+import 'package:scrap_it/screens/homeScreen/ui/Verification.dart';
 import "dart:math";
 
 import 'package:scrap_it/screens/homeScreen/ui/loader.dart';
@@ -28,7 +30,6 @@ String ewastetype(x) {
     return 'ICT';
 }
 
-
 class RecyclePage extends StatelessWidget {
   //String textString = 'Hello world';
   //const MyApp({Key? key}) : super(key: key);
@@ -46,8 +47,10 @@ class RecyclePage extends StatelessWidget {
       'Recycling e-waste can save enough energy to power thousands of homes per year!'
     ];
     String element = getRandomElement(strArr);
-
-    return MaterialApp(home: new HomeScreen());
+    
+    return MaterialApp(
+      debugShowCheckedModeBanner:false,
+      home: new HomeScreen());
   }
 }
 
@@ -67,83 +70,88 @@ class HomeScreen extends StatelessWidget {
     String element = getRandomElement(strArr);
 
     return Scaffold(
-      appBar: AppBar(
-        title: Text('SCRAP IT'),
-        backgroundColor: Color(0xffb9fbC0),
-      ),
+      appBar: appbardefault,
       body: SafeArea(
-          child: Column(
-        crossAxisAlignment: CrossAxisAlignment.stretch,
-        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-        children: <Widget>[
-          Container(
-            //a container can only have single child
-            height: 100.0,
-            width: 500.0,
-            // margin: EdgeInsets.symmetric(vertical: 0.0),
-            //color: Colors.yellow,
-            child:const Center(
-              //child:
-              //alignment: Alignment.topCenter,
-              child:  Text(
-                "What do you wish to recycle today? ",
-                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 25),
-                textAlign: TextAlign.center,
-              ),
-            ),
-          ),
-          Container(
-            width: 500,
-            height: 30, //350
-            // color: Colors.purple,
-            child: MyStatefulWidget(),
-          ),
-          Container(
-            //a container can only have single child
-            height: 100.0, //100
-            width: 500.0,
-            // margin: EdgeInsets.symmetric(vertical: 0.0),
-            //color: Colors.white,
-            child: Center(
-              child: Text.rich(
-                TextSpan(
-                  children: <TextSpan>[
-                    TextSpan(
-                        text: 'Fun Fact: \n',
-                        style: TextStyle(
-                          fontWeight: FontWeight.bold,
-                          fontSize: 20,
-                          color: Colors.green,
-                        )),
-                    TextSpan(text: '$element', style: TextStyle(fontSize: 20)),
-                  ],
+        child: Column(
+          //crossAxisAlignment: CrossAxisAlignment.stretch,
+          //mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          children: <Widget>[
+            Container(
+              margin: EdgeInsets.only(top:20, left: 20, right: 20, bottom: 50),
+              child: const Center(
+                //child:
+                //alignment: Alignment.topCenter,
+                child: Text(
+                  "What do you wish to recycle today? ",
+                  textAlign: TextAlign.center,
+                  style: const TextStyle(
+                    fontFamily: 'Inter',
+                    fontStyle: FontStyle.normal,
+                    fontWeight: FontWeight.w500,
+                    fontSize: 24,
+                  ),
                 ),
               ),
             ),
-          ),
-          Container(
-            height: 50,
-            width: 12,
-            child: ElevatedButton(
-                style: ElevatedButton.styleFrom(
-                  elevation: 16,
-                  shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(1000)),
-                  // padding: EdgeInsets.all(5),
-                  primary: Color(0xffb9fbC0),
+            Container(
+              width: 500,
+              height: 30, //350
+              // color: Colors.purple,
+              child: MyStatefulWidget(),
+            ),
+            Container(
+              //a container can only have single child
+              height: 150.0, //100
+              width: 400.0,
 
-                  onPrimary: Colors.black, // foreground
+              margin: EdgeInsets.symmetric(vertical: 20),
+              //color: Colors.white,
+              child: Center(
+                child: Text.rich(
+                  
+                  TextSpan(
+                    
+                    children: <TextSpan>[
+                      TextSpan(
+                        
+                        text: 'Fun Fact: \n', 
+                        style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            fontSize: 26,
+                            color: Colors.green),
+                            
+                      ),
+
+                      TextSpan(
+                          text: '$element', style: TextStyle(fontSize: 20)),
+                    ],
+                  ),
                 ),
-                child: Text('Next'),
-                onPressed: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(builder: (context) => SecondRoute()),
-                  );
-                }),
-          )
-        ],
-      )),
+              ),
+            ),
+            Container(
+              alignment: Alignment.center,
+              //margin: const EdgeInsets.only(top: 15),
+              padding: const EdgeInsets.all(10),
+              child: ElevatedButton(
+                  style: ElevatedButton.styleFrom(
+                      shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(1000)),
+                      // padding: EdgeInsets.all(5),
+                      minimumSize: const Size(150, 60),
+                      textStyle: const TextStyle(fontSize: 26),
+                      primary: Colors.green),
+                  child: const Text('Next'),
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => SecondRoute()),
+                    );
+                  }),
+            ),
+          ],
+        ),
+      ),
     );
   }
 }
@@ -201,89 +209,98 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
   }
 }
 
-class SecondRoute extends  StatelessWidget{
+class SecondRoute extends StatelessWidget {
   //SecondRoute({Key? key}) : super(key: key);
 
   String y = ewastetype(x);
 
   @override
   Widget build(BuildContext context) {
-
     final navigator = Navigator.of(context);
-  // get s => mystate;
+    // get s => mystate;
     return Scaffold(
-        appBar: AppBar(
-          title: Text('SCRAP IT'),
-          backgroundColor: Color(0xffb9fbC0),
-        ),
-        body: SafeArea(
-            child: Column(children: <Widget>[
-          Container(
-            child: Center(
-              //child:
-              //alignment: Alignment.topCenter,
-
-              child: Text(
-                "So, you have decided to recycle $y today!",
-                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 25),
-                textAlign: TextAlign.center,
+      backgroundColor: Colors.white,
+      appBar: appbardefault,
+      body: SafeArea(
+        child: Column(
+          children: <Widget>[
+            Container(
+              margin: const EdgeInsets.only(
+                  top: 25, left: 10, right: 10, bottom: 0),
+              child: Center(
+                child: Text(
+                  "So, you have decided to recycle$y products today!",
+                  style: const TextStyle(
+                    fontFamily: 'Inter',
+                    fontStyle: FontStyle.normal,
+                    fontWeight: FontWeight.w500,
+                    fontSize: 24,
+                  ),
+                  textAlign: TextAlign.center,
+                ),
               ),
             ),
-          ),
-          Container(
-            child: Image.network(
-                ("https://i.pinimg.com/originals/6b/63/0a/6b630a90cd0ccbbccda9e66db19fbfff.gif")),
-          ),
-          Container(
-            height: 50,
-            width: 300,
-            child: ElevatedButton(
-                style: ElevatedButton.styleFrom(
-                  elevation: 16,
-                  shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(1000)),
-                  // padding: EdgeInsets.all(5),
-                  primary: Color(0xffb9fbC0),
-
-                  onPrimary: Colors.black, // foreground
-                ),
-                child: Text('View list of e-waste recycling stations'),
-                onPressed: () {
-                  navigator.push(
-                      MaterialPageRoute(
-                          builder: (context) =>
-                              ListAllStnScreen()
-                      )
-                  );
-                }),
-          ),
-          Container(
-            height: 30,
-            width: 300,
-          ),
-          Container(
-            height: 50,
-            width: 300,
-            child: ElevatedButton(
-                style: ElevatedButton.styleFrom(
-                  elevation: 16,
-                  shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(1000)),
-                  // padding: EdgeInsets.all(5),
-                  primary: Color(0xffb9fbC0),
-
-                  onPrimary: Colors.black, // foreground
-                ),
-                child: Text('Already Recycled? Verify here'),
-                onPressed: () {
-                  navigator.push(
-                    MaterialPageRoute(
-                      builder: (context) =>
-                        Loader()
-                    )
-                  );
-                }
+            Container(
+              child: Image.network(
+                ("https://i.pinimg.com/originals/6b/63/0a/6b630a90cd0ccbbccda9e66db19fbfff.gif"),
+                height: 270,
+                width: 270,
               ),
+            ),
+            Container(
+              height: 50,
+              width: 350,
+              child: ElevatedButton(
+                  style: ElevatedButton.styleFrom(
+                    elevation: 16,
+                    shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(1000)),
+                    // padding: EdgeInsets.all(5),
+                    primary: button_green,
+                    onPrimary: text_heading, // foreground
+                  ),
+                  child: Text(
+                    'View list of e-waste recycling stations',
+                    style: const TextStyle(
+                      fontFamily: 'Inter',
+                      fontStyle: FontStyle.normal,
+                      fontWeight: FontWeight.w500,
+                      fontSize: 16,
+                    ),
+                    textAlign: TextAlign.center,
+                  ),
+                  onPressed: () {
+                    navigator.push(MaterialPageRoute(
+                        builder: (context) => ListAllStnScreen()));
+                  }),
+            ),
+            Container(
+              height: 50,
+              width: 350,
+              margin: const EdgeInsets.only(top: 25),
+              child: ElevatedButton(
+                  style: ElevatedButton.styleFrom(
+                    elevation: 16,
+                    shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(1000)),
+                    // padding: EdgeInsets.all(5),
+                    primary: button_green,
+                    onPrimary: text_heading, // foreground
+                  ),
+                  child: Text(
+                    'Already Recycled? Verify here!',
+                    style: const TextStyle(
+                      fontFamily: 'Inter',
+                      fontStyle: FontStyle.normal,
+                      fontWeight: FontWeight.w500,
+                      fontSize: 16,
+                    ),
+                    textAlign: TextAlign.center,
+                  ),
+                  onPressed: () {
+                    navigator.push(MaterialPageRoute(
+                        builder: (context) => VerificationPage()));
+                  }),
             ),
           ],
         ),

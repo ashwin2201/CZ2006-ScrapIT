@@ -9,14 +9,31 @@ const news_api_url =
 const guardian_api_url =
     'https://content.guardianapis.com/search?q=environment%20OR%20recycling&api-key=264990ed-d58c-427a-9022-2180b6e430d6&charset=utf';
 
-
 //Colors
 Color bg_offwhite = Color.fromARGB(255, 239, 255, 226);
 Color appbar_green = Colors.green;
+Color button_green = Colors.green;
 Color text_heading = Colors.white;
 Color text_body = Colors.black;
 
-//Fonts and Sizes
+//Defualt App Bar
+var appbardefault = AppBar(
+  title: Text(
+    "ScrapIT",
+    style: TextStyle(
+      fontFamily: 'Inter',
+      fontStyle: FontStyle.normal,
+      fontWeight: FontWeight.w700,
+      fontSize: 34,
+      color: text_heading,
+    ),
+    textAlign: TextAlign.center,
+  ),
+  centerTitle: true,
+  backgroundColor: appbar_green,
+  toolbarHeight: 65,
+);
 
+//Text Size 
 
 

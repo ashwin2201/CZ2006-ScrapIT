@@ -15,7 +15,7 @@ Widget customListTile(Article article, BuildContext context) {
     },
     child: Container(
       margin: EdgeInsets.symmetric(vertical: 12.0, horizontal: 0),
-      padding: EdgeInsets.all(8.0),
+      padding: EdgeInsets.only(top: 8, left: 12, right: 12, bottom: 8),
       decoration: BoxDecoration(
           color: Colors.white,
           borderRadius: BorderRadius.circular(12.0),
@@ -35,7 +35,8 @@ Widget customListTile(Article article, BuildContext context) {
           Text(
             article.title,
             style: TextStyle(
-              fontWeight: FontWeight.bold,
+              fontFamily: 'PTSans',
+              fontWeight: FontWeight.w500,
               fontSize: 16.0,
             ),
           )

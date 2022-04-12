@@ -6,6 +6,7 @@ import 'package:image_picker/image_picker.dart';
 import 'package:scrap_it/screens/homeScreen/ui/congrats.dart';
 import 'package:scrap_it/screens/homeScreen/ui/loader.dart';
 import 'package:scrap_it/screens/test_screen.dart';
+import 'package:scrap_it/pathsAndConsts.dart';
 
 class VerificationPage extends StatefulWidget {
   //const VerificationPage({Key key}) : super(key: key);
@@ -23,10 +24,22 @@ class _VerificationPageState extends State<VerificationPage> {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
           appBar: AppBar(
-            title: const Text("Photo Verification"),
+            title: Text(
+              "Photo Verification",
+              style: TextStyle(
+                fontFamily: 'Inter',
+                fontStyle: FontStyle.normal,
+                fontWeight: FontWeight.w700,
+                fontSize: 28,
+                color: text_heading,
+              ),
+              textAlign: TextAlign.center,
+            ),
             centerTitle: true,
-            backgroundColor: Colors.green,
-            foregroundColor: Colors.white,
+            backgroundColor: appbar_green,
+            toolbarHeight: 65,
+            leading: IconButton(icon: Icon(Icons.arrow_back), 
+            onPressed: () => Navigator.pop(context,false),),
           ),
           body: verificationPage(context)),
     );
@@ -42,8 +55,9 @@ class _VerificationPageState extends State<VerificationPage> {
               'Please submit visual evidence',
               textAlign: TextAlign.center,
               style: TextStyle(
-                fontWeight: FontWeight.bold,
-                fontSize: 36,
+                fontFamily: 'Inter',
+                fontWeight: FontWeight.w500,
+                fontSize: 26,
                 color: Colors.black,
               ),
             ),
@@ -65,6 +79,8 @@ class _VerificationPageState extends State<VerificationPage> {
           padding: const EdgeInsets.all(10),
           child: ElevatedButton(
             style: ElevatedButton.styleFrom(
+                shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(1000)),
                 minimumSize: const Size(225, 50),
                 textStyle: const TextStyle(fontSize: 22),
                 primary: Colors.green),
@@ -82,8 +98,8 @@ class _VerificationPageState extends State<VerificationPage> {
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontWeight: FontWeight.normal,
-                fontSize: 20,
                 fontFamily: 'PTSans',
+                fontSize: 20,
                 color: Colors.black,
               ),
             ),
@@ -102,7 +118,7 @@ class _VerificationPageState extends State<VerificationPage> {
         context: context,
         builder: (context) {
           return Dialog(
-              child: Container(
+            child: Container(
             height: 190,
             width: 200,
             padding: const EdgeInsets.all(25),
@@ -118,6 +134,8 @@ class _VerificationPageState extends State<VerificationPage> {
                 const Spacer(flex: 1),
                 OutlinedButton(
                     style: OutlinedButton.styleFrom(
+                      shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(1000)),
                         minimumSize: const Size(225, 50),
                         textStyle: const TextStyle(fontSize: 22),
                         backgroundColor: Colors.green,
@@ -135,6 +153,8 @@ class _VerificationPageState extends State<VerificationPage> {
                 const Spacer(flex: 3),
                 OutlinedButton(
                     style: OutlinedButton.styleFrom(
+                      shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(1000)),
                         minimumSize: const Size(225, 50),
                         textStyle: const TextStyle(fontSize: 22),
                         backgroundColor: Colors.green,
@@ -177,14 +197,7 @@ class _VerificationPageState extends State<VerificationPage> {
     );
     if (pickedFile != null) {
       File imageFile = File(pickedFile.path);
-      await navigator.push(
-        MaterialPageRoute(
-          builder: (context) => 
-          Loader()
-        )
-      );
+      await navigator.push(MaterialPageRoute(builder: (context) => Loader()));
     }
   }
-
-  
 }
