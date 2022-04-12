@@ -2,6 +2,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:geolocator/geolocator.dart';
+import 'package:scrap_it/pathsAndConsts.dart';
+import 'package:flutter_polyline_points/flutter_polyline_points.dart';
 
 class SecondScreen extends StatefulWidget {
   LatLng showLocation;
@@ -20,14 +22,14 @@ class _SecondScreenState extends State<SecondScreen> {
   String name;
   String street;
 
+  Map<PolylineId, Polyline> polylines = {};
+  PolylinePoints polylinePoints = PolylinePoints();
   GoogleMapController mapController; //controller for Google map
   final Set<Marker> markers = Set(); //markers for google map
   final Geolocator geolocator = Geolocator(); //controller for geolocator to find current location
-
   _SecondScreenState(this.name, this.showLocation, this.street);
-
   LatLng user=null;
-
+  List<LatLng> polylineCoordinates=[];
   @override
   void initState()
   {
@@ -37,34 +39,10 @@ class _SecondScreenState extends State<SecondScreen> {
         user = new LatLng(currLocation.latitude, currLocation.longitude);
       });
     });
+    polylineCoordinates = [user, showLocation];
+    _getPolyline();
 
   }
-
-  @override
-  Widget build(BuildContext context)
-  {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text("View selected station"),
-        backgroundColor: Colors.green,
-      ),
-      body: user == null ? const Center(child:CircularProgressIndicator()) : GoogleMap( //Map widget from google_maps_flutter package
-        zoomGesturesEnabled: true,
-        initialCameraPosition: CameraPosition(
-          target: showLocation, //initial position
-          zoom: 15.0, //initial zoom level
-        ),
-        markers: getmarkers(),
-        mapType: MapType.hybrid,
-        onMapCreated: (controller) {
-          setState(() {
-            mapController = controller;
-          });
-        },
-      ),
-    );
-  }
-
   Set<Marker> getmarkers()
   {
     setState(() {
@@ -84,5 +62,66 @@ class _SecondScreenState extends State<SecondScreen> {
       );
     },);
     return markers;
+  }
+
+  @override
+  Widget build(BuildContext context)
+  {
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text("View selected station"),
+        backgroundColor: Colors.green,
+      ),
+      body: user == null ? const Center(child:CircularProgressIndicator()) : GoogleMap( //Map widget from google_maps_flutter package
+        zoomGesturesEnabled: true,
+        initialCameraPosition: CameraPosition(
+          target: showLocation, //initial position
+          zoom: 15.0, //initial zoom level
+        ),
+        markers: getmarkers(),
+        tiltGesturesEnabled: true,
+        compassEnabled: true,
+        scrollGesturesEnabled: true,
+        onMapCreated: _onMapCreated,
+        polylines: Set<Polyline>.of(polylines.values),
+        mapType: MapType.normal,
+       /* onMapCreated: (controller) {
+          setState(() {
+            mapController = controller;
+          });
+        },*/
+      ),
+    );
+  }
+
+  void _onMapCreated(GoogleMapController controller) async {
+    mapController = controller;
+  }
+
+  _addPolyLine() {
+    PolylineId id = PolylineId("poly");
+    Polyline polyline = Polyline(
+      polylineId: id,
+      visible: true,
+      color: Colors.red,
+      points: polylineCoordinates,
+    );
+    polylines[id] = polyline;
+    setState(() {});
+  }
+
+  _getPolyline() async {
+    PolylineResult result = await polylinePoints.getRouteBetweenCoordinates(
+        googleApiKey,
+        PointLatLng(user.latitude, user.longitude),
+        PointLatLng(showLocation.latitude, showLocation.longitude),
+        travelMode: TravelMode.driving,
+        );
+    if (result.points.isNotEmpty) {
+      result.points.forEach((PointLatLng point) {
+        polylineCoordinates.add(LatLng(point.latitude, point.longitude));
+      });
+    }
+    _addPolyLine();
   }
 }
