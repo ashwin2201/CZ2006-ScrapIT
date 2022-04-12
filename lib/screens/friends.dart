@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:scrap_it/screens/homeScreen/DatabaseConnectors/User.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
 
 
 class FriendsScreen extends StatefulWidget {
@@ -13,8 +15,8 @@ class _FriendsScreenState extends State<FriendsScreen> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      User user;
-      
+      child: const Text('friends')
+
     );
   }
 }
