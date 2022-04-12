@@ -42,6 +42,7 @@ class _FriendsScreenState extends State<FriendsScreen> {
                   radius: 30
                 ),
               title: Text(data['name']),
+              subtitle: Text('Points: ' + data['points'].toString())
               
 
             );
