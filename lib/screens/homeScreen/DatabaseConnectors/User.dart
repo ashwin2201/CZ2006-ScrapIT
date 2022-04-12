@@ -57,5 +57,11 @@ class User {
 
     return userDetails;
   }
+
+  Future<void> getLeaderboardPoints() async {
+    final Stream<QuerySnapshot> _usersStream = FirebaseFirestore.instance.collection('users').snapshots();
+    
+
+  }
 }
 

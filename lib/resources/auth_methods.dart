@@ -20,31 +20,21 @@ class AuthMethods {
     try {
       if (email.isNotEmpty || password.isNotEmpty || name.isNotEmpty) {
         // register user
+     
         UserCredential cred = await _auth.createUserWithEmailAndPassword(email: email, password: password);
 
-        if (file == null) {
-          await _firestore.collection('users').doc(cred.user?.uid).set({
-              'uid': cred.user?.uid,
-              'email': email,
-              'name': name,
-              'friends': [],
-              'points': 0,
-           //   'displayName':name
-          });
-        } else {
-            String photoUrl = await StorageMethods().uploadImageToStorage('profilePics', file, false);
-              // add user to database
-            await _firestore.collection('users').doc(cred.user?.uid).set({
-              'uid': cred.user?.uid,
-              'email': email,
-              'name': name,
-              'friends': [],
-              'points': 0,
-              'photoUrl': photoUrl,
-            //  'displayName':name
-          });
-        }
-
+        String photoUrl = await StorageMethods().uploadImageToStorage('profilePics', file, false);
+          // add user to database
+        await _firestore.collection('users').doc(cred.user.uid).set({
+          'uid': cred.user.uid,
+          'email': email,
+          'name': name,
+          'friends': [],
+          'points': 0,
+          'photoUrl': photoUrl,
+        //  'displayName':name
+      });
+    
         res = "success";
       }
     } on FirebaseAuthException catch(e) {

@@ -1,3 +1,6 @@
+import 'dart:ffi';
+import 'dart:typed_data';
+
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
@@ -16,6 +19,7 @@ class _ProfileState extends State<Profile> {
   String email12 ='';
   String name;
   int points;
+  String picture;
   // final _firestore = Firestore.instance;
   //FirebaseUser loggedInUser;
  // String email12 ='';
@@ -49,17 +53,21 @@ class _ProfileState extends State<Profile> {
     //uid = user.uid;
     DocumentSnapshot snap = await FirebaseFirestore.instance
     .collection('users')
-    .doc(FirebaseAuth.instance.currentUser.uid).get();
+    .doc(auth.currentUser.uid).get();
     FirebaseFirestore.instance
-        .collection('users')
-        .doc(FirebaseAuth.instance.currentUser.uid).get();
+    .collection('users')
+    .doc(auth.currentUser.uid).get();
 
     setState((){
-      name= (snap.data() as Map<String, dynamic>)['name'];
-      points= (snap.data() as Map<String, dynamic>)['points'];
-
+    /*  name = (snap.data() as Map<String, dynamic>)['name'];
+      points = (snap.data() as Map<String, dynamic>)['points'];*/
+      Map<String, dynamic> data = snap.data() as Map<String, dynamic>;
+      name = data['name'];
+      points = data['points'];
+      picture = data['photoUrl'];
       print(name);
       print(points);
+      print(picture);
     });
     //var firebaseUser = await FirebaseFirestore.instance.user.uid
   //       .collection('users')
@@ -67,6 +75,8 @@ class _ProfileState extends State<Profile> {
   //  email12 =user.email;
     //print(email12);
   }
+
+
 
  // Future<String> getEmail() async{
    // User user = await auth.currentUser;
@@ -118,8 +128,7 @@ class _ProfileState extends State<Profile> {
             Container(height: 50, width: 100),
             Container(
                 child: CircleAvatar(
-                    backgroundImage: NetworkImage(
-                        'https://simg.nicepng.com/png/small/136-1366211_group-of-10-guys-login-user-icon-png.png'),
+                    backgroundImage: NetworkImage('$picture'),
                     radius: 80)),
             SizedBox(
               height: 50.0,

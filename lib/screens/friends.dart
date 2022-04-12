@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:scrap_it/screens/homeScreen/DatabaseConnectors/User.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 
@@ -9,14 +8,43 @@ class FriendsScreen extends StatefulWidget {
 
   @override
   State<FriendsScreen> createState() => _FriendsScreenState();
+
+  
 }
 
 class _FriendsScreenState extends State<FriendsScreen> {
+  final Stream<QuerySnapshot> _usersStream = 
+    FirebaseFirestore.instance.collection('users')
+                              .orderBy('points', descending: true)
+                              .snapshots();
+
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: const Text('friends')
+    return StreamBuilder<QuerySnapshot>(
+      stream: _usersStream,
+      builder: (BuildContext context, AsyncSnapshot<QuerySnapshot> snapshot) {
+        if (snapshot.hasError) {
+          return Text('Something went wrong');
+        }
 
+        if (snapshot.connectionState == ConnectionState.waiting) {
+          return Text("Loading");
+        }
+
+        return ListView(
+          children: snapshot.data.docs.map((DocumentSnapshot document) {
+          Map<String, dynamic> data = document.data() as Map<String, dynamic>;
+            return ListTile(
+              contentPadding: EdgeInsets.all(20),
+              
+              leading: Image.network(data['photoUrl']),
+              title: Text(data['name']),
+              
+
+            );
+          }).toList(),
+        );
+      },
     );
   }
 }
