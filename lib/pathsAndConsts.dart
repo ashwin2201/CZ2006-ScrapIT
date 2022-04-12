@@ -9,10 +9,11 @@ const news_api_url =
 const guardian_api_url =
     'https://content.guardianapis.com/search?q=environment%20OR%20recycling&api-key=264990ed-d58c-427a-9022-2180b6e430d6&charset=utf';
 
+const googleApiKey = 'AIzaSyBNTTeislDh-6Lf_Rm2hPqeq-oaZI-DFjM';
+
 //Colors
 Color bg_offwhite = Color.fromARGB(255, 239, 255, 226);
 Color appbar_green = Colors.green;
-Color button_green = Colors.green;
 Color text_heading = Colors.white;
 Color text_body = Colors.black;
 
@@ -34,6 +35,4 @@ var appbardefault = AppBar(
   toolbarHeight: 65,
 );
 
-//Text Size 
-
-
+//Text Size
