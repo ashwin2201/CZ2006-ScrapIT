@@ -1,6 +1,7 @@
 import 'dart:typed_data';
 
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:scrap_it/resources/auth_methods.dart';
 import 'package:scrap_it/widgets/text_field_input.dart';
@@ -20,6 +21,7 @@ class _SignupScreenState extends State<SignupScreen> {
   final TextEditingController _nameController = TextEditingController();
   Uint8List _image;
   bool _isLoading = false;
+  bool _imageSelected = false;
 
 
   @override
@@ -31,6 +33,7 @@ class _SignupScreenState extends State<SignupScreen> {
   }
 
   void selectImage() async {
+    _imageSelected = true;
     Uint8List im = await pickImage(ImageSource.gallery);
     setState(() {
       _image = im;
@@ -41,12 +44,25 @@ class _SignupScreenState extends State<SignupScreen> {
     setState(() {
       _isLoading = true;
     });
-    String res = await AuthMethods().signUpUser(
+    String res = '';
+    
+    if (_imageSelected == false) {
+      print('no image selected');
+      res = await AuthMethods().signUpUser(
+      email: _emailController.text,
+      password: _passwordController.text,
+      name: _nameController.text,
+      file: (await rootBundle.load('assets/images/anonymous.png')).buffer.asUint8List()
+    );
+    } else {
+      res = await AuthMethods().signUpUser(
       email: _emailController.text,
       password: _passwordController.text,
       name: _nameController.text,
       file: _image,
     );
+    }
+
     // navigate to home screen
     if (res == "success") {
       setState(() {
