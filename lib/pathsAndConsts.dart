@@ -30,7 +30,7 @@ var appbardefault = AppBar(
         width: 50,
       ),
       Text(
-        "ScrapIT",
+        "  ScrapIT",
         style: TextStyle(
           fontFamily: 'Inter',
           fontStyle: FontStyle.normal,

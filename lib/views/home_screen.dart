@@ -40,6 +40,7 @@ class _TestHomeScreenState extends State<TestHomeScreen> {
     return Scaffold(
       appBar: appbardefault,
       body: Container(
+        
         margin: EdgeInsets.all(12.0),
         padding: EdgeInsets.all(8.0),
         child: Column(
@@ -83,7 +84,7 @@ class _TestHomeScreenState extends State<TestHomeScreen> {
               ),
             ),
             SizedBox(height: 20,),
-            Align(alignment: Alignment.topLeft, child: Text('Here is some news brought to you by The Guardian',
+            Align(alignment: Alignment.topLeft, child: Text('Latest news on sustainability brought to you by Guardian',
               style: TextStyle(
                 fontWeight: FontWeight.w300,
                 fontFamily: 'PTSans',

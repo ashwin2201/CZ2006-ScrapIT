@@ -88,7 +88,7 @@ Widget userList(BuildContext context) {
             },
           ),
         ),
-        SizedBox(height:154),
+        SizedBox(height:120),
         Center(
           child: GestureDetector(
             onTap: () {
@@ -101,12 +101,15 @@ Widget userList(BuildContext context) {
               );
             },
             child: Container(
-                child: const Text(
-                    "Click here to learn more about us!",
-                    style: TextStyle(
-                        fontWeight: FontWeight.normal, color: Colors.green, fontSize:20,     decoration: TextDecoration.underline,
-
-                    )
+                child: ElevatedButton(
+                  child: Text(
+                      "Click here to learn more about us!",
+                      style: TextStyle(
+                        decorationColor: Colors.green,
+                          fontWeight: FontWeight.bold, color: Colors.green,fontSize:20, decoration: TextDecoration.underline,
+                
+                      )
+                  ),
                 ),
                 padding: const EdgeInsets.symmetric(
                   vertical: 8,

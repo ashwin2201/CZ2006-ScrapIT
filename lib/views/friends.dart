@@ -35,21 +35,21 @@ class _FriendsScreenState extends State<FriendsScreen> {
           body: Column(
             children: [
               Container(
-                padding: EdgeInsets.all(8.0),
+                padding: EdgeInsets.only(top: 14, left: 8, right: 8, bottom: 0),
                 child:
                 const Align(
                   alignment: Alignment.center,
                   child: Text("Global Leaderboard",
                       textAlign: TextAlign.left,
-                      style:TextStyle(fontWeight: FontWeight.bold, fontSize: 25)),
+                      style:TextStyle(fontWeight: FontWeight.w900, fontSize: 25)),
                 ),
               ),
               Container(), //CHECK IF WE CAN FIND THE TOP 3 and place them at the podium
               Container(
                 child: Center(
                   child: Image.asset(
-                    ("assets/IXNj.gif"),
-                    height: 203,
+                    ("assets/trophy.gif"),
+                    height: 200,
                     width: double.infinity,
                   ),
                 ),
@@ -72,8 +72,8 @@ class _FriendsScreenState extends State<FriendsScreen> {
                           title: Row(
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
-                              Text(data['name'] , style: const TextStyle(fontWeight: FontWeight.w500, fontSize: 20), textAlign: TextAlign.left,),
-                              Text(data['points'].toString(), style: const TextStyle(fontWeight: FontWeight.w500, fontSize: 20), textAlign: TextAlign.right,),
+                              Text(data['name'] , style: const TextStyle(fontWeight: FontWeight.w500, fontSize: 20, fontFamily: 'PTSans'), textAlign: TextAlign.left,),
+                              Text(data['points'].toString(), style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 20, fontFamily: 'PTSans'), textAlign: TextAlign.right,),
                             ],
                           ),
                         ),

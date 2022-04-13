@@ -63,10 +63,10 @@ class _VerificationPageState extends State<VerificationPage> {
         ),
         const Expanded(
           child: CircleAvatar(
-            radius: 100,
+            radius: 107,
             backgroundColor: Colors.green,
             child: Image(
-              image: AssetImage('assets/images/camera_icon.png'),
+              image: AssetImage('assets/camera_gif.gif'),
               alignment: Alignment.bottomRight,
             ),
           ),
