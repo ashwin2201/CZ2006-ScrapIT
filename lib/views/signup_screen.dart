@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:scrap_it/views/login_screen.dart';
-import 'package:scrap_it/views/test_screen.dart';
 import 'package:scrap_it/views/widgets/text_field_input.dart';
 
 import '../controller/resources/auth_methods.dart';

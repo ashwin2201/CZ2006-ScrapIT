@@ -119,18 +119,6 @@ class _CongratsPageState extends State<CongratsPage> {
         .update({'points': points});
   }
 
-  // void updatePoints() async {
-  //   // final User user = await auth.currentUser;
-  //   //uid = user.uid;
-  //   DocumentSnapshot snap = (await FirebaseFirestore.instance
-  //       .collection('users')
-  //       .doc(FirebaseAuth.instance.currentUser.uid)
-  //       .update({'points': points})) as DocumentSnapshot<Object>;
-  //   setState(() {
-  //     points = (snap.data() as Map<String, dynamic>)['points'];
-  //   });
-  // }
-
   int pointGenerator(flag, int points) {
     int check = flag;
     int p = points;

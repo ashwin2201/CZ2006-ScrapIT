@@ -43,7 +43,6 @@ class _SecondScreenState extends State<SecondScreen> {
         user = new LatLng(currLocation.latitude, currLocation.longitude);
       });
     });
-     print(user);
   }
 
   Set<Marker> getmarkers()

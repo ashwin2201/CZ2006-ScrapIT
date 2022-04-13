@@ -45,5 +45,3 @@ var appbardefault = AppBar(
   backgroundColor: appbar_green,
   toolbarHeight: 65,
 );
-
-//Text Size
