@@ -218,8 +218,8 @@ class SecondRoute extends StatelessWidget {
               ),
             ),
             Container(
-              child: Image.network(
-                ("https://i.pinimg.com/originals/6b/63/0a/6b630a90cd0ccbbccda9e66db19fbfff.gif"),
+              child: Image.asset(
+                ("assets/recycle.gif"),
                 height: 270,
                 width: 270,
               ),
