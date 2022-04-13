@@ -1,8 +1,9 @@
-import 'dart:typed_data';
+  import 'dart:typed_data';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:image_picker/image_picker.dart';
+import 'package:scrap_it/views/test_screen.dart';
 import 'package:scrap_it/views/widgets/text_field_input.dart';
 
 import '../controller/resources/auth_methods.dart';
@@ -69,7 +70,10 @@ class _SignupScreenState extends State<SignupScreen> {
       setState(() {
         _isLoading = false;
       });
-      Navigator.pushNamed(context, '/screen-0');
+      Navigator.push(
+        context,
+        MaterialPageRoute(builder: (context) => Screen0()),
+      );
     }
     else {
       showSnackBar(res, context);

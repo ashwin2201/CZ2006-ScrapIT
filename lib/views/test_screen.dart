@@ -3,7 +3,6 @@ import 'package:scrap_it/views/friends.dart';
 import 'setting.dart';
 import 'home_screen.dart';
 import 'recycle.dart';
-import 'package:fluttericon/modern_pictograms_icons.dart';
 
 class Screen0 extends StatefulWidget {
   @override

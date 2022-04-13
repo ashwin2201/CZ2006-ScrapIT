@@ -43,8 +43,7 @@ class _SecondScreenState extends State<SecondScreen> {
         user = new LatLng(currLocation.latitude, currLocation.longitude);
       });
     });
-    polylineCoordinates = [user, showLocation];
-    _createPolyLines();
+     print(user);
   }
 
   Set<Marker> getmarkers()

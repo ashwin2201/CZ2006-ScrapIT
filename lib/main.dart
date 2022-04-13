@@ -2,7 +2,6 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:scrap_it/views/Verification.dart';
 import 'package:scrap_it/views/congrats.dart';
-import 'package:scrap_it/views/firstverify.dart';
 import 'package:scrap_it/views/recycle.dart';
 import 'package:scrap_it/views/home_screen.dart';
 import 'views/profile.dart';
@@ -29,8 +28,7 @@ class MyApp extends StatelessWidget {
       initialRoute: '/',
       routes: {
         '/': (context) => LaunchScreen(),
-        '/verifyemail': (context) => VerifiedEmail(),
-        '/screen-0': (context) => Screen0(),
+       '/screen-0': (context) => Screen0(),
         '/introduction': (context) => IntroductionScreen(),
         '/sign-up': (context) => SignupScreen(),
         '/login': (context) => LoginScreen(),
