@@ -106,7 +106,7 @@ Widget userList(BuildContext context) {
                       "Click here to learn more about us!",
                       style: TextStyle(
                         decorationColor: Colors.green,
-                          fontWeight: FontWeight.bold, color: Colors.green,fontSize:20, decoration: TextDecoration.underline,
+                          fontWeight: FontWeight.normal, color: Colors.green,fontSize:18, decoration: TextDecoration.underline,
                 
                       )
                   ),
@@ -197,9 +197,12 @@ class _AboutState extends State<About> {
           scrollDirection: Axis.vertical,
           child: Column(
             children: <Widget>[
-              SizedBox(
-                child: Image.asset('assets/Scrapit_logo.png' ),
-                height: 250,
+              Container(
+                margin: EdgeInsets.only(top: 14),
+                child: SizedBox(
+                  child: Image.asset('assets/Scrapit_logo.png' ),
+                  height: 250,
+                ),
               ),
               const Text("As Singapore progresses into a more technologically advanced country, where online shopping and electronics usage becomes more prevalent. as a result, massive amount of recyclables such as E-waste and cardboards are being produced daily. This application is developed with the aim to aid and encourage our citizens into adopting a more eco friendly approach while dealing with their recyclable waste.",
                 style: TextStyle(
@@ -211,7 +214,7 @@ class _AboutState extends State<About> {
               const SizedBox(
                 height: 30.0,
               ),
-              const Text("This is a part of our academic curriculum for the course CZ2006: Software Engineering at NTU, Singapore",
+              const Text("This is a part of our academic curriculum for the course CZ2006: Software Engineering at Nanyang Technological University in Singapore",
                 style: TextStyle(
                     fontSize: 18.00,
                     color: Colors.black
