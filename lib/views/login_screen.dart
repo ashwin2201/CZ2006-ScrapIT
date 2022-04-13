@@ -28,15 +28,19 @@ class _LoginScreenState extends State<LoginScreen> {
     setState(() {
       _isLoading = true;
     });
-    String res = await AuthMethods().loginUser(
-        email: _emailController.text, password: _passwordController.text);
-    bool result = _auth.currentUser.emailVerified;
-    if (res == "success") {
+    String res = await AuthMethods().loginUser(email: _emailController.text, password: _passwordController.text);
+    bool verify = _auth.currentUser.emailVerified;
+    print(verify);
+    if (res == "success" && verify== true) {
       //
       print(res);
       showSnackBar(res, context);
       Navigator.pushNamed(context, '/screen-0');
-    } else {
+    }
+    else if (verify==false){
+      Navigator.pushNamed(context, '/verify');
+    }
+    else {
       setState(() {
         _isLoading = false;
       });
