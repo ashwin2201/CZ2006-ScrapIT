@@ -99,7 +99,7 @@ class _PointPage extends State<PointPage> {
                           Container(
                             padding: EdgeInsets.only(top: 6),
                             child: Text(
-                              "Gold Tier",
+                              "Bronze Tier",
                               style: TextStyle(
                                   color: Colors.green.withOpacity(1.0), fontSize: 22),
                             ), //#display the tier here
