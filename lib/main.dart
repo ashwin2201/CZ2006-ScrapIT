@@ -14,7 +14,7 @@ import 'package:scrap_it/views/test_screen.dart';
 import 'package:scrap_it/views/launch_screen.dart';
 import 'views/setting.dart';
 import 'views/launch_screen.dart';
-//
+
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
