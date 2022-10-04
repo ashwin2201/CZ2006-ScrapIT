@@ -7,7 +7,7 @@ const google_serp_api_url =
 const news_api_url =
     'http://newsapi.org/v2/top-headlines?q=recycle&apiKey=602bde8ea97c4e72a8cebf0b04694b2b';
 const guardian_api_url =
-    'https://content.guardianapis.com/search?q=environment%20OR%20recycling&api-key=264990ed-d58c-427a-9022-2180b6e430d6&charset=utf';
+    'https://content.guardianapis.com/search?q=environment%20OR%20recycling&api-key=&charset=utf';
 
 const googleApiKey = 'AIzaSyAejatSp8_lZklc_E0Uc8oAF-RWtdymolY';
 
