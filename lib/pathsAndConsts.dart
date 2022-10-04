@@ -9,7 +9,7 @@ const news_api_url =
 const guardian_api_url =
     'https://content.guardianapis.com/search?q=environment%20OR%20recycling&api-key=&charset=utf';
 
-const googleApiKey = 'AIzaSyAejatSp8_lZklc_E0Uc8oAF-RWtdymolY';
+const googleApiKey = '';
 
 //Colors
 Color bg_offwhite = Color.fromARGB(255, 239, 255, 226);
