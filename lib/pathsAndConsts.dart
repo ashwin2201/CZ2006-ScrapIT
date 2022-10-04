@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 const google_serp_api_url =
     'https://serpapi.com/search.json?q=environment&hl=en&gl=us&google_domain=google.com&tbm=nws&api_key=';
 const news_api_url =
-    'http://newsapi.org/v2/top-headlines?q=recycle&apiKey=602bde8ea97c4e72a8cebf0b04694b2b';
+    'http://newsapi.org/v2/top-headlines?q=recycle&apiKey=';
 const guardian_api_url =
     'https://content.guardianapis.com/search?q=environment%20OR%20recycling&api-key=&charset=utf';
 
